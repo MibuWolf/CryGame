@@ -1,0 +1,233 @@
+// CRYENGINE Source Code File
+// Copyright 2001-2015 Crytek GmbH. All rights reserved.
+
+////////////////////////////////////////////////
+// shader constants
+
+#define HALFRES_DEBUG_COLOR half3(0.3h, 3.h, 0.3h)
+
+cbuffer ParticleInstance : register(b12)
+{
+	struct
+	{
+		float4 avgFogVolumeContrib;
+		float4 glowParams;
+		uint   vertexOffset;
+		uint   lightVolumeId;
+		uint   envCubemapIndex;
+	} particleInstance;
+};
+
+cbuffer ParticleParamsCB : register (b9)
+{
+	struct
+	{
+		float2 expansion;
+		float curvature;
+		float textureFrequency;
+
+		float2 tileSize;
+		float frameCount;
+		float firstTile;
+
+		float4 alphaTestMin;
+		float4 alphaTestMax;
+
+		float softnessMultiplier;
+		float sphericalApproximation;
+		float thickness;
+		float axisScale;
+
+		float diffuseLighting;
+		float emissiveLighting;
+		float backLighting;
+	} particleParams;
+};
+
+struct SParticleAxes
+{
+	float3 XAxis;
+	float3 YAxis;
+};
+
+struct SParticleColorST
+{
+	uint Color;
+	uint baseTC;
+};
+
+struct SParticlePosition
+{
+	float3 position;
+};
+
+StructuredBuffer<SParticlePosition>    positionsSRV   : register(t35);
+StructuredBuffer<SParticleAxes>        axesSRV        : register(t36);
+StructuredBuffer<SParticleColorST>     colorSTsSRV    : register(t37);
+StructuredBuffer<SDefaultParticleData> gpuParticleSRV : register(t14);
+
+// #PFX2_TODO make a tile shader header file to not duplicate this
+
+#define TILED_SHADING_MAX_NUM_LIGHTS  255
+
+struct STiledLightShadeInfo
+{
+	uint      lightType;
+	uint      resIndex;
+	uint      shadowMaskIndex;
+	uint      stencilID;
+	float4    posRad;
+	float2    attenuationParams;
+	float2    shadowParams;
+	float4    color;
+	float4x4  projectorMatrix;
+	float4x4  shadowMatrix;
+};
+StructuredBuffer<STiledLightShadeInfo> Fwd_TiledLightsShadeInfo : register(t18);
+TextureCubeArray<float4>               Fwd_SpecCubeArray        : register(t20);
+TextureCubeArray<float4>               Fwd_DiffuseCubeArray     : register(t21);
+
+// #PFX2_TODO add this to an include file for re-use
+Texture2D               texSceneTarget        : register(t25);
+SamplerState            ssForwardBilinearWrap : register(s10);
+Texture2D               texShadowMap0         : register(t26);
+Texture2D               texShadowMap1         : register(t27);
+Texture2D               texShadowMap2         : register(t28);
+Texture2D               texShadowMap3         : register(t29);
+Texture2D               texCloudShadowMap     : register(t30);
+SamplerComparisonState  ssForwardComparison   : register(s11);
+Texture2D               linearDepthMap        : register(t32);
+
+struct app2vertParticleGeneral
+{
+	float4 Color     : COLOR;
+	float4 baseTC    : TEXCOORD;
+	float3 XAxis     : AXIS0;
+	float3 YAxis     : AXIS1;
+};
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// Common particle vertex structure for all shared vertex shader processing.
+//  - check ParticleThicknessVS for example usage
+
+struct SParticleVertex
+{
+	float4 HPosition;
+	float4 WPos;
+
+	float4 baseTC;      // xy = final tc; zw = orig tc
+	float4 blendTC;     // 2nd tex coords, z is blend value for 2nd texture tile; w = shadow occlusion
+	half4 alphaClip;    // x = alpha scale, y = source alpha min, z = source alpha range; w = thickness coeff (soft)
+
+	// These 3 interpolators are redundant - todo: pass instead WorldPos and WorldCenterPos, compute normal/tangents per-pixel
+	half4 vWorldPos;    // w is binormal.z
+	half4 vTangent;     // w is binormal.y
+	half4 vNormal;      // w is binormal.x (if lighting and material are used)
+
+	half4 localFogColor;
+	
+	half4 Color;
+
+	half4 lightData0;
+	half4 lightData1;
+};
+
+float4 TransformPosition(float4 position)
+{
+#if %_RT_NEAREST
+	position.xyz -= GetWorldViewPos();
+	return mul(CV_ViewProjNearestMatr, position);
+#else
+	return mul(CV_ViewProjMatr, position);
+#endif
+}
+
+
+void Particle_Setup_General(inout float4 vPos, inout app2vertParticleGeneral IN, inout SParticleVertex OUT)
+{
+	// ParticleParams.xy: 0 = no expand, -1 = expand position only, 1 = expand position and curved normals.
+
+	// Apply TCs to axes
+	const half2 xyVertCoord = IN.baseTC.xy * 2 - 1;
+	const half2 xyExpand = xyVertCoord * abs(particleParams.expansion);
+	const half2 xyCurve = xyVertCoord * saturate(particleParams.expansion);
+	
+	// Expand positions and curved side normals.
+	float3 vToCam = CV_WorldViewPosition.xyz - vPos.xyz;
+
+	vPos.xyz += IN.XAxis * xyExpand.x + IN.YAxis * xyExpand.y;
+
+	float3 vViewNormal = CV_WorldViewPosition.xyz - vPos;
+	float3 vNormal = cross(IN.YAxis, IN.XAxis);
+	vNormal *= sign(dot(vViewNormal, vNormal));
+	float3 vBitangent;
+
+	//////////////////////////////////////////////////////
+	if (dot(xyCurve, xyCurve))
+	{
+		// Camera-facing
+		const float fCurveExpand = particleParams.sphericalApproximation;
+		if (fCurveExpand)
+		{
+			half fXLen = length(IN.XAxis),
+			     fYLen = length(IN.YAxis),
+			     fMinLen = min(fXLen, fYLen);
+			float3 vCurveNormal = IN.XAxis * (xyCurve.x * fMinLen / fXLen) + IN.YAxis * (xyCurve.y * fMinLen / fYLen);
+			
+			// Move vertices to curved particle tangent point
+			float fTanSqr = dot(vCurveNormal, vCurveNormal);
+			fTanSqr /= max(fTanSqr, dot(vToCam, vToCam));
+			vPos.xyz += (vToCam * fTanSqr + vCurveNormal * (1 - sqrt(1 - fTanSqr))) * fCurveExpand;
+		
+			// Fade out when close to sphere
+			half fFade = lerp(1.0, saturate(2 - fTanSqr * 2.5), fCurveExpand);
+			IN.Color.a *= fFade;
+		}
+						
+		if (particleParams.curvature)
+		{
+			// Curved normals
+			// Rotate tangents for fake round geometry
+
+			float3 vSideNormal = IN.XAxis * xyCurve.x + IN.YAxis * xyCurve.y;
+			float3 vCurvedNormal = vSideNormal * dot(vViewNormal, vViewNormal) - vViewNormal * dot(vViewNormal, vSideNormal);
+			OUT.vNormal.xyz = lerp(vNormal * length(vCurvedNormal), vCurvedNormal * length(vNormal), particleParams.curvature);
+
+			#if USE_MATERIAL
+				float3 vAxis = cross(vNormal, OUT.vNormal.xyz);
+				float c = dot(vNormal, OUT.vNormal.xyz);
+				OUT.vTangent.xyz = IN.XAxis * c + cross(vAxis, IN.XAxis);
+				vBitangent = IN.YAxis * c + cross(vAxis, IN.YAxis);
+			#endif
+		}
+	}
+	
+	if (!particleParams.curvature)
+	{
+		// Flat sprite normals
+		if (dot(vNormal, vToCam) < 0)
+			// Implement 2-sided
+			vNormal = -vNormal;
+		OUT.vNormal.xyz = vNormal;
+		#if USE_MATERIAL
+			OUT.vTangent.xyz = IN.XAxis;
+			vBitangent = IN.YAxis;
+		#endif
+	}
+
+	OUT.vNormal.xyz = normalize(OUT.vNormal.xyz);
+
+	#if USE_MATERIAL
+		// Output bitangent in w components to save 1 interpolator (2 extra alu in pixel shader though)
+		OUT.vTangent.xyz = normalize(OUT.vTangent.xyz);
+		vBitangent = normalize(vBitangent);
+		OUT.vNormal.w = vBitangent.x;
+		OUT.vTangent.w = vBitangent.y;
+		OUT.vWorldPos.w = vBitangent.z;
+	#endif
+
+	OUT.vWorldPos.xyz = vPos.xyz;
+	OUT.HPosition = TransformPosition(vPos);
+}
+
+//========================================================================

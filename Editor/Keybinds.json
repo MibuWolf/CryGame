@@ -1,0 +1,270 @@
+{
+    "general.copy": {
+        "shortcuts": [
+            "Ctrl+C",
+            "Ctrl+Ins"
+        ]
+    },
+    "general.cut": {
+        "shortcuts": [
+            "Ctrl+X",
+            "Shift+Del"
+        ]
+    },
+    "general.duplicate": {
+        "shortcuts": [
+            "Ctrl+D"
+        ]
+    },
+    "general.fullscreen": {
+        "shortcuts": [
+            "Ctrl+Space"
+        ]
+    },
+    "general.open_or_focus_pane 'Character Tool'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+C"
+        ],
+        "uiName": "Open Character Tool"
+    },
+    "general.open_or_focus_pane 'Console'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Q"
+        ],
+        "uiName": "Open Console"
+    },
+    "general.open_or_focus_pane 'Create Object'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+A"
+        ],
+        "uiName": "Open Create Object "
+    },
+    "general.open_or_focus_pane 'Environment Editor'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+E"
+        ],
+        "uiName": "Open Environment Tool"
+    },
+    "general.open_or_focus_pane 'Flow Graph'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+G"
+        ],
+        "uiName": "Open FlowGraph"
+    },
+    "general.open_or_focus_pane 'Level Explorer'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+L"
+        ],
+        "uiName": "Open Level Explorer"
+    },
+    "general.open_or_focus_pane 'Level Settings'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+X"
+        ],
+        "uiName": "Open Level Settings"
+    },
+    "general.open_or_focus_pane 'Material Editor'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+M"
+        ],
+        "uiName": "Open Material Editor"
+    },
+    "general.open_or_focus_pane 'Modeling'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+D"
+        ],
+        "uiName": "Open Designer Tool"
+    },
+    "general.open_or_focus_pane 'Particle Editor'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+P"
+        ],
+        "uiName": "Open Particle Tool"
+    },
+    "general.open_or_focus_pane 'Properties'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+I"
+        ],
+        "uiName": "Open Properties"
+    },
+    "general.open_or_focus_pane 'Schematyc'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+S"
+        ],
+        "uiName": "Open Schematyc"
+    },
+    "general.open_or_focus_pane 'Terrain Editor'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+T"
+        ],
+        "uiName": "Open Terrain Editor"
+    },
+    "general.open_or_focus_pane 'Track View'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+R"
+        ],
+        "uiName": "Open Traview Tool"
+    },
+    "general.open_or_focus_pane 'Vegetation Editor'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+V"
+        ],
+        "uiName": "Open Vegetation Tool"
+    },
+	    "general.open_pane 'Character Tool'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+C"
+        ],
+        "uiName": "Open New Character Tool"
+    },
+    "general.open_pane 'Console'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+Q"
+        ],
+        "uiName": "Open New Console"
+    },
+    "general.open_pane 'Create Object'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+A"
+        ],
+        "uiName": "Open New Create Object "
+    },
+    "general.open_pane 'Environment Editor'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+E"
+        ],
+        "uiName": "Open New Environment Tool"
+    },
+    "general.open_pane 'Flow Graph'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+G"
+        ],
+        "uiName": "Open New FlowGraph"
+    },
+    "general.open_pane 'Level Explorer'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+L"
+        ],
+        "uiName": "Open New Level Explorer"
+    },
+    "general.open_pane 'Level Settings'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+X"
+        ],
+        "uiName": "Open New Level Settings"
+    },
+    "general.open_pane 'Material Editor'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+M"
+        ],
+        "uiName": "Open New Material Editor"
+    },
+    "general.open_pane 'Modeling'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+D"
+        ],
+        "uiName": "Open New Designer Tool"
+    },
+    "general.open_pane 'Particle Editor'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+P"
+        ],
+        "uiName": "Open New Particle Tool"
+    },
+    "general.open_pane 'Properties'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+I"
+        ],
+        "uiName": "Open New Properties"
+    },
+    "general.open_pane 'Schematyc'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+S"
+        ],
+        "uiName": "Open New Schematyc"
+    },
+    "general.open_pane 'Terrain Editor'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+T"
+        ],
+        "uiName": "Open New Terrain Editor"
+    },
+    "general.open_pane 'Track View'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+R"
+        ],
+        "uiName": "Open New Traview Tool"
+    },
+    "general.open_pane 'Vegetation Editor'": {
+        "custom": true,
+        "shortcuts": [
+            "Alt+Shift+V"
+        ],
+        "uiName": "Open New Vegetation Tool"
+    },
+	    "general.paste": {
+        "shortcuts": [
+            "Ctrl+V",
+            "Shift+Ins"
+        ]
+    },
+    "layout.load 'Editor/Layouts/Animation.json'": {
+        "custom": true,
+        "uiName": "Animation Layout"
+    },
+    "layout.load 'Editor/Layouts/Cinematic.json'": {
+        "custom": true,
+        "uiName": "Cinematic Layout"
+    },
+    "layout.load 'Editor/Layouts/Default Layout.json'": {
+        "custom": true,
+        "uiName": "Default Layout"
+    },
+    "layout.load 'Editor/Layouts/Flow Graph.json'": {
+        "custom": true,
+        "uiName": "Flow Graph Layout"
+    },
+    "layout.load 'Editor/Layouts/Import.json'": {
+        "custom": true,
+        "uiName": "Import Layout"
+    },
+    "layout.load 'Editor/Layouts/Level Design.json'": {
+        "custom": true,
+        "uiName": "Level Design Layout"
+    },
+    "level.go_to_selection": {
+        "shortcuts": [
+            "G",
+            "Num+."
+        ]
+    }
+}

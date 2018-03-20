@@ -1,0 +1,559 @@
+// CRYENGINE Source Code File
+// Copyright 2001-2015 Crytek GmbH. All rights reserved.
+
+#include "Common.cfi"
+#include "ShadeLib.cfi"
+#include "ShadowCommon.cfi"
+#include "WaterCommon.cfi"
+
+float Script : STANDARDSGLOBAL
+<
+  string Script =
+			"ShaderDrawType = General;"
+			"ShaderType = Water;"
+>;
+
+//////////////////////////////////////////////////////////////////////////
+
+struct a2v
+{
+  float4 Position : POSITION;
+  float2 baseTC   : TEXCOORDN;
+  float4 Color    : COLOR0;
+};
+
+struct a2v3
+{
+  float4 Position : POSITION;
+  float3 baseTC   : TEXCOORDN; 
+};
+
+struct v2f
+{
+	float4 hPos : POSITION; 
+	float3 viewDir : TEXCOORD0_centroid;
+};
+
+struct v2fIn
+{
+	float4 WPos : SV_POSITION;
+	float3 viewDir : TEXCOORD0_centroid;
+};
+
+struct v2fOutof
+{
+	float4 hPos : POSITION;
+	float2 baseTC : TEXCOORD0;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+float3 ComputeWaterFogShadow(
+	float4 worldPos,
+	float sceneDepth,
+	float waterDepth,
+	float waterFogDensity,
+	float4 waterFogPlane,
+	float4 WPos,
+	float2 screenTC)
+{
+	SWaterVolumeParams params = GetWaterVolumeParams();
+	SShadowSamplingParams shadowParams = GetShadowSamplingParams();
+
+	ShadowSamplingContext samplingContext;
+	samplingContext.comparisonSampler   = linearClampCompSState;
+	samplingContext.pointSamplerClamp   = ssPointClamp;
+	samplingContext.pointSamplerWrap    = ssPointWrap;
+	//samplingContext.bilinearSamplerWrap // not needed because of bSampleCloudShadows = false.
+	//samplingContext.noiseTex // not needed because of bForceSingleTap = true.
+
+	ShadowCascades shadowCascades;
+	shadowCascades.shadowMap0 = shadowMapTex0;
+	shadowCascades.shadowMap1 = shadowMapTex1;
+	shadowCascades.shadowMap2 = shadowMapTex2;
+	shadowCascades.shadowMap3 = shadowMapTex3;
+	//shadowCascades.cloudShadowTex // not needed because of bSampleCloudShadows = false.
+
+	float shadowSample = ShadowDepthTest(shadowParams, shadowCascades, samplingContext, worldPos, false, true);
+
+	const bool belowSurface = sceneDepth < waterDepth;
+	shadowSample = belowSurface ? 1.0h : shadowSample; // depth test
+
+#if %_RT_SAMPLE5
+	const float depth = min(sceneDepth / CV_NearFarClipDist.y, params.volFogShadowRange.x);
+
+	const int numShadowSamples = 16;
+	const int numTotalShadowSamples = 8 * 8 * numShadowSamples;
+
+	const float2 oj = interleaveSampleTex.Sample(ssPointWrap, WPos.xy / 64.0).xw;
+	const float offset = oj.x;
+	const float jitter = oj.y;
+
+	half2 texelSize = CV_ScreenSize.zw * 40.0;
+
+	// Sample with chroma shift.
+	half3 fogSample = volFogShadowTex.Sample(ssMaterialTrilinear, screenTC + texelSize * 1.25).a;
+	fogSample.y = volFogShadowTex.Sample(ssMaterialTrilinear, screenTC + texelSize ).a;
+	fogSample.z = volFogShadowTex.Sample(ssMaterialTrilinear, screenTC + texelSize * 0.75).a;
+	fogSample = min(fogSample, shadowSample);
+
+	// Loop through positions from fog buffer and compute proper attenuation and cutoff.
+	// Helps reduce out-of-water artifacts from the pre-existing fog buffer (instead of recomputing shadow per step).
+	half3 shadowOccl = 0;
+	half bottomAtten = 0;
+	for (int i=0; i<numShadowSamples; i++)
+	{
+		float jitterDepth = depth * ((((float)i + offset) / (float)numShadowSamples) + (jitter / (float)numTotalShadowSamples));
+		float3 tapPos = ReconstructWorldPos(WPos.xy, jitterDepth);
+		half atten = saturate( (-waterFogPlane.w - tapPos.z) * 0.1h * waterFogDensity );
+		bottomAtten = max(bottomAtten, atten);
+		shadowOccl += (tapPos.z <= -waterFogPlane.w) ? fogSample : shadowSample; // reject samples above the water
+	}
+	shadowOccl /= (float)numShadowSamples;
+	shadowOccl = lerp(shadowOccl, 1.h, bottomAtten * bottomAtten);
+
+	return shadowOccl;
+#endif
+
+	return shadowSample * params.volFogShadowRange.z + params.volFogShadowRange.w;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Case: Looking into water volume
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+v2f WaterVolumeIntoVS( a2v IN )
+{
+	v2f OUT = (v2f) 0;
+
+	SWaterVolumeParams params = GetWaterVolumeParams();
+ 
+	float4 vPos = IN.Position;
+	float4 hPos = mul( CV_ViewProjMatr, vPos );
+
+	OUT.hPos = hPos;
+
+#if %_RT_REVERSE_DEPTH
+	OUT.hPos.z = (params.cViewerColorToWaterPlane.x > 0.0f) ? OUT.hPos.z : OUT.hPos.w; // effectively prevent any clipping and depth test rejection by setting near clip distance to z (if close enough to water surface)
+#else
+	OUT.hPos.z *= params.cViewerColorToWaterPlane.x; // effectively prevent any clipping and depth test rejection by muliplying homogeneous z by zero (if close enough to water surface)
+#endif
+
+	OUT.viewDir = mul( (float3x4)params.PerInstanceWorldMatrix, vPos ).xyz - g_VS_WorldViewPos.xyz;
+
+	return OUT;
+}
+
+
+pixout WaterVolumeIntoPS( v2fIn IN )
+{
+	pixout OUT = (pixout) 0;
+
+	SWaterVolumeParams params = GetWaterVolumeParams();
+
+	float2 screenTC = IN.WPos.xy * CV_ScreenSize.zw * 2.0f;
+
+	float sceneDepth = wvGetLinearDepthScaled(screenTC.xy);
+	float waterDepth = dot( IN.viewDir, -CV_CameraFrontVector.xyz );
+	float volumeDepth = max( sceneDepth - waterDepth, 0 );  
+	float waterVolumeFog = exp2( -params.cFogColorDensity.w * volumeDepth / max(dot( normalize( IN.viewDir ), -CV_CameraFrontVector.xyz ), 0.001) );
+	half4 worldPos = float4(IN.viewDir.xyz + g_VS_WorldViewPos.xyz,1);
+ 
+	half3 cFogColor = params.cFogColorDensity.xyz;
+
+	// Shadows
+#if %_RT_SAMPLE0
+	cFogColor.xyz *= ComputeWaterFogShadow( worldPos, sceneDepth, waterDepth, params.cFogColorDensity.w, params.cFogPlane, IN.WPos, screenTC.xy );
+#endif
+
+#if %_RT_FOG
+#if !%_RT_VOLUMETRIC_FOG
+	// Apply global fog (for correct rendering in foggy environments).
+	SFogParams fogParams = GetFogParams();
+	#if %_RT_SAMPLE5
+		SVolumetricFogShadowParams volFogShadow = GetVolumetricFogShadowParams();
+		half fVolumetricFog = volFogShadowTex.Sample(ssMaterialTrilinear, screenTC).a;
+		float2 fVolumetricFogSunAmb = saturate(fVolumetricFog * volFogShadow.volFogShadowDarkeningSunAmb.xz + volFogShadow.volFogShadowDarkeningSunAmb.yw);
+		half4 localFogColor = GetVolumetricFogColor(fogParams, worldPos, IN.viewDir.xyz, fVolumetricFogSunAmb.x, fVolumetricFogSunAmb.y);
+		localFogColor.rgb = lerp(localFogColor.rgb * volFogShadow.volFogShadowDarkening.x, localFogColor.rgb, fVolumetricFog);
+	#else
+		half4 localFogColor = GetVolumetricFogColor( fogParams, worldPos );
+	#endif
+	cFogColor.xyz = lerp( localFogColor.xyz, cFogColor.xyz, saturate( localFogColor.w ) );
+#else
+	SVolumetricFogParams volFogParams = GetVolumetricFogParams();
+	VolumetricFogSampling vfs = GetVolumetricFogSampling();
+	float2 tc = screenTC;
+	float len = length(IN.viewDir.xyz);
+	VolumetricFogTexcoord vtc = GetVolumetricFogTexcoordParamByScreenTexcoordAndDepth(volFogParams, tc.xy, IN.WPos.w, false, len);
+	float4 vf = GetVolumetricFogValueJittered(volFogParams, vfs, vtc);
+	half4 globalFogColor = GetVolumetricFogAnalyticalColor(volFogParams, vfs, IN.viewDir.xyz, len);
+	ApplyVolumetricFog(volFogParams, vf, globalFogColor, vtc, cFogColor.xyz);
+
+	// add additional volumetric fog for compensating lost in water.
+	float thresholdTarget = 0.05f;
+	float tdist = log2(thresholdTarget) / -params.cFogColorDensity.w;
+	vtc = GetVolumetricFogTexcoordParamByScreenTexcoordAndDepth(volFogParams,tc.xy, min( tdist + IN.WPos.w, sceneDepth ));
+	float4 vfAlt = GetVolumetricFogValue(vfs, vtc);
+	cFogColor.xyz = cFogColor.xyz + max(0.0f, (vfAlt.xyz - vf.xyz) * thresholdTarget);
+#endif
+#endif
+
+	OUT.Color = half4( cFogColor.xyz * PS_HDR_RANGE_ADAPT_MAX, waterVolumeFog );
+
+	return OUT;
+}
+
+
+technique Into
+{
+  pass p0
+  {
+		VertexShader = WaterVolumeIntoVS() WaterFogVolume_VS;
+		PixelShader = WaterVolumeIntoPS() WaterFogVolume_PS;
+
+		ZEnable = true;
+		ZWriteEnable = false;
+		CullMode = Back;
+
+		SrcBlend = InvSrcAlpha;
+		DestBlend = SrcAlpha;
+		AlphaBlendEnable = true;  
+		ColorWriteEnable = RED|GREEN|BLUE;
+  }
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Case: Looking out of water volume
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+v2fOutof WaterVolumeOutofVS( a2v IN )
+{
+	v2fOutof OUT = (v2fOutof) 0;
+
+	OUT.hPos = Get2dHPos(IN.Position);
+
+	OUT.baseTC.xy = IN.baseTC.xy;
+
+	return OUT;
+}
+
+
+pixout WaterVolumeOutofPS( v2fOutof IN )
+{
+	pixout OUT = (pixout) 0;
+
+	SWaterVolumeParams params = GetWaterVolumeParams();
+
+	float3 cameraToWorldPos = ReconstructWorldPos(IN.hPos.xy, 1.0f, true);
+	float3 viewDir = cameraToWorldPos;
+
+	// float perpdist = dot( g_VS_WorldViewPos, params.cFogPlane.xyz ) + params.cFogPlane.w;
+	const float perpdist = params.cPerpDist.x;
+
+	float cosine = dot( viewDir, params.cFogPlane.xyz );
+	float pd_c = -perpdist / cosine;
+
+	//float t = dot( d + g_VS_WorldViewPos, params.cFogPlane.xyz ) + params.cFogPlane.w;
+	float t = perpdist + dot( viewDir , params.cFogPlane.xyz );
+	if( t > 0.0f )
+		viewDir *= pd_c;
+
+	float sceneDepth = wvGetLinearDepthScaled(IN.baseTC.xy);
+	float waterDepth = dot( viewDir, -CV_CameraFrontVector.xyz );
+	float volumeDepth = min( waterDepth, sceneDepth ) / max(dot( normalize( viewDir ), -CV_CameraFrontVector.xyz ), 0.001f);
+	float waterVolumeFog = exp2( -params.cFogColorDensity.w * volumeDepth );
+
+	OUT.Color = half4( params.cFogColorDensity.xyz * PS_HDR_RANGE_ADAPT_MAX, waterVolumeFog );
+
+#if %_RT_FOG && %_RT_VOLUMETRIC_FOG
+	// add additional volumetric fog for compensating lost in water.
+	SVolumetricFogParams volFogParams = GetVolumetricFogParams();
+	VolumetricFogSampling vfs = GetVolumetricFogSampling();
+	float2 tc = IN.baseTC.xy;
+	float thresholdTarget = 0.05f;
+	float tdist = log2(thresholdTarget) / -params.cFogColorDensity.w;
+	VolumetricFogTexcoord vtc = GetVolumetricFogTexcoordParamByScreenTexcoordAndDepth(volFogParams, tc.xy, min( tdist, sceneDepth ));
+	float4 vf = GetVolumetricFogValue(vfs, vtc);
+	OUT.Color.xyz = OUT.Color.xyz + max(0.0f, vf.xyz * thresholdTarget);
+#endif
+
+	// Shadows
+#if %_RT_SAMPLE0
+	half4 worldPos = float4(cameraToWorldPos.xyz * max(pd_c, 0) + g_VS_WorldViewPos.xyz, 1);
+	half3 cFogShadow = ComputeWaterFogShadow( worldPos, sceneDepth, waterDepth, params.cFogColorDensity.w, params.cFogPlane, IN.hPos, IN.baseTC.xy );
+	cFogShadow = lerp(1.h, cFogShadow, exp( -params.cFogColorDensity.w * 0.05h * volumeDepth )); // fade into the fog
+	OUT.Color.xyz *= cFogShadow;
+#endif
+
+	return OUT;
+}
+
+
+technique Outof
+{
+  pass p0
+  {
+		VertexShader = WaterVolumeOutofVS() WaterFogVolume_VS;
+		PixelShader = WaterVolumeOutofPS() WaterFogVolume_PS;
+
+		ZEnable = false;
+		ZWriteEnable = false;
+		CullMode = None;
+
+		SrcBlend = InvSrcAlpha;
+		DestBlend = SrcAlpha;
+		AlphaBlendEnable = true;  
+		ColorWriteEnable = RED|GREEN|BLUE;
+  }
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// OceanInto
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+v2f OceanIntoVS( a2v IN )
+{
+	v2f OUT = (v2f) 0;
+
+	SWaterVolumeParams params = GetWaterVolumeParams();
+
+	float4 vPos = IN.Position;
+
+	float4 worldPos = vPos;
+	worldPos.xyz += g_VS_WorldViewPos.xyz;
+
+	float4 hPos = mul( CV_ViewProjMatr, worldPos );
+
+	OUT.hPos = hPos;
+
+#if %_RT_REVERSE_DEPTH
+	OUT.hPos.z -= 0.001f; // should match offset of terrain base layer to reduce z fighting in distance as much as possible!
+	OUT.hPos.z = (params.cViewerColorToWaterPlane.x > 0.0f) ? OUT.hPos.z : OUT.hPos.w; // effectively prevent any clipping and depth test rejection by setting near clip distance to z (if close enough to water surface)
+#else
+	OUT.hPos.z += 0.001f; // should match offset of terrain base layer to reduce z fighting in distance as much as possible!
+	OUT.hPos.z *= params.cViewerColorToWaterPlane.x; // effectively prevent any clipping and depth test rejection by muliplying homogeneous z by zero (if close enough to water surface)
+#endif
+
+	OUT.viewDir = vPos;
+
+	return OUT;
+}
+
+
+pixout OceanIntoPS( v2f IN )
+{
+	pixout OUT = (pixout) 0;
+
+	float2 baseTC = MapViewportToRaster(IN.hPos.xy * CV_ScreenSize.zw * 2.0f);
+
+	// if ocean surface is behind the others, ocean fog shouldn't be rendered.
+	const float oceanMask = oceanMaskTex.SampleLevel(ssPointClamp, baseTC.xy, 0.0f).x;
+	if (oceanMask > 0.0f)
+	{
+		discard;
+	}
+
+	SWaterVolumeParams params = GetWaterVolumeParams();
+
+	float3 viewDirNorm = normalize( IN.viewDir );
+	float viewDirCorrection = 1.0f / dot( viewDirNorm, -CV_CameraFrontVector.xyz );
+
+	float sceneDepth = wvGetLinearDepthScaled(baseTC.xy);
+	float volumeDepth = max( sceneDepth - dot( IN.viewDir, -CV_CameraFrontVector.xyz ), 0.0f );
+	volumeDepth *= viewDirCorrection;
+
+	const float3 fogColor = params.cFogColorDensity.xyz;
+	const float fogDensity = params.cFogColorDensity.w;
+	const float3 fogColorShallow = params.cFogColorShallowWaterLevel.xyz;
+	const float waterLevel = params.cFogColorShallowWaterLevel.w;
+
+	float3 planePos = g_VS_WorldViewPos.xyz + IN.viewDir.xyz;
+	float3 pixelWorldPos = g_VS_WorldViewPos.xyz + sceneDepth * viewDirNorm * viewDirCorrection;
+
+	float inScatter = exp2( -fogDensity * ( waterLevel - planePos.z ) );
+	float t = fogDensity * ( viewDirNorm.z - 1.0f );
+	inScatter *= ( exp2( t * volumeDepth ) - 1.0f ) / t;
+	
+	float3 col = fogColor * inScatter;
+	float a = exp2( -fogDensity * ( volumeDepth + max(0.0f, waterLevel - pixelWorldPos.z ) ) );
+	
+	col += fogColorShallow * a * saturate( 0.1f * volumeDepth );
+
+#if %_RT_FOG && %_RT_VOLUMETRIC_FOG
+	SVolumetricFogParams volFogParams = GetVolumetricFogParams();
+	VolumetricFogSampling vfs = GetVolumetricFogSampling();
+	float alpha = 1.0f - a;
+	float2 tc = baseTC.xy;
+	float len = length(IN.viewDir.xyz);
+	VolumetricFogTexcoord vtc = GetVolumetricFogTexcoordParamByScreenTexcoordAndDepth(volFogParams, tc.xy, IN.hPos.w, false, len);
+	float4 vf = GetVolumetricFogValueJittered(volFogParams, vfs, vtc);
+	half4 globalFogColor = GetVolumetricFogAnalyticalColor(volFogParams, vfs, IN.viewDir.xyz, len);
+	vf.xyz *= alpha;
+	globalFogColor.xyz *= alpha;
+	ApplyVolumetricFog(volFogParams, vf, globalFogColor, vtc, col.xyz);
+
+	// add additional volumetric fog for compensating lost in water.
+	float thresholdTarget = 0.05f;
+	float tdist = log2(thresholdTarget) / -fogDensity;
+	vtc = GetVolumetricFogTexcoordParamByScreenTexcoordAndDepth(volFogParams, tc.xy, min( tdist + IN.hPos.w, sceneDepth ));
+	float4 vfAlt = GetVolumetricFogValue(vfs, vtc);
+	vfAlt.xyz *= alpha;
+	col.xyz = col.xyz + max(0.0f, (vfAlt.xyz - vf.xyz) * thresholdTarget);
+#endif
+
+	OUT.Color = float4( col * PS_HDR_RANGE_ADAPT_MAX, a );
+
+	return OUT;
+}
+
+
+technique OceanInto
+{
+	pass p0
+	{
+		VertexShader = OceanIntoVS() WaterFogVolume_VS;
+		GeometryShader = $AutoGS_MultiRes();
+		PixelShader = OceanIntoPS() WaterFogVolume_PS;
+
+		ZEnable = true;
+		ZWriteEnable = false;
+		CullMode = Back;
+
+		SrcBlend = ONE;
+		DestBlend = SrcAlpha;
+		AlphaBlendEnable = true;
+		ColorWriteEnable = RED|GREEN|BLUE;
+	}
+}
+
+
+technique OceanIntoLowSpec
+{
+	pass p0
+	{
+		VertexShader = OceanIntoVS();
+		GeometryShader = $AutoGS_MultiRes();
+		PixelShader = WaterVolumeIntoPS();
+
+		ZEnable = true;
+		ZWriteEnable = false;
+		CullMode = Back;
+
+		SrcBlend = InvSrcAlpha;
+		DestBlend = SrcAlpha;
+		AlphaBlendEnable = true;
+		ColorWriteEnable = RED|GREEN|BLUE;
+	}
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// OceanOutof
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+pixout OceanOutofPS( v2fOutof IN )
+{
+	pixout OUT = (pixout) 0;
+
+	SWaterVolumeParams params = GetWaterVolumeParams();
+
+	float3 cameraToWorldPos = ReconstructWorldPos(IN.hPos.xy, 1.0f, true);
+	float3 viewDir = cameraToWorldPos;
+
+	float3 viewDirNorm = normalize( viewDir );
+	float viewDirCorrection = 1.0 / dot( viewDirNorm, -CV_CameraFrontVector.xyz );
+
+	// float perpdist = dot( g_VS_WorldViewPos, params.cFogPlane.xyz ) + params.cFogPlane.w;
+	const float perpdist = params.cPerpDist.x;
+
+	float cosine = dot( viewDir, params.cFogPlane.xyz );
+	float pd_c = -perpdist / cosine;
+
+	//float t = dot( d + g_VS_WorldViewPos, params.cFogPlane.xyz ) + params.cFogPlane.w;
+	float t1 = perpdist + dot( viewDir, params.cFogPlane.xyz );
+	if( t1 > 0 )
+		viewDir *= pd_c;
+
+	float sceneDepth = wvGetLinearDepthScaled(IN.baseTC.xy);
+	float volumeDepth = min( dot( viewDir, -CV_CameraFrontVector.xyz ), sceneDepth );
+	volumeDepth *= viewDirCorrection;
+
+	volumeDepth = max( volumeDepth, 0.0f );
+
+	const float3 fogColor = params.cFogColorDensity.xyz;
+	const float fogDensity = params.cFogColorDensity.w;
+	const float3 fogColorShallow = params.cFogColorShallowWaterLevel.xyz;
+	const float waterLevel = params.cFogColorShallowWaterLevel.w;
+
+	float3 pixelWorldPos = g_VS_WorldViewPos.xyz + sceneDepth * viewDirNorm * viewDirCorrection;  
+
+	float inScatter = params.cUnderWaterInScatterConst.x; // = exp2( -fogDensity * ( waterLevel - g_VS_WorldViewPos.z ) )
+	float t = fogDensity * ( viewDirNorm.z - 1.0f );
+	inScatter *= ( exp2( t * volumeDepth ) - 1.0f ) / t;
+
+	float3 col = fogColor * inScatter;
+	float a = exp2( -fogDensity * ( volumeDepth + max( waterLevel - pixelWorldPos.z, 0.0f ) ) );
+
+	col += fogColorShallow * a * saturate( 0.1 * volumeDepth );
+
+#if %_RT_FOG && %_RT_VOLUMETRIC_FOG
+	// add additional volumetric fog for compensating lost in water.
+	SVolumetricFogParams volFogParams = GetVolumetricFogParams();
+	VolumetricFogSampling vfs = GetVolumetricFogSampling();
+	float2 tc = IN.baseTC;
+	float thresholdTarget = 0.05f;
+	float tdist = log2(thresholdTarget) / -fogDensity;
+	VolumetricFogTexcoord vtc = GetVolumetricFogTexcoordParamByScreenTexcoordAndDepth(volFogParams, tc.xy, min( tdist, sceneDepth ));
+	float4 vf = GetVolumetricFogValue(vfs, vtc);
+	col.xyz = col.xyz + max(0.0f, vf.xyz * thresholdTarget);
+#endif
+
+	OUT.Color = float4( col * PS_HDR_RANGE_ADAPT_MAX, a );
+
+	return OUT;
+}
+
+
+technique OceanOutof
+{
+	pass p0
+	{
+		VertexShader = WaterVolumeOutofVS() WaterFogVolume_VS;
+		GeometryShader = $AutoGS_MultiRes();
+		PixelShader = OceanOutofPS() WaterFogVolume_PS;
+
+		ZEnable = false;
+		ZWriteEnable = false;
+		CullMode = None;
+
+		SrcBlend = ONE;
+		DestBlend = SrcAlpha;
+		AlphaBlendEnable = true;
+		ColorWriteEnable = RED|GREEN|BLUE;
+	}
+}
+
+
+technique OceanOutofLowSpec
+{
+	pass p0
+	{
+		VertexShader = WaterVolumeOutofVS();
+		GeometryShader = $AutoGS_MultiRes();
+		PixelShader = WaterVolumeOutofPS();
+
+		ZEnable = false;
+		ZWriteEnable = false;
+		CullMode = None;
+
+		SrcBlend = InvSrcAlpha;
+		DestBlend = SrcAlpha;
+		AlphaBlendEnable = true;
+		ColorWriteEnable = RED|GREEN|BLUE;
+	}
+}

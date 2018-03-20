@@ -1,0 +1,58 @@
+// CRYENGINE Source Code File
+// Copyright 2001-2015 Crytek GmbH. All rights reserved.
+
+#include "Common.cfi"
+#include "ShadeLib.cfi"
+
+// Shader global descriptions
+float Script : STANDARDSGLOBAL
+<
+  string Script =
+           "ShaderDrawType = Custom;"
+           "ShaderType = FX;"
+           "LocalConstants;"
+>;
+
+float4 vClearColor;
+float4 vClearRect;
+float4 vClearDepth;
+
+struct pixout_clear
+{
+  float4 Color0  : SV_Target0;
+  float4 Color1  : SV_Target1;
+  float4 Color2  : SV_Target2;
+  float4 Color3  : SV_Target3;
+};
+
+float4 ClearVS(float3 inPosition  : POSITION) : SV_Position
+{
+  float2 clipPos = inPosition.xy * vClearRect.xy + vClearRect.zw;
+  return float4(clipPos, vClearDepth.x, 1.0);
+}
+
+pixout_clear ClearPS()
+{
+  pixout_clear OUT;
+  
+  OUT.Color0 = vClearColor;
+  OUT.Color1 = vClearColor;
+  OUT.Color2 = vClearColor;
+  OUT.Color3 = vClearColor;
+  
+  return OUT;
+}
+
+//========================================================================
+
+technique Clear
+{
+  pass p0
+  {
+    VertexShader = ClearVS();
+    PixelShader  = ClearPS();
+  }
+}
+
+/////////////////////// eof ///
+

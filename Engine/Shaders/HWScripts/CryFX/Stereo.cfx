@@ -1,0 +1,207 @@
+// CRYENGINE Source Code File
+// Copyright 2001-2015 Crytek GmbH. All rights reserved.
+
+#include "Common.cfi"
+
+// Shader global descriptions
+float Script : STANDARDSGLOBAL
+<
+  string Script = "ShaderDrawType = Custom;";
+>;
+
+float4x4 CompMatrix : PI_Composite < vsregister = c0; >;
+float2 ScreenSize : PB_ScreenSize;
+
+Texture2D StereoL : register(t0);
+Texture2D StereoR : register(t1);
+
+SamplerState StereoClampSamplerState : register(s0) = SS_TrilinearClamp;
+
+struct a2v
+{
+	float4 Position : POSITION; 
+	IN_TBASE
+	IN_C0
+};
+
+struct v2f
+{
+	float4 Position  : POSITION;
+	float4 baseTC    : TEXCOORDN;
+};
+
+struct psout
+{
+	float4 Primary   : SV_Target; // Primary panel
+};
+
+///////////////// vertex shader //////////////////
+
+v2f StereoVS(a2v IN)
+{
+	v2f OUT = (v2f)0; 
+
+	OUT.Position = Get2dHPos(IN.Position);
+	OUT.baseTC.xy = IN.baseTC.xy;
+	OUT.baseTC.zw = 2 * g_VS_ScreenSize.zw;
+	
+	return OUT;
+}
+
+///////////////// pixel shader //////////////////
+
+psout SideBySidePS(v2f IN)
+{
+	psout OUT = (psout ) 0;
+	
+	half2 left_texcoord = saturate(IN.baseTC.xy * float2(2.0, 1.0));
+	half2 right_texcoord = saturate((IN.baseTC.xy - float2(0.5, 0.0)) * float2(2.0, 1.0));
+	
+	half4 cL = GetTexture2D(StereoL, StereoClampSamplerState, left_texcoord);
+	half4 cR = GetTexture2D(StereoR, StereoClampSamplerState, right_texcoord);	
+ 
+	OUT.Primary = IN.baseTC.x < 0.5 ? cL : cR;
+	
+	return OUT;
+}
+
+psout LineByLinePS(v2f IN)
+{
+	psout OUT = (psout ) 0;
+
+	half4 cL = GetTexture2D(StereoL, StereoClampSamplerState, IN.baseTC.xy);
+	half4 cR = GetTexture2D(StereoR, StereoClampSamplerState, IN.baseTC.xy);
+ 
+	int pixLine = IN.baseTC.y * ScreenSize.y;
+ 
+	OUT.Primary = pixLine % 2 == 0 ? cR : cL;
+	
+	return OUT;
+}
+
+psout CheckerboardPS(v2f IN)
+{
+	psout OUT = (psout ) 0;
+	
+	half4 cL = GetTexture2D(StereoL, StereoClampSamplerState, IN.baseTC.xy);
+	half4 cR = GetTexture2D(StereoR, StereoClampSamplerState, IN.baseTC.xy);
+ 
+	int pixLine = IN.baseTC.y * ScreenSize.y;
+	int pixColumn = IN.baseTC.x * ScreenSize.x;
+ 
+	OUT.Primary = (pixLine + pixColumn) % 2 == 0 ? cL : cR;
+	
+	return OUT;
+}
+
+psout AnaglyphPS(v2f IN)
+{	
+	psout OUT = (psout ) 0;
+  
+	half4 cL = GetTexture2D(StereoL, StereoClampSamplerState, IN.baseTC.xy);
+	half4 cR = GetTexture2D(StereoR, StereoClampSamplerState, IN.baseTC.xy);
+ 
+	OUT.Primary.r = cL.r;
+	OUT.Primary.gb = cR.gb;
+	OUT.Primary.a = 0.0;
+	
+	return OUT;
+}
+
+psout NV3DVisionPS(v2f IN)
+{	
+	psout OUT = (psout ) 0;
+  
+	half4 cL = GetTexture2D(StereoL, StereoClampSamplerState, IN.baseTC.xy);
+
+	OUT.Primary = cL;
+	
+	return OUT;
+}
+
+psout EmulationPS(v2f IN)
+{	
+	psout OUT = (psout ) 0;
+  
+	half4 cL = GetTexture2D(StereoL, StereoClampSamplerState, IN.baseTC.xy);
+
+	OUT.Primary = cL;
+	
+	return OUT;
+}
+
+//////////////////////////////// technique ////////////////
+
+technique SideBySide
+{
+  pass p0
+  {
+    VertexShader = StereoVS();
+    PixelShader = SideBySidePS();
+    
+    ZWriteEnable = false;
+    CullMode = None;
+  }
+}
+
+technique LineByLine
+{
+  pass p0
+  {
+    VertexShader = StereoVS();
+    PixelShader = LineByLinePS();
+    
+    ZWriteEnable = false;
+    CullMode = None;
+  }
+}
+
+technique Checkerboard
+{
+  pass p0
+  {
+    VertexShader = StereoVS();
+    PixelShader = CheckerboardPS();
+    
+    ZWriteEnable = false;
+    CullMode = None;
+  }
+}
+
+technique Anaglyph
+{
+  pass p0
+  {
+    VertexShader = StereoVS();
+    PixelShader = AnaglyphPS();
+    
+    ZWriteEnable = false;
+    CullMode = None;
+  }
+}
+
+technique NV3DVision
+{
+  pass p0
+  {
+    VertexShader = StereoVS();
+    PixelShader = NV3DVisionPS();
+    
+    ZWriteEnable = false;
+    CullMode = None;
+  }
+}
+
+technique Emulation
+{
+  pass p0
+  {
+		VertexShader = StereoVS();
+		PixelShader = EmulationPS();
+			
+		ZWriteEnable = false;
+		CullMode = None;
+	}
+}
+
+/////////////////////// eof ///
