@@ -1,0 +1,8 @@
+<download name="woodland" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="20641747" md5="6a31722bc89a669847e1fd7d89761136"/>
+  <file src="woodland.dds" dest="woodland.dds" size="2097288" md5="cd06496ccee3bff9365aa43ce0b70b2a"/>
+  <file src="Woodland.xml" dest="Woodland.xml" size="160" md5="706e008ec5062e4d51df385966d9710c"/>
+ </files>
+</download>

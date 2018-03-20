@@ -1,0 +1,5 @@
+<TimeOfDay Time="17" TimeStart="17" TimeEnd="17" TimeAnimSpeed="0">
+ <Presets>
+  <Preset Name="libs/environmentpresets/Airfield.xml" Default="1"/>
+ </Presets>
+</TimeOfDay>

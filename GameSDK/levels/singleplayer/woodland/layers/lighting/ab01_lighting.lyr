@@ -1,0 +1,134 @@
+<ObjectLayer>
+ <Layer Name="AB01_Lighting" GUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="{28949EA0-3B46-49FE-A546-F4FD45336737}">
+  <LayerObjects>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{1E48C905-3229-439A-ADFB-2CB59EAC96A7}" Name="l_probe_AB1_cabin_d_child" Pos="1387.4108,877.04663,44.548332" FloorNumber="-1" Rotate="0.94832367,0,0,0.31730476" ColorRGB="65535" cubemap_resolution="0" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="30" BoxSizeY="30" BoxSizeZ="30" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="2" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="14" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_cabin_d_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{A48A2810-87EF-46DA-AA03-AFA04C984F4C}" Name="l_probe_AB1_cabin_c_root" Pos="1373.6007,887.16071,40.956863" FloorNumber="-1" Rotate="0.83388579,0,0,0.55193704" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="25" BoxSizeY="35" BoxSizeZ="30" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="2" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="13" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_cabin_c_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{97DF2B1B-70A0-4BD8-8C86-0326EF83FB43}" Name="l_probe_AB1_cabin_d_root" Pos="1363.0941,869.56616,44.548332" FloorNumber="-1" Rotate="0.99026805,0,0,0.13917321" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="30" BoxSizeY="40" BoxSizeZ="30" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="2" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="14" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_cabin_d_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{9E7F651B-5003-4BFC-BE5E-57C61537DCCF}" Name="l_probe_AB1_bridge_a_root" Pos="1463.9592,904.37079,40.429161" FloorNumber="-1" Rotate="0.97437006,0,0,0.22495122" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="10" BoxSizeY="25" BoxSizeZ="12" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="2" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.1" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="20" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_bridge_a_root_cm.tif"/>
+     <Projection fBoxHeight="13" fBoxLength="11" bBoxProject="1" fBoxWidth="26"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{DE80B927-BB39-44B2-9841-91CA3239E702}" Name="l_probe_AB1_cabin_a_root" Pos="1362.6736,908.40839,44.695717" FloorNumber="-1" Rotate="0.97814763,0,0,0.20791167" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="70" BoxSizeY="30" BoxSizeZ="60" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="11" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_cabin_a_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{03BCBB2E-E8BF-4FFE-8C39-F2D26169FDF3}" Name="l_probe_AB1_forest_a_root" Pos="1326.4316,937.52625,51.720806" FloorNumber="-1" Rotate="0.93969262,0,0,0.34202012" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="60" BoxSizeY="80" BoxSizeZ="60" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="2" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="10" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_forest_a_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{439FE12E-6CC1-40BE-9F10-84FBCEAAD092}" Name="l_probe_AB1_river_c_root" Pos="1417.9225,920.89661,44.702324" FloorNumber="-1" Rotate="0.94832361,0,0,0.31730485" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="45" BoxSizeY="35" BoxSizeZ="40" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.25" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="13" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_river_c_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{271CA759-41C9-47A6-8E58-8A6F60467FCD}" Name="l_probe_AB1_river_e_root" Pos="1490.6985,909.76508,36.550316" FloorNumber="-1" Rotate="0.9953962,0,0,0.09584593" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="25" BoxSizeY="10" BoxSizeZ="10" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.5" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="12" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_river_e_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{8EAEB969-3B37-4546-8AA0-68E795A19454}" Name="l_probe_AB1_river_d_root" Pos="1471.8571,889.92297,42.14291" FloorNumber="-1" Rotate="0.97437006,0,0,0.22495122" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="50" BoxSizeY="30" BoxSizeZ="50" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="15" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_river_d_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{79997E77-7966-45FE-A657-CE07F8D5905E}" Name="l_probe_AB1_waterfall_a_root" Pos="1431.4033,851.84222,41.330658" FloorNumber="-1" Rotate="0.86162907,0,0,0.5075385" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="1" BoxSizeY="1" BoxSizeZ="1" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="12" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_waterfall_a_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{DD357478-1091-4439-910F-9D310E5DFFC0}" Name="l_probe_AB1_cabin_b_root" Pos="1391.0129,907.90771,43.929985" FloorNumber="-1" Rotate="0.97814763,0,0,0.20791167" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="30" BoxSizeY="60" BoxSizeZ="30" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.5" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="15" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_cabin_b_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{41701B85-6A61-4E6E-A344-87B88D54A3C2}" Name="l_probe_AB1_river_b_root" Pos="1451.833,920.53217,45.056156" FloorNumber="-1" Rotate="0.97437006,0,0,0.22495122" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="80" BoxSizeY="70" BoxSizeZ="50" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.1" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="12" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_river_b_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{7CAB1890-9132-4A0C-A7B5-24AED8F2F546}" Name="l_probe_AB1_waterfall_a_child" Pos="1441.5583,840.94836,48.474529" FloorNumber="-1" Rotate="0.86162907,0,0,0.5075385" ColorRGB="65535" cubemap_resolution="0" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="60" BoxSizeY="40" BoxSizeZ="40" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="12" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_waterfall_a_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{BAEAB896-966B-4C6D-9E69-689A9CF79110}" Name="l_probe_AB1_cabin_d_child2" Pos="1363.1818,853.48615,44.548332" FloorNumber="-1" Rotate="0.98901588,0,0,-0.14780931" ColorRGB="65535" cubemap_resolution="0" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="35" BoxSizeY="30" BoxSizeZ="30" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="2" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="14" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_cabin_d_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{C48089C1-5E44-42E0-AF66-BB8FEAF84FAE}" Name="l_probe_AB1_forest_b_root" Pos="1319.3483,948.05713,53.550987" FloorNumber="-1" Rotate="0.93969262,0,0,0.34202012" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="30" BoxSizeY="30" BoxSizeZ="40" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="2" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.5" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="20" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_forest_b_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB01_Lighting" LayerGUID="{4AF032A8-51B0-4BF5-A737-3DA362CDE2E1}" Id="{2D4F18E7-A2FC-4C05-8F6F-033F42A87CFF}" Name="l_probe_AB1_river_a_root" Pos="1411.6429,862.79559,41.618179" FloorNumber="-1" Rotate="0.86162907,0,0,0.5075385" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="100" BoxSizeY="60" BoxSizeZ="50" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="11" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab1_river_a_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

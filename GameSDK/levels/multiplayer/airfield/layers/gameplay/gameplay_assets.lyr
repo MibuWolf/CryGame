@@ -1,0 +1,425 @@
+<ObjectLayer>
+ <Layer Name="Gameplay_assets" GUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="{CE0E5F3D-126E-4848-AD2C-24246B4ED477}">
+  <LayerObjects>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{E80D8109-4A5C-4A54-ACA1-A9FEB5BEF916}" Name="HMMWV4" Pos="2119.3928,1316.8816,36.204365" FloorNumber="-1" Rotate="0.84335881,-0.0029982103,0.0039014018,0.53732824" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HMMWV" HasEntity="1">
+    <Properties accuracy="1" aicharacter_character="Car" aiSpeedMult="1" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bHeavyObject="0" bInteractLargeObject="0" leaderName="" material="" Modification="" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="CarIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{7F03F50C-E3A7-4A57-A27A-23EF6EF29499}" Name="HMMWV8" Pos="2153.5261,1407.1826,36.20435" FloorNumber="-1" Rotate="0.84335876,-0.0029991497,0.0039011568,0.53732842" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HMMWV" HasEntity="1">
+    <Properties accuracy="1" aicharacter_character="Car" aiSpeedMult="1" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bHeavyObject="0" bInteractLargeObject="0" leaderName="" material="" Modification="" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="CarIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{966FAC15-3D0A-4CDE-A54C-FA964EF282C1}" Name="Abrams2" Pos="2094.636,1270.6298,36.257057" FloorNumber="-1" Rotate="0.84339154,0,0,0.53729951" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Abrams" HasEntity="1">
+    <Properties accuracy="1" aicharacter_character="Tank" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bHeavyObject="0" bHidesPlayer="0" bInteractLargeObject="0" leaderName="" Modification="" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="TankIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1" triggerRadius="90"/>
+   </Object>
+   <Object Type="LedgeStatic" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{B56E421E-9550-4D82-A1C5-93F803C16C8E}" Name="LedgeStatic5" Pos="2078.5249,1441.4535,39.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" EntityClass="LedgeObjectStatic" HasEntity="1">
+    <Properties fCornerEndAdjustAmount="0.5" fCornerMaxAngle="130" bIsThin="0" bIsWindow="0" bLedgeDoubleSide="0" bLedgeFlipped="1">
+     <MainSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+     <OppositeSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+    </Properties>
+    <Points>
+     <Point Pos="0.30883789,0.10412598,0.125"/>
+     <Point Pos="-4.5842285,2.3856201,0.125"/>
+     <Point Pos="-7.5720215,-4.0410156,0.125"/>
+     <Point Pos="-2.6357422,-6.3046875,0.125"/>
+     <Point Pos="0.28515625,0.0035400391,0.125"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{7AC86122-0A1E-4D69-8030-AE3BDFEA86AA}" Name="HMMWV7" Pos="2074.2891,1233.5967,36.329357" FloorNumber="-1" Rotate="0.84335876,-0.0029987693,0.0039007133,0.53732842" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HMMWV" HasEntity="1">
+    <Properties accuracy="1" aicharacter_character="Car" aiSpeedMult="1" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bHeavyObject="0" bInteractLargeObject="0" leaderName="" material="" Modification="" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="CarIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{6D509026-D907-4E7A-8A66-A360DFA4FFB2}" Name="GameRules" Pos="2145.196,1466.6639,36.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="FlowgraphEntity" HasEntity="1">
+    <FlowGraph Description="" Group="GameRules" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="6" Class="Multiplayer:GameType" pos="20,-140,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="7" Class="Game:Start" pos="-180,-140,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="8" Class="Multiplayer:GameState" pos="-180,-520,0" flags="0"/>
+      <Node Id="9" Class="Debug:Log" pos="140,-640,0" flags="0">
+       <Inputs message="GAMESTATE:PreMatchStateStart"/>
+      </Node>
+      <Node Id="12" Class="Debug:Log" pos="140,-280,0" flags="0">
+       <Inputs message="GAMESTATE:RoundEnd"/>
+      </Node>
+      <Node Id="15" Class="Time:TimeOfDay" pos="340,20,0" flags="0">
+       <Inputs Time="15" ForceUpdate="0" Speed="1"/>
+      </Node>
+      <Node Id="16" Class="Time:TimeOfDay" pos="340,-140,0" flags="0">
+       <Inputs Time="17" ForceUpdate="0" Speed="1"/>
+      </Node>
+      <Node Id="18" Class="Debug:Log" pos="140,-580,0" flags="0">
+       <Inputs message="GAMESTATE:InGameStateStart"/>
+      </Node>
+      <Node Id="20" Class="Debug:Log" pos="140,-520,0" flags="0">
+       <Inputs message="GAMESTATE:PostGameStateStart"/>
+      </Node>
+      <Node Id="22" Class="Debug:Log" pos="140,-460,0" flags="0">
+       <Inputs message="GAMESTATE:AnyNewRoundStart"/>
+      </Node>
+      <Node Id="24" Class="Debug:Log" pos="140,-400,0" flags="0">
+       <Inputs message="GAMESTATE:FirstRoundStart"/>
+      </Node>
+      <Node Id="26" Class="Debug:Log" pos="140,-340,0" flags="0">
+       <Inputs message="GAMESTATE:FinalRoundStart"/>
+      </Node>
+      <Node Id="27" Name="Output_log_message_for_different_game_states" Class="_commentbox" pos="-200,-699.69019,0" flags="0">
+       <Inputs TextSize="1" Color="0.637597,0.304987,0.304987" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="680" Height="460"/>
+       <NodeSize Width="680" Height="497.08081"/>
+      </Node>
+      <Node Id="28" Name="Raining_for_TIA._Sunny_for_IA." Class="_commentbox" pos="-200,-199.69019,0" flags="0">
+       <Inputs TextSize="1" Color="0.361307,0.55834,0.527115" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="820" Height="420"/>
+       <NodeSize Width="820" Height="457.08081"/>
+      </Node>
+      <Node Id="29" Name="Note_specific_layer_names_&quot;GameType(underscore)TeamInstantAction&quot;._This_GameType(underscore)_prefix_is_used_in_code." Class="_comment" pos="-180,180,0" flags="0"/>
+      <Node Id="30" Name="If_gamerules_name_matches_layername,_that_layer_is_activated_while_other_GameType_layers_are_deactivated." Class="_comment" pos="-180,210,0" flags="0"/>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="15" nodeOut="6" portIn="Set" portOut="TeamInstantAction" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="6" portIn="Set" portOut="InstantAction" enabled="1"/>
+      <Edge nodeIn="6" nodeOut="7" portIn="GetGameType" portOut="output" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="8" portIn="input" portOut="OnPrematchStateStart" enabled="1"/>
+      <Edge nodeIn="12" nodeOut="8" portIn="input" portOut="OnRoundEnd" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="8" portIn="input" portOut="OnInGameStateStart" enabled="1"/>
+      <Edge nodeIn="20" nodeOut="8" portIn="input" portOut="OnPostGameStateStart" enabled="1"/>
+      <Edge nodeIn="22" nodeOut="8" portIn="input" portOut="OnAnyNewRoundStart" enabled="1"/>
+      <Edge nodeIn="24" nodeOut="8" portIn="input" portOut="OnFirstRoundStart" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="8" portIn="input" portOut="OnFinalRoundStart" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{663D183A-26CC-4FED-A28E-EC033A5D5382}" Name="MH60_Blackhawk1" Pos="2046.9137,1239.7378,36.132244" FloorNumber="-1" Rotate="0.97629601,0,0,-0.21643957" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MH60_Blackhawk" HasEntity="1">
+    <Properties accuracy="1" aicharacter_character="Heli" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bHeavyObject="0" bInteractLargeObject="0" leaderName="" material="" Modification="" esModularBehaviorTree="HelicopterTree" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception FOVPrimary="-1" FOVSecondary="-1" persistence="60" sightrange="200" sightrangeVehicle="-1" stanceScale="1"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="HeliIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{7082E943-7390-4601-8DB4-D7F7E0D0F47C}" Name="SpawnPoint6" Pos="2095.7412,1262.4303,36.384163" FloorNumber="-1" Rotate="0.81915206,0,0,0.57357645" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{31D22358-E253-4694-B1CB-8367293C30D4}" Name="MH60_Blackhawk2" Pos="2171.6145,1450.2461,36.161289" FloorNumber="-1" Rotate="0.84339142,0,0,0.53729963" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MH60_Blackhawk" HasEntity="1">
+    <Properties accuracy="1" aicharacter_character="Heli" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bHeavyObject="0" bInteractLargeObject="0" leaderName="" material="" Modification="" esModularBehaviorTree="HelicopterTree" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception FOVPrimary="-1" FOVSecondary="-1" persistence="60" sightrange="200" sightrangeVehicle="-1" stanceScale="1"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="HeliIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{8758BE5A-12FF-4378-B0F9-630170863175}" Name="HMG1" Pos="2196.0486,1491.0779,41.173843" FloorNumber="-1" Rotate="0.21643957,0,0,0.97629601" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HMG" HasEntity="1">
+    <Properties HitPoints="0" initialSetup="" bMounted="1" eiPhysicsType="0" bPickable="0" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="1">
+     <MountedLimits pitchMax="60" pitchMin="-22" yaw="70"/>
+     <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{7BB84566-9158-4637-A667-24FD39373720}" Name="HealthPack3" Pos="2140.0728,1357.8311,36.266418" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="LedgeStatic" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{6B46486F-BA8F-4676-A99C-EBB485F1084F}" Name="LedgeStatic7" Pos="2135.9417,1564.4869,39.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" EntityClass="LedgeObjectStatic" HasEntity="1">
+    <Properties fCornerEndAdjustAmount="0.5" fCornerMaxAngle="130" bIsThin="0" bIsWindow="0" bLedgeDoubleSide="0" bLedgeFlipped="1">
+     <MainSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+     <OppositeSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+    </Properties>
+    <Points>
+     <Point Pos="0.25,0.125,0.125"/>
+     <Point Pos="-4.625,2.375,0.125"/>
+     <Point Pos="-7.625,-4.125,0.125"/>
+     <Point Pos="-2.75,-6.375,0.125"/>
+     <Point Pos="0.25,0,0.125"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{AAB1F16F-6184-4A78-9386-8F5C3278F004}" Name="HealthPack4" Pos="2082.7644,1250.865,36.897957" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{98651576-D185-49A0-8280-A9EE3A3C1061}" Name="HealthPack2" Pos="2148.9036,1403.9913,37.51297" FloorNumber="-1" Rotate="0.53729957,0,0,-0.84339148" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{BC927887-E04C-436C-8ED8-4E6AE1735A07}" Name="HealthPack1" Pos="2148.9036,1403.9913,36.697071" FloorNumber="-1" Rotate="0.53729957,0,0,-0.84339148" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{2A045989-6A3A-4B75-AE65-307955C0287B}" Name="HealthPack6" Pos="2183.2559,1480.8624,37.286846" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{3A7D6789-6D40-4750-B720-B3E98DF48BDC}" Name="FG_Equip" Pos="2144.696,1466.6639,36.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="FlowgraphEntity" HasEntity="1">
+    <FlowGraph Description="" Group="Equip_Setup" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="2" Class="Game:MP:SetEquipmentLoadout" pos="70,-50,0" flags="0">
+       <Inputs entityId="0" pack="1"/>
+      </Node>
+      <Node Id="4" Class="Actor:LocalPlayer" pos="-120,-50,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="9" Class="Game:Start" pos="-300,-50,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="10" Name="[WorkAround]_Manually_set_Equipmentpacks_for_MP_levels" Class="_commentbox" pos="-320,-100.24986,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="630" Height="120"/>
+       <NodeSize Width="630" Height="147.64063"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="2" nodeOut="4" portIn="Set" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="4" portIn="entityId" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="9" portIn="update" portOut="output" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="LedgeStatic" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{AE6BF38C-C98F-45A7-A477-7A665A0A6B40}" Name="LedgeStatic3" Pos="2122.75,1328.125,40.125" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" EntityClass="LedgeObjectStatic" HasEntity="1">
+    <Properties fCornerEndAdjustAmount="0.5" fCornerMaxAngle="130" bIsThin="0" bIsWindow="0" bLedgeDoubleSide="0" bLedgeFlipped="1">
+     <MainSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+     <OppositeSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+    </Properties>
+    <Points>
+     <Point Pos="-0.082519531,0.33251953,0.099998474"/>
+     <Point Pos="-2.8601074,-5.7032471,0.099998474"/>
+     <Point Pos="4.6914063,-9.1680908,0.099998474"/>
+     <Point Pos="7.5866699,-3.1447754,0.099998474"/>
+     <Point Pos="0.018310547,0.40209961,0.099998474"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{F07E4595-54B4-42B5-A0F7-8453535823E3}" Name="HMG2" Pos="2041.2928,1359.6702,41.053761" FloorNumber="-1" Rotate="0.97629607,0,0,-0.21643952" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HMG" HasEntity="1">
+    <Properties HitPoints="0" initialSetup="" bMounted="1" eiPhysicsType="0" bPickable="0" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="1">
+     <MountedLimits pitchMax="60" pitchMin="-22" yaw="70"/>
+     <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{44CE1396-D00B-4125-9C75-45CA885F9D5C}" Name="HealthPack5" Pos="2082.3608,1250.1177,36.897957" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="LedgeStatic" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{C38B13A3-1467-426D-A04C-367FE0B175E9}" Name="LedgeStatic2" Pos="2154,1403.25,39.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" EntityClass="LedgeObjectStatic" HasEntity="1">
+    <Properties fCornerEndAdjustAmount="0.5" fCornerMaxAngle="130" bIsThin="0" bIsWindow="0" bLedgeDoubleSide="0" bLedgeFlipped="1">
+     <MainSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+     <OppositeSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+    </Properties>
+    <Points>
+     <Point Pos="0.25,0.125,0.125"/>
+     <Point Pos="-4.625,2.375,0.125"/>
+     <Point Pos="-7.625,-4.125,0.125"/>
+     <Point Pos="-2.75,-6.375,0.125"/>
+     <Point Pos="0.25,0,0.125"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{8D654BA3-F64F-413B-B3E5-262B0AE92317}" Name="HealthPack11" Pos="2139.8228,1358.0811,36.266418" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{0FED5FAC-E613-4174-B102-537FDC058841}" Name="HealthPack7" Pos="2182.2251,1480.5249,37.279346" FloorNumber="-1" Rotate="0.53729957,0,0,-0.84339148" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{FFFE76B3-BBA2-4C90-B8C7-828C78F8BC3E}" Name="HMMWV6" Pos="2155.842,1434.9695,36.207283" FloorNumber="-1" Rotate="0.84334838,-0.0029782478,0.0041285288,0.53734308" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HMMWV" HasEntity="1">
+    <Properties accuracy="1" aicharacter_character="Car" aiSpeedMult="1" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bHeavyObject="0" bInteractLargeObject="0" leaderName="" material="" Modification="" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="CarIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{D48DFBBC-D49C-4C8B-8AED-5A7FE99AC902}" Name="HealthPack8" Pos="2081.0999,1512.7545,36.956326" FloorNumber="-1" Rotate="0.84258872,-0.036788218,-0.023436679,0.53678823" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="LedgeStatic" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{79E73CC0-7BD0-485C-9C84-2D3D1236DF13}" Name="LedgeStatic6" Pos="2074.5234,1518.0665,39.75" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" EntityClass="LedgeObjectStatic" HasEntity="1">
+    <Properties fCornerEndAdjustAmount="0.5" fCornerMaxAngle="130" bIsThin="0" bIsWindow="0" bLedgeDoubleSide="0" bLedgeFlipped="1">
+     <MainSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+     <OppositeSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+    </Properties>
+    <Points>
+     <Point Pos="-0.082519531,0.33251953,0.099998474"/>
+     <Point Pos="-2.8601074,-5.7032471,0.099998474"/>
+     <Point Pos="4.6914063,-9.1680908,0.099998474"/>
+     <Point Pos="7.5866699,-3.1447754,0.099998474"/>
+     <Point Pos="0.018310547,0.40209961,0.099998474"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{4AAB98C1-DAE8-4065-AB4A-E3F63DCA2B9F}" Name="SpectatorPoint1" Pos="2180.5554,1503.0276,46.216843" FloorNumber="-1" Rotate="0.41900271,-0.033782657,-0.12607862,0.89855421" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpectatorPoint" HasEntity="1">
+    <Properties bEnabled="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{F043F3C6-A279-4016-9211-98465724FB91}" Name="HealthPack10" Pos="2056.075,1369.881,38.383965" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{ED4F1DCA-82D3-4B6F-927F-119D9F9087CE}" Name="HealthPack12" Pos="2139.8638,1357.9276,36.299877" FloorNumber="-1" Rotate="0.90369052,0.079564378,-0.19208533,0.37432089" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{5CD9F1DA-A0DB-47B7-902A-A226F539F083}" Name="HealthPack9" Pos="2081.0393,1512.6248,37.03051" FloorNumber="-1" Rotate="0.78375852,0.14902279,-0.31020561,0.51699835" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HealthPack" HasEntity="1">
+    <Properties fHealth="20" fileModel="Objects/Weapons/equipment/medical_Kit/medical_kit_bag_tp.cgf" fRespawnTime="5" soclasses_SmartObjectClass="HealthPack" fUseDistance="2.5"/>
+   </Object>
+   <Object Type="LedgeStatic" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{AC6993E2-39B7-4232-9CD4-19C61573E401}" Name="LedgeStatic4" Pos="2084.375,1254.875,39.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" EntityClass="LedgeObjectStatic" HasEntity="1">
+    <Properties fCornerEndAdjustAmount="0.5" fCornerMaxAngle="130" bIsThin="0" bIsWindow="0" bLedgeDoubleSide="0" bLedgeFlipped="1">
+     <MainSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+     <OppositeSide bEndCrouched="0" bEndFalling="0" esLedgeType="Normal" bUsableByMarines="1"/>
+    </Properties>
+    <Points>
+     <Point Pos="0.30883789,0.10412598,0.125"/>
+     <Point Pos="-4.5842285,2.3856201,0.125"/>
+     <Point Pos="-7.5720215,-4.0410156,0.125"/>
+     <Point Pos="-2.6357422,-6.3046875,0.125"/>
+     <Point Pos="0.28515625,0.0035400391,0.125"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{7B2387EA-AA90-4914-8D66-BD3B50D9D3D0}" Name="HMMWV5" Pos="2089.2891,1266.2216,36.332344" FloorNumber="-1" Rotate="0.84334838,-0.0029772213,0.0041275071,0.53734308" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HMMWV" HasEntity="1">
+    <Properties accuracy="1" aicharacter_character="Car" aiSpeedMult="1" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bHeavyObject="0" bInteractLargeObject="0" leaderName="" material="" Modification="" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="CarIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{BC41DDF1-D0DB-4DCB-A5CE-06D6C9F65631}" Name="HMMWV3" Pos="2129.5632,1369.6332,36.203747" FloorNumber="-1" Rotate="0.84335852,-0.0030062739,0.0039075534,0.53732872" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="HMMWV" HasEntity="1">
+    <Properties accuracy="1" aicharacter_character="Car" aiSpeedMult="1" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bHeavyObject="0" bInteractLargeObject="0" leaderName="" material="" Modification="" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="CarIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{D5CC57FB-7ADC-45F7-8DF7-26068071A30D}" Name="Abrams1" Pos="2082.4485,1435.725,36.132057" FloorNumber="-1" Rotate="0.53729957,0,0,-0.84339148" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Abrams" HasEntity="1">
+    <Properties accuracy="1" aicharacter_character="Tank" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="1" bCanUseSecondaryWeapon="0" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bHeavyObject="0" bHidesPlayer="0" bInteractLargeObject="0" leaderName="" Modification="" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="TankIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1" triggerRadius="90"/>
+   </Object>
+   <Object Type="Entity" Layer="Gameplay_assets" LayerGUID="{0E2D5FCD-3403-4696-B93F-DA94157383F5}" Id="{013AD2FD-10D2-42AA-A728-9AE390AB3706}" Name="VR_Config" Pos="2145.696,1466.6639,36.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="FlowgraphEntity" HasEntity="1">
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="161" Class="Game:Start" pos="-498.31317,2020.9132,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="162" Class="Debug:ConsoleVariable" pos="-300,2100,0" flags="0">
+       <Inputs CVar="r_StereoMode" Value=""/>
+      </Node>
+      <Node Id="163" Class="Math:Equal" pos="-20,2100,0" flags="0">
+       <Inputs A="0" B="1"/>
+      </Node>
+      <Node Id="164" Name="Only_apply_if_VR_is_enabled" Class="_comment" pos="-300,2060,0" flags="0"/>
+      <Node Id="165" Class="Entity:RenderParams" pos="480,2020,0" flags="0">
+       <Inputs entityId="0" Param="1" Value="1"/>
+      </Node>
+      <Node Id="167" Class="Actor:LocalPlayer" pos="-20,2020,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="169" Class="Math:SetNumber" pos="120,2100,0" flags="0">
+       <Inputs in="0"/>
+      </Node>
+      <Node Id="170" Class="Math:SetNumber" pos="120,2160,0" flags="0">
+       <Inputs in="1"/>
+      </Node>
+      <Node Id="172" Class="Logic:Any" pos="280,2100,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="173" Name="." Class="_commentbox" pos="-510,1982.0361,0" flags="0">
+       <Inputs TextSize="1" Color="0.508881,0.0451862,0.53948" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1146" Height="214"/>
+       <NodeSize Width="1146" Height="241.96381"/>
+      </Node>
+      <Node Id="174" Name="Show_FPS_arms_in_non-VR_mode_&amp;_hide_them_in_VR_mode" Class="_comment" pos="-500,1960,0" flags="0"/>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="162" nodeOut="161" portIn="Get" portOut="output" enabled="1"/>
+      <Edge nodeIn="167" nodeOut="161" portIn="update" portOut="output" enabled="1"/>
+      <Edge nodeIn="163" nodeOut="162" portIn="A" portOut="CurValue" enabled="1"/>
+      <Edge nodeIn="169" nodeOut="163" portIn="set" portOut="true" enabled="1"/>
+      <Edge nodeIn="170" nodeOut="163" portIn="set" portOut="false" enabled="1"/>
+      <Edge nodeIn="165" nodeOut="167" portIn="entityId" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="172" nodeOut="169" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="172" nodeOut="170" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="165" nodeOut="172" portIn="Set" portOut="out" enabled="1"/>
+      <Edge nodeIn="165" nodeOut="172" portIn="Value" portOut="out" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

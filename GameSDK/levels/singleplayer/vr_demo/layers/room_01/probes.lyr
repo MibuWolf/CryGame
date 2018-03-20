@@ -1,0 +1,62 @@
+<ObjectLayer>
+ <Layer Name="probes" GUID="{BB21779F-9D04-44D9-B1E9-26CCF0244967}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="{81307647-FCB4-4C5D-BDED-E88D1E22D714}">
+  <LayerObjects>
+   <Object Type="EnvironmentProbe" Layer="probes" LayerGUID="{BB21779F-9D04-44D9-B1E9-26CCF0244967}" Id="{475DC906-B92A-4790-9CF3-92D958C5B90E}" Name="l_probe_room1" Pos="32,32,18" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="38" BoxSizeY="32" BoxSizeZ="10" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="4" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="1" SortPriority="3" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/vr_demo/l_probe_room1_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="38" bBoxProject="1" fBoxWidth="32"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="probes" LayerGUID="{BB21779F-9D04-44D9-B1E9-26CCF0244967}" Id="{B2E25A09-2BF2-413B-80A1-46B8568606B4}" Name="l_probe_trees1" Pos="39.5,20,17.125" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="1" BoxSizeY="1" BoxSizeZ="4" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="3" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="4" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/vr_demo/l_probe_trees1_cm.tif"/>
+     <Projection fBoxHeight="4" fBoxLength="1.5" bBoxProject="1" fBoxWidth="1.5"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="probes" LayerGUID="{BB21779F-9D04-44D9-B1E9-26CCF0244967}" Id="{5389D221-5C18-4AD0-9861-2AFAA5ED3BFE}" Name="l_probe_hallway_ext1" Pos="52,58,18" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="0" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="10" BoxSizeY="16" BoxSizeZ="6" _nVersion="0">
+     <Color clrDiffuse="1,0.991102,0.913099" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="1" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/vr_demo/l_probe_hallway1_cm.tif"/>
+     <Projection fBoxHeight="6" fBoxLength="10" bBoxProject="0" fBoxWidth="16"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="probes" LayerGUID="{BB21779F-9D04-44D9-B1E9-26CCF0244967}" Id="{8849DE89-8062-427F-8002-4F272E274188}" Name="l_probe_trees3" Pos="30,20,17.125" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="0" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="1" BoxSizeY="1" BoxSizeZ="4" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="3" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="4" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/vr_demo/l_probe_trees1_cm.tif"/>
+     <Projection fBoxHeight="4" fBoxLength="1.5" bBoxProject="1" fBoxWidth="1.5"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="probes" LayerGUID="{BB21779F-9D04-44D9-B1E9-26CCF0244967}" Id="{8B3A8B9F-E9DC-4B1A-A380-BD6D7FEDAEAB}" Name="l_probe_hallway1" Pos="41,50,18" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="3" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="34" BoxSizeY="14" BoxSizeZ="6" _nVersion="0">
+     <Color clrDiffuse="1,0.991102,0.913099" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="0" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.15" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="1" SortPriority="2" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/vr_demo/l_probe_hallway1_cm.tif"/>
+     <Projection fBoxHeight="6" fBoxLength="34" bBoxProject="1" fBoxWidth="14"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="probes" LayerGUID="{BB21779F-9D04-44D9-B1E9-26CCF0244967}" Id="{3B518DA6-3153-4E53-819F-6984162B0B9D}" Name="l_probe_trees4" Pos="24.5,20,17.125" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="0" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="1" BoxSizeY="1" BoxSizeZ="4" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="3" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="4" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/vr_demo/l_probe_trees1_cm.tif"/>
+     <Projection fBoxHeight="4" fBoxLength="1" bBoxProject="1" fBoxWidth="1"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="probes" LayerGUID="{BB21779F-9D04-44D9-B1E9-26CCF0244967}" Id="{E764B7E3-4F08-4EEE-8FE1-AE0B0592B513}" Name="l_probe_trees2" Pos="34,20,17.125" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="0" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="1" BoxSizeY="1" BoxSizeZ="4" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="3" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="4" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/vr_demo/l_probe_trees1_cm.tif"/>
+     <Projection fBoxHeight="4" fBoxLength="1.5" bBoxProject="1" fBoxWidth="1.5"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

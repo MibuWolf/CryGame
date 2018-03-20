@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="3b86fcd7-561c-4762-9626-69952e6b912b" source="Airfield.tif">
+ <Files>
+  <File path="Airfield.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

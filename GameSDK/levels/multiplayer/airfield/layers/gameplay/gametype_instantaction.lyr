@@ -1,0 +1,27 @@
+<ObjectLayer>
+ <Layer Name="GameType_InstantAction" GUID="{0C0F8FD5-9655-4E51-9976-1B3C5F4FD391}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="{CE0E5F3D-126E-4848-AD2C-24246B4ED477}">
+  <LayerObjects>
+   <Object Type="Entity" Layer="GameType_InstantAction" LayerGUID="{0C0F8FD5-9655-4E51-9976-1B3C5F4FD391}" Id="{2D4E3C13-F290-446D-83F4-3640542A05AF}" Name="SpawnPoint1" Pos="2165.5325,1423.9857,36.459908" FloorNumber="-1" Rotate="0.81915206,0,0,0.57357645" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+   </Object>
+   <Object Type="Entity" Layer="GameType_InstantAction" LayerGUID="{0C0F8FD5-9655-4E51-9976-1B3C5F4FD391}" Id="{930BEC29-835E-4109-B464-44BF01C2D7D8}" Name="SpawnPoint8" Pos="2188.8806,1476.7515,36.486652" FloorNumber="-1" Rotate="0.13052623,0,0,0.99144489" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+   </Object>
+   <Object Type="Entity" Layer="GameType_InstantAction" LayerGUID="{0C0F8FD5-9655-4E51-9976-1B3C5F4FD391}" Id="{AB394639-FBBB-42F8-A2C2-2C71860DF909}" Name="SpawnPoint5" Pos="2096.8042,1276.0879,36.338417" FloorNumber="-1" Rotate="0.81915206,0,0,0.57357645" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+   </Object>
+   <Object Type="Entity" Layer="GameType_InstantAction" LayerGUID="{0C0F8FD5-9655-4E51-9976-1B3C5F4FD391}" Id="{BE785CD1-C526-413F-BC39-A65E667CD5D5}" Name="SpawnPoint2" Pos="2157.7009,1397.5413,36.379101" FloorNumber="-1" Rotate="0.84339142,0,0,0.53729975" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+   </Object>
+   <Object Type="Entity" Layer="GameType_InstantAction" LayerGUID="{0C0F8FD5-9655-4E51-9976-1B3C5F4FD391}" Id="{D8D181F1-8994-4174-B1E0-783AFB2A3742}" Name="SpawnPoint4" Pos="2129.8357,1320.1329,36.837681" FloorNumber="-1" Rotate="0.34202015,0,0,0.93969262" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+   </Object>
+   <Object Type="Entity" Layer="GameType_InstantAction" LayerGUID="{0C0F8FD5-9655-4E51-9976-1B3C5F4FD391}" Id="{E5083CF2-4AB7-471A-9BE5-FC6496B9A2D5}" Name="SpawnPoint7" Pos="2075.6001,1238.3829,36.329891" FloorNumber="-1" Rotate="0.79335338,0,0,0.60876143" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+   </Object>
+   <Object Type="Entity" Layer="GameType_InstantAction" LayerGUID="{0C0F8FD5-9655-4E51-9976-1B3C5F4FD391}" Id="{684B36F9-12EC-479C-B90C-AB774EFB0AC1}" Name="SpawnPoint3" Pos="2139.6135,1373.7998,36.416737" FloorNumber="-1" Rotate="0.81915206,0,0,0.57357645" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

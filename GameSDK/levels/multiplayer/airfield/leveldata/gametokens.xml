@@ -1,0 +1,7 @@
+<GameTokens>
+ <GameTokensLibrary>
+  <LevelLibrary Name="Level">
+   <GameToken Name="TimeOfDay.CurrentTimeIs15" Type="Bool" Value="false" LocalOnly="1"/>
+  </LevelLibrary>
+ </GameTokensLibrary>
+</GameTokens>

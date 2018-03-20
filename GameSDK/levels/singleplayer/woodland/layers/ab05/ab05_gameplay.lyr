@@ -1,0 +1,863 @@
+<ObjectLayer>
+ <Layer Name="AB05_Gameplay" GUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="{FAA845ED-531F-41BC-95AF-2FF009247FE5}">
+  <LayerObjects>
+   <Object Type="Brush" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{58FB3D02-6125-4D3C-A7D1-719D7FEED997}" Name="campfire5" Pos="1531.2341,620.67004,47.928314" FloorNumber="-1" Rotate="0.99779278,0.026128126,0.061027624,-0.0015980647" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/fishing_camp/campfire.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{95CE7107-EE72-4A39-B57C-3BF2278C75B7}" Name="CoverSurface231" Pos="1715.0917,552.24805,56.10405" FloorNumber="-1" Rotate="0.59482288,0,0,-0.80385685" ColorRGB="11829830" SurfaceID="89" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{C371DB07-A83B-4901-9DE0-2C5BFCFD16D9}" Name="MO_object_06" Parent="{762CB4B5-B3E5-4AA6-8899-2C13E142A6B0}" Pos="0,0,0.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MissionObjective" HasEntity="1">
+    <Properties mission_MissionID="woodland.woodland_05f" bShowOnRadar="1" sTrackedEntityName=""/>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{2B4FA908-DDAE-4776-B62A-68EABA5965C7}" Name="CoverSurface218" Pos="1705.984,607.36206,61.651489" FloorNumber="-1" Rotate="0.82412618,0,0,0.56640625" ColorRGB="11829830" SurfaceID="90" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{58707B0B-2511-45BA-820C-64EB40C50799}" Name="CoverSurface222" Pos="1714.0154,593.78149,58.129066" FloorNumber="-1" Rotate="0.17364815,0,0,0.98480779" ColorRGB="11829830" SurfaceID="91" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{7560320F-AB22-48D1-B39F-B006399FD681}" Name="CoverSurface238" Pos="1722.6387,541.54596,57.140846" FloorNumber="-1" Rotate="0.68199831,0,0,0.73135376" ColorRGB="11829830" SurfaceID="92" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{4C1AC210-22E6-4F69-8560-355A9C66E3CE}" Name="CoverSurface183" Pos="1658.4351,820.89746,48.807617" FloorNumber="-1" Rotate="0.017452305,0,0,0.99984771" ColorRGB="11829830" SurfaceID="93" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{9225851A-A291-45EE-A821-1F616DB51AEA}" Name="AB05_FG" Pos="1327.126,948.828,100" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="FlowgraphEntity" HasEntity="1">
+    <FlowGraph Description="" Group="Gameplay" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="3" Class="Logic:RandomSelect" pos="4440,-160,0" flags="0" InHideMask="7" OutHideMask="1023">
+       <Inputs outMin="1" outMax="1"/>
+      </Node>
+      <Node Id="7" Class="Entity:GetPos" pos="4720,-160,0" flags="0" EntityGUID="{5FED40E2-B33C-483B-B758-F42DB3269117}" EntityGUID_64="483BB33C5FED40E2">
+       <Inputs entityId="0" CoordSys="1"/>
+      </Node>
+      <Node Id="8" Class="Entity:GetPos" pos="4720,200,0" flags="0" EntityGUID="{66B66D31-B473-43D6-A0E4-34466DAE94CC}" EntityGUID_64="43D6B47366B66D31">
+       <Inputs entityId="0" CoordSys="1"/>
+      </Node>
+      <Node Id="9" Class="Entity:GetPos" pos="4720,560,0" flags="0" EntityGUID="{9543FFC0-6A3A-4FDA-A7CD-0942CD4D6B30}" EntityGUID_64="4FDA6A3A9543FFC0">
+       <Inputs entityId="0" CoordSys="1"/>
+      </Node>
+      <Node Id="11" Class="Entity:BeamEntity" pos="6140,-400,0" flags="0">
+       <Inputs entityId="0" Position="0,0,0" Rotation="0,0,0" UseZeroRot="0" Scale="0,0,0" Memo=""/>
+      </Node>
+      <Node Id="17" Class="Logic:Any" pos="5940,-160,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="19" Class="Logic:Any" pos="4280,-280,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="21" Class="Time:Delay" pos="5880,-280,0" flags="0">
+       <Inputs delay="0.1" resetOnInput="0"/>
+      </Node>
+      <Node Id="25" Class="Mission:GameTokenCheck" pos="5040,0,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.01" CheckValue="true"/>
+      </Node>
+      <Node Id="26" Class="Logic:Any" pos="5560,-680,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="27" Class="Logic:Any" pos="4280,-680,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="29" Class="Mission:GameTokenSet" pos="5560,40,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.01" Value="false"/>
+      </Node>
+      <Node Id="31" Class="Logic:Gate" pos="5560,-160,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="36" Class="Mission:GameTokenCheck" pos="5040,360,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.02" CheckValue="true"/>
+      </Node>
+      <Node Id="37" Class="Mission:GameTokenSet" pos="5560,400,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.02" Value="false"/>
+      </Node>
+      <Node Id="38" Class="Logic:Gate" pos="5560,200,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="40" Class="Mission:GameTokenCheck" pos="5040,720,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.03" CheckValue="true"/>
+      </Node>
+      <Node Id="41" Class="Mission:GameTokenSet" pos="5560,760,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.03" Value="false"/>
+      </Node>
+      <Node Id="42" Class="Logic:Gate" pos="5560,560,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="48" Class="Logic:Any" pos="4040,-400,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="52" Class="Logic:Sequentializer" pos="3140,-400,0" flags="0" InHideMask="63" OutHideMask="1023">
+       <Inputs Closed="0" Reverse="0"/>
+      </Node>
+      <Node Id="53" Class="Logic:Any" pos="2960,-400,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="54" Class="Logic:Any" pos="6380,-520,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="55" Class="Logic:Any" pos="2680,-520,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="56" Class="Entity:GetPos" pos="4720,920,0" flags="0" EntityGUID="{4B06033F-DD67-4D0B-B389-E3AE0429FC61}" EntityGUID_64="4D0BDD674B06033F">
+       <Inputs entityId="0" CoordSys="1"/>
+      </Node>
+      <Node Id="57" Class="Mission:GameTokenCheck" pos="5040,1080,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.04" CheckValue="true"/>
+      </Node>
+      <Node Id="58" Class="Mission:GameTokenSet" pos="5560,1120,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.04" Value="false"/>
+      </Node>
+      <Node Id="59" Class="Logic:Gate" pos="5560,920,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="61" Class="Entity:GetPos" pos="4720,1280,0" flags="0" EntityGUID="{CEC11627-788C-405D-9539-FD29AC332E7B}" EntityGUID_64="405D788CCEC11627">
+       <Inputs entityId="0" CoordSys="1"/>
+      </Node>
+      <Node Id="62" Class="Mission:GameTokenCheck" pos="5040,1440,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.05" CheckValue="true"/>
+      </Node>
+      <Node Id="63" Class="Mission:GameTokenSet" pos="5560,1480,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.05" Value="false"/>
+      </Node>
+      <Node Id="64" Class="Logic:Gate" pos="5560,1280,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="66" Class="Entity:GetPos" pos="4720,1640,0" flags="0" EntityGUID="{81B76875-6636-4C7A-8DB1-B5931B74C45C}" EntityGUID_64="4C7A663681B76875">
+       <Inputs entityId="0" CoordSys="1"/>
+      </Node>
+      <Node Id="67" Class="Mission:GameTokenCheck" pos="5040,1800,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.06" CheckValue="true"/>
+      </Node>
+      <Node Id="68" Class="Mission:GameTokenSet" pos="5560,1840,0" flags="0">
+       <Inputs gametoken_Token="Level.item_location.06" Value="false"/>
+      </Node>
+      <Node Id="69" Class="Logic:Gate" pos="5560,1640,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="71" Class="Logic:Any" pos="3840,360,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="72" Class="Logic:Any" pos="2960,360,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="75" Class="Time:FrameDelay" pos="5040,-160,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="76" Class="Time:FrameDelay" pos="5040,200,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="77" Class="Time:FrameDelay" pos="5040,560,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="78" Class="Time:FrameDelay" pos="5040,920,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="79" Class="Time:FrameDelay" pos="5040,1280,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="80" Class="Time:FrameDelay" pos="5040,1640,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="93" Class="Logic:Any" pos="4420,-2600,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="96" Class="Logic:Any" pos="4420,-2320,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="99" Class="Logic:Any" pos="4420,-2040,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="107" Class="Game:Start" pos="3140,-460,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="110" Class="entity:BasicEntity" pos="5840,-2500,0" flags="0" InHideMask="255" OutHideMask="4095">
+       <Inputs entityId="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" UnHide="0"/>
+      </Node>
+      <Node Id="112" Class="entity:BasicEntity" pos="5840,-2220,0" flags="0" InHideMask="255" OutHideMask="4095">
+       <Inputs entityId="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" UnHide="0"/>
+      </Node>
+      <Node Id="114" Class="entity:BasicEntity" pos="5840,-1940,0" flags="0" InHideMask="255" OutHideMask="4095">
+       <Inputs entityId="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" UnHide="0"/>
+      </Node>
+      <Node Id="120" Class="Entity:EntityInfo" pos="3600,-400,0" flags="0" InHideMask="3" OutHideMask="15" EntityGUID="{9E644840-A808-470D-9F39-0E74B35453AA}" EntityGUID_64="470DA8089E644840">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="126" Class="Entity:EntityInfo" pos="3600,-300,0" flags="0" InHideMask="3" OutHideMask="15" EntityGUID="{518C039A-EED7-4CF4-8278-AA6FABAA0DC2}" EntityGUID_64="4CF4EED7518C039A">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="127" Class="Entity:EntityInfo" pos="3600,-200,0" flags="0" InHideMask="3" OutHideMask="15" EntityGUID="{699D60E2-4067-41F8-A132-B193F3522B4B}" EntityGUID_64="41F84067699D60E2">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="129" Class="entity:MissionObjective" pos="5840,-2040,0" flags="0" InHideMask="127" OutHideMask="15" EntityGUID="{68776241-4202-477F-8D9D-CD27F710D352}" EntityGUID_64="477F420268776241">
+       <Inputs entityId="0" Activate="0" Completed="0" Deactivate="0" Failed="0" SilentActivate="0" SilentDeactivate="0"/>
+      </Node>
+      <Node Id="131" Class="entity:MissionObjective" pos="5840,-2320,0" flags="0" InHideMask="127" OutHideMask="15" EntityGUID="{98BD96EF-F2AB-47C5-BDC8-5B9F54EBC593}" EntityGUID_64="47C5F2AB98BD96EF">
+       <Inputs entityId="0" Activate="0" Completed="0" Deactivate="0" Failed="0" SilentActivate="0" SilentDeactivate="0"/>
+      </Node>
+      <Node Id="133" Class="entity:MissionObjective" pos="5840,-2600,0" flags="0" InHideMask="127" OutHideMask="15" EntityGUID="{2C179BEE-7D01-4027-AA5E-072C5F3CF64F}" EntityGUID_64="40277D012C179BEE">
+       <Inputs entityId="0" Activate="0" Completed="0" Deactivate="0" Failed="0" SilentActivate="0" SilentDeactivate="0"/>
+      </Node>
+      <Node Id="142" Class="Time:FrameDelay" pos="4040,-2600,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="143" Class="Time:FrameDelay" pos="4040,-2320,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="144" Class="Time:FrameDelay" pos="4040,-2040,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="147" Class="Time:Delay" pos="5040,-1880,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="148" Class="Time:Delay" pos="5040,-2160,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="149" Class="Time:Delay" pos="5040,-2440,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="150" Class="Entity:EntityInfo" pos="3600,-100,0" flags="0" EntityGUID="{EB00CEB3-CFDB-4361-9CC3-ACC757A3BF3A}" EntityGUID_64="4361CFDBEB00CEB3">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="157" Class="Logic:Any" pos="4420,-1760,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="160" Class="entity:MissionObjective" pos="5840,-1760,0" flags="0" InHideMask="127" OutHideMask="15" EntityGUID="{2361606F-1A2A-4CE7-8440-0B63C8206847}" EntityGUID_64="4CE71A2A2361606F">
+       <Inputs entityId="0" Activate="0" Completed="0" Deactivate="0" Failed="0" SilentActivate="0" SilentDeactivate="0"/>
+      </Node>
+      <Node Id="161" Class="Time:FrameDelay" pos="4040,-1760,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="162" Class="Time:Delay" pos="5040,-1660,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="164" Class="entity:ProximityTrigger" pos="5840,-1660,0" flags="0" InHideMask="31" OutHideMask="127">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="165" Class="entity:ProximityTrigger" pos="4720,-1660,0" flags="0" InHideMask="31" OutHideMask="127">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="172" Class="Logic:Any" pos="3400,-100,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="173" Class="Entity:EntityInfo" pos="3600,20,0" flags="0" EntityGUID="{D9981572-71B9-4EAC-A508-2DC9A0EAE12B}" EntityGUID_64="4EAC71B9D9981572">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="174" Class="Logic:Any" pos="3400,20,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="175" Class="Logic:Any" pos="4420,-1480,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="176" Class="entity:MissionObjective" pos="5840,-1480,0" flags="0" InHideMask="127" OutHideMask="15" EntityGUID="{663AEB87-3780-4DCE-B430-25F7946DB47C}" EntityGUID_64="4DCE3780663AEB87">
+       <Inputs entityId="0" Activate="0" Completed="0" Deactivate="0" Failed="0" SilentActivate="0" SilentDeactivate="0"/>
+      </Node>
+      <Node Id="177" Class="Time:FrameDelay" pos="4040,-1480,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="178" Class="Time:Delay" pos="5040,-1380,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="179" Class="entity:ProximityTrigger" pos="5840,-1380,0" flags="0" InHideMask="31" OutHideMask="127">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="180" Class="entity:ProximityTrigger" pos="4720,-1380,0" flags="0" InHideMask="31" OutHideMask="127">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="181" Class="Entity:EntityInfo" pos="3600,140,0" flags="0" EntityGUID="{762CB4B5-B3E5-4AA6-8899-2C13E142A6B0}" EntityGUID_64="4AA6B3E5762CB4B5">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="182" Class="Logic:Any" pos="3400,140,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="183" Class="Logic:Any" pos="4420,-1200,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="184" Class="entity:MissionObjective" pos="5840,-1200,0" flags="0" InHideMask="127" OutHideMask="15" EntityGUID="{C371DB07-A83B-4901-9DE0-2C5BFCFD16D9}" EntityGUID_64="4901A83BC371DB07">
+       <Inputs entityId="0" Activate="0" Completed="0" Deactivate="0" Failed="0" SilentActivate="0" SilentDeactivate="0"/>
+      </Node>
+      <Node Id="185" Class="Time:FrameDelay" pos="4040,-1200,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="186" Class="Time:Delay" pos="5040,-1100,0" flags="0">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="187" Class="entity:ProximityTrigger" pos="5840,-1100,0" flags="0" InHideMask="31" OutHideMask="127">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="188" Class="entity:ProximityTrigger" pos="4720,-1100,0" flags="0" InHideMask="31" OutHideMask="127">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="191" Name="." Class="_commentbox" pos="4270,-954.5011,0" flags="0">
+       <Inputs TextSize="1" Color="0.215861,0,0" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1390" Height="160"/>
+       <NodeSize Width="1390" Height="418.26025"/>
+      </Node>
+      <Node Id="192" Name="." Class="_commentbox" pos="2950,86.517044,0" flags="0">
+       <Inputs TextSize="1" Color="0.215861,0,0" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1020" Height="70"/>
+       <NodeSize Width="1020" Height="328.26025"/>
+      </Node>
+      <Node Id="195" Name="close_off_the_sequentializer_to_stop_spamming_on_last_object_placed" Class="_comment" pos="2960,320,0" flags="0"/>
+      <Node Id="196" Name="fail_feedback_loop_if_location_already_chosen" Class="_comment" pos="4280,-720,0" flags="0"/>
+      <Node Id="197" Name="." Class="_commentbox" pos="4430,-433.48294,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1620" Height="2180"/>
+       <NodeSize Width="1620" Height="2438.2603"/>
+      </Node>
+      <Node Id="198" Name="Randomly_choose_a_location" Class="_comment" pos="4440,-210,0" flags="0"/>
+      <Node Id="199" Name="." Class="_commentbox" pos="3130,-733.48279,0" flags="0">
+       <Inputs TextSize="1" Color="0.450786,0.467784,0" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="670" Height="730"/>
+       <NodeSize Width="670" Height="988.26025"/>
+      </Node>
+      <Node Id="200" Name="Prepare_entitiy_IDs_&amp;_fake_locations" Class="_comment" pos="3140,-530,0" flags="0"/>
+      <Node Id="201" Name="." Class="_commentbox" pos="6130,-793.48242,0" flags="0">
+       <Inputs TextSize="1" Color="0,0.215861,0" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="350" Height="290"/>
+       <NodeSize Width="350" Height="548.26025"/>
+      </Node>
+      <Node Id="202" Name="Beam_entity_to_chosen_location_&amp;_feedback_to_select_again" Class="_comment" pos="6140,-560,0" flags="0"/>
+      <Node Id="203" Name="." Class="_commentbox" pos="4410,-2863.4741,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1640" Height="1650"/>
+       <NodeSize Width="1640" Height="1908.2603"/>
+      </Node>
+      <Node Id="204" Name="Setup_mission_objectives_&amp;_map_icons" Class="_comment" pos="4420,-2640,0" flags="0"/>
+      <Node Id="208" Class="Logic:All" pos="6160,-2760,0" flags="0" InHideMask="127" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="210" Class="Logic:Any" pos="5360,-1660,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="211" Class="Logic:Any" pos="5360,-1380,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="212" Class="Logic:Any" pos="5360,-1100,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="213" Class="Logic:Any" pos="6280,-2800,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="214" Class="Logic:Any" pos="5100,-2800,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="215" Name="." Class="_commentbox" pos="5090,-3060.3506,0" flags="0">
+       <Inputs TextSize="1" Color="0.215861,0,0" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1290" Height="140"/>
+       <NodeSize Width="1290" Height="398.26025"/>
+      </Node>
+      <Node Id="216" Name="Once_all_objects_found,_deactivate_the_&quot;fake&quot;_locations" Class="_comment" pos="5100,-2840,0" flags="0"/>
+      <Node Id="220" Class="Time:FrameDelay" pos="3400,-3160,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="221" Class="entity:MissionObjective" pos="6480,-3160,0" flags="0" EntityGUID="{A3DB7F3C-E8E7-43FD-9D4D-1A59214BB505}" EntityGUID_64="43FDE8E7A3DB7F3C">
+       <Inputs entityId="0" Activate="0" Completed="0" Deactivate="0" Failed="0" SilentActivate="0" SilentDeactivate="0"/>
+      </Node>
+      <Node Id="222" Class="Logic:Any" pos="6160,-3160,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="223" Name="." Class="_commentbox" pos="3390,-3433.4739,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="2870" Height="90"/>
+       <NodeSize Width="2870" Height="348.26025"/>
+      </Node>
+      <Node Id="224" Name="Set_Primary_Mission_to_appear_on_hud,_all_other_secondary_missions_are_activated_silently" Class="_comment" pos="3400,-3200,0" flags="0"/>
+      <Node Id="232" Class="Logic:Gate" pos="5560,-60,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="233" Class="Time:FrameDelay" pos="5040,-60,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="234" Class="Logic:Any" pos="5940,-20,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="235" Class="Logic:Gate" pos="5560,300,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="236" Class="Time:FrameDelay" pos="5040,300,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="237" Class="Logic:Gate" pos="5560,660,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="238" Class="Time:FrameDelay" pos="5040,660,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="239" Class="Logic:Gate" pos="5560,1020,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="240" Class="Time:FrameDelay" pos="5040,1020,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="241" Class="Logic:Gate" pos="5560,1380,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="242" Class="Time:FrameDelay" pos="5040,1380,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="243" Class="Logic:Gate" pos="5560,1740,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="244" Class="Time:FrameDelay" pos="5040,1740,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="245" Class="Time:Delay" pos="5560,-1620,0" flags="0">
+       <Inputs delay="0.1" resetOnInput="0"/>
+      </Node>
+      <Node Id="246" Class="Time:Delay" pos="5560,-1340,0" flags="0">
+       <Inputs delay="0.2" resetOnInput="0"/>
+      </Node>
+      <Node Id="247" Class="Time:Delay" pos="5560,-1060,0" flags="0">
+       <Inputs delay="0.3" resetOnInput="0"/>
+      </Node>
+      <Node Id="348" Class="entity:AreaTrigger" pos="-2880,-5080,0" flags="0" EntityGUID="{1714BA67-6E4E-4C8C-A2AF-E636E4A661B9}" EntityGUID_64="4C8C6E4E1714BA67">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="349" Class="Image:EffectWaterDroplets" pos="-1160,-5080,0" flags="0">
+       <Inputs entityId="0" Enabled="1" Disabled="0" WaterDroplets_Amount="0"/>
+      </Node>
+      <Node Id="350" Class="Entity:CheckDistance" pos="-2160,-5080,0" flags="0" InHideMask="1048575" OutHideMask="31">
+       <Inputs entityId="0" MinDistance="0" MaxDistance="15" Entity1="0" Entity2="0" Entity3="0" Entity4="0" Entity5="0" Entity6="0" Entity7="0" Entity8="0" Entity9="0" Entity10="0" Entity11="0" Entity12="0" Entity13="0" Entity14="0" Entity15="0" Entity16="0"/>
+      </Node>
+      <Node Id="351" Class="Actor:LocalPlayer" pos="-2400,-5120,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="352" Class="Entity:EntityId" pos="-2400,-4940,0" flags="0" EntityGUID="{AAC53205-AC73-4EF3-A9D7-9426865B2461}" EntityGUID_64="4EF3AC73AAC53205">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="353" Class="Time:Timer" pos="-2400,-5080,0" flags="0">
+       <Inputs period="0.5" min="0" max="0" paused="0"/>
+      </Node>
+      <Node Id="354" Class="Math:BooleanTo" pos="-2600,-5080,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="355" Class="Math:SetNumber" pos="-1640,-4990,0" flags="0">
+       <Inputs in="0"/>
+      </Node>
+      <Node Id="356" Class="Math:Sub" pos="-1870,-5080,0" flags="0">
+       <Inputs A="15" B="0"/>
+      </Node>
+      <Node Id="357" Class="Math:Div" pos="-1640,-5080,0" flags="0">
+       <Inputs A="0" B="15"/>
+      </Node>
+      <Node Id="358" Class="Logic:Any" pos="-1400,-5080,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="380" Name="Waterfall" Class="_commentbox" pos="-2890,-5383.5107,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1926" Height="254"/>
+       <NodeSize Width="1926" Height="512.26025"/>
+      </Node>
+      <Node Id="382" Class="entity:RigidBodyEx" pos="3400,-400,0" flags="0" InHideMask="32767" OutHideMask="4095" EntityGUID="{9E644840-A808-470D-9F39-0E74B35453AA}" EntityGUID_64="470DA8089E644840">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="383" Class="entity:RigidBodyEx" pos="3400,-300,0" flags="0" InHideMask="32767" OutHideMask="4095" EntityGUID="{518C039A-EED7-4CF4-8278-AA6FABAA0DC2}" EntityGUID_64="4CF4EED7518C039A">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="384" Class="entity:RigidBodyEx" pos="3400,-200,0" flags="0" InHideMask="32767" OutHideMask="4095" EntityGUID="{699D60E2-4067-41F8-A132-B193F3522B4B}" EntityGUID_64="41F84067699D60E2">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="386" Class="entity:RigidBodyEx" pos="4720,-2220,0" flags="0" InHideMask="32767" OutHideMask="4095">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="387" Class="entity:RigidBodyEx" pos="4720,-2500,0" flags="0" InHideMask="32767" OutHideMask="4095">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="388" Class="entity:RigidBodyEx" pos="4720,-1940,0" flags="0" InHideMask="32767" OutHideMask="4095">
+       <Inputs entityId="0" Activate="0" DisableUsable="0" EnableUsable="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="390" Class="entity:ProximityTrigger" pos="2680,-400,0" flags="0" EntityGUID="{92F4FC1D-BCD3-41D1-B5FD-836F739319CF}" EntityGUID_64="41D1BCD392F4FC1D">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="393" Class="Time:Delay" pos="-1870,-4990,0" flags="0">
+       <Inputs delay="0.1" resetOnInput="0"/>
+      </Node>
+      <Node Id="3142" Class="Mission:GameTokenSet" pos="3400,-680,0" flags="0">
+       <Inputs gametoken_Token="Level.Missions.Mission_05a" Value="true"/>
+      </Node>
+      <Node Id="3150" Class="Logic:Any" pos="3140,-680,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="3157" Class="Mission:GameTokenSet" pos="6880,-3160,0" flags="0">
+       <Inputs gametoken_Token="Level.Missions.Mission_05a" Value="false"/>
+      </Node>
+      <Node Id="3159" Name="." Class="_commentbox" pos="6470,-3430.5864,0" flags="0">
+       <Inputs TextSize="1" Color="0,0.215861,0" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="740" Height="170"/>
+       <NodeSize Width="740" Height="428.26025"/>
+      </Node>
+      <Node Id="3160" Name="." Class="_commentbox" pos="3130,-952.79529,0" flags="0">
+       <Inputs TextSize="1" Color="0,0.215861,0" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="660" Height="110"/>
+       <NodeSize Width="660" Height="368.26025"/>
+      </Node>
+      <Node Id="3161" Name="Set_mission_game_token" Class="_comment" pos="3140,-720,0" flags="0"/>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="7" nodeOut="3" portIn="Get" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="3" portIn="Get" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="3" portIn="Get" portOut="Out3" enabled="1"/>
+      <Edge nodeIn="56" nodeOut="3" portIn="Get" portOut="Out4" enabled="1"/>
+      <Edge nodeIn="61" nodeOut="3" portIn="Get" portOut="Out5" enabled="1"/>
+      <Edge nodeIn="66" nodeOut="3" portIn="Get" portOut="Out6" enabled="1"/>
+      <Edge nodeIn="25" nodeOut="7" portIn="Trigger" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="75" nodeOut="7" portIn="in" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="233" nodeOut="7" portIn="in" portOut="Rotate" enabled="1"/>
+      <Edge nodeIn="36" nodeOut="8" portIn="Trigger" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="76" nodeOut="8" portIn="in" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="236" nodeOut="8" portIn="in" portOut="Rotate" enabled="1"/>
+      <Edge nodeIn="40" nodeOut="9" portIn="Trigger" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="77" nodeOut="9" portIn="in" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="238" nodeOut="9" portIn="in" portOut="Rotate" enabled="1"/>
+      <Edge nodeIn="54" nodeOut="11" portIn="in1" portOut="Done" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="17" portIn="Position" portOut="out" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="19" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="21" nodeOut="19" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="21" portIn="Beam" portOut="out" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="25" portIn="in1" portOut="False" enabled="1"/>
+      <Edge nodeIn="29" nodeOut="25" portIn="Trigger" portOut="True" enabled="1"/>
+      <Edge nodeIn="31" nodeOut="25" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="31" nodeOut="25" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="232" nodeOut="25" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="232" nodeOut="25" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="27" nodeOut="26" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="27" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="31" portIn="in1" portOut="Out" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="36" portIn="in2" portOut="False" enabled="1"/>
+      <Edge nodeIn="37" nodeOut="36" portIn="Trigger" portOut="True" enabled="1"/>
+      <Edge nodeIn="38" nodeOut="36" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="38" nodeOut="36" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="235" nodeOut="36" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="235" nodeOut="36" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="38" portIn="in2" portOut="Out" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="40" portIn="in3" portOut="False" enabled="1"/>
+      <Edge nodeIn="41" nodeOut="40" portIn="Trigger" portOut="True" enabled="1"/>
+      <Edge nodeIn="42" nodeOut="40" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="42" nodeOut="40" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="237" nodeOut="40" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="237" nodeOut="40" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="42" portIn="in3" portOut="Out" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="48" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="48" portIn="in3" portOut="out" enabled="1"/>
+      <Edge nodeIn="172" nodeOut="52" portIn="in1" portOut="Out4" enabled="1"/>
+      <Edge nodeIn="174" nodeOut="52" portIn="in1" portOut="Out5" enabled="1"/>
+      <Edge nodeIn="182" nodeOut="52" portIn="in1" portOut="Out6" enabled="1"/>
+      <Edge nodeIn="382" nodeOut="52" portIn="UnHide" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="383" nodeOut="52" portIn="UnHide" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="384" nodeOut="52" portIn="UnHide" portOut="Out3" enabled="1"/>
+      <Edge nodeIn="52" nodeOut="53" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="3150" nodeOut="53" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="55" nodeOut="54" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="53" nodeOut="55" portIn="in3" portOut="out" enabled="1"/>
+      <Edge nodeIn="57" nodeOut="56" portIn="Trigger" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="78" nodeOut="56" portIn="in" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="240" nodeOut="56" portIn="in" portOut="Rotate" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="57" portIn="in4" portOut="False" enabled="1"/>
+      <Edge nodeIn="58" nodeOut="57" portIn="Trigger" portOut="True" enabled="1"/>
+      <Edge nodeIn="59" nodeOut="57" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="59" nodeOut="57" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="239" nodeOut="57" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="239" nodeOut="57" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="59" portIn="in4" portOut="Out" enabled="1"/>
+      <Edge nodeIn="62" nodeOut="61" portIn="Trigger" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="79" nodeOut="61" portIn="in" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="242" nodeOut="61" portIn="in" portOut="Rotate" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="62" portIn="in5" portOut="False" enabled="1"/>
+      <Edge nodeIn="63" nodeOut="62" portIn="Trigger" portOut="True" enabled="1"/>
+      <Edge nodeIn="64" nodeOut="62" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="64" nodeOut="62" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="241" nodeOut="62" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="241" nodeOut="62" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="64" portIn="in5" portOut="Out" enabled="1"/>
+      <Edge nodeIn="67" nodeOut="66" portIn="Trigger" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="80" nodeOut="66" portIn="in" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="244" nodeOut="66" portIn="in" portOut="Rotate" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="67" portIn="in6" portOut="False" enabled="1"/>
+      <Edge nodeIn="68" nodeOut="67" portIn="Trigger" portOut="True" enabled="1"/>
+      <Edge nodeIn="69" nodeOut="67" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="69" nodeOut="67" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="243" nodeOut="67" portIn="Close" portOut="False" enabled="1"/>
+      <Edge nodeIn="243" nodeOut="67" portIn="Open" portOut="True" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="69" portIn="in6" portOut="Out" enabled="1"/>
+      <Edge nodeIn="72" nodeOut="71" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="52" nodeOut="72" portIn="Close" portOut="out" enabled="1"/>
+      <Edge nodeIn="31" nodeOut="75" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="38" nodeOut="76" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="42" nodeOut="77" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="59" nodeOut="78" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="64" nodeOut="79" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="69" nodeOut="80" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="110" nodeOut="93" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="133" nodeOut="93" portIn="SilentActivate" portOut="out" enabled="1"/>
+      <Edge nodeIn="387" nodeOut="93" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="112" nodeOut="96" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="131" nodeOut="96" portIn="SilentActivate" portOut="out" enabled="1"/>
+      <Edge nodeIn="386" nodeOut="96" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="114" nodeOut="99" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="129" nodeOut="99" portIn="SilentActivate" portOut="out" enabled="1"/>
+      <Edge nodeIn="388" nodeOut="99" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="382" nodeOut="107" portIn="Hide" portOut="output" enabled="1"/>
+      <Edge nodeIn="383" nodeOut="107" portIn="Hide" portOut="output" enabled="1"/>
+      <Edge nodeIn="384" nodeOut="107" portIn="Hide" portOut="output" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="120" portIn="in1" portOut="Id" enabled="1"/>
+      <Edge nodeIn="142" nodeOut="120" portIn="in" portOut="Id" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="126" portIn="in2" portOut="Id" enabled="1"/>
+      <Edge nodeIn="143" nodeOut="126" portIn="in" portOut="Id" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="127" portIn="in3" portOut="Id" enabled="1"/>
+      <Edge nodeIn="144" nodeOut="127" portIn="in" portOut="Id" enabled="1"/>
+      <Edge nodeIn="208" nodeOut="129" portIn="in3" portOut="Completed" enabled="1"/>
+      <Edge nodeIn="208" nodeOut="131" portIn="in2" portOut="Completed" enabled="1"/>
+      <Edge nodeIn="208" nodeOut="133" portIn="in1" portOut="Completed" enabled="1"/>
+      <Edge nodeIn="93" nodeOut="142" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="96" nodeOut="143" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="99" nodeOut="144" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="129" nodeOut="147" portIn="Completed" portOut="out" enabled="1"/>
+      <Edge nodeIn="131" nodeOut="148" portIn="Completed" portOut="out" enabled="1"/>
+      <Edge nodeIn="133" nodeOut="149" portIn="Completed" portOut="out" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="150" portIn="in4" portOut="Id" enabled="1"/>
+      <Edge nodeIn="161" nodeOut="150" portIn="in" portOut="Id" enabled="1"/>
+      <Edge nodeIn="160" nodeOut="157" portIn="SilentActivate" portOut="out" enabled="1"/>
+      <Edge nodeIn="164" nodeOut="157" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="165" nodeOut="157" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="157" nodeOut="161" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="210" nodeOut="162" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="162" nodeOut="165" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="150" nodeOut="172" portIn="Get" portOut="out" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="173" portIn="in5" portOut="Id" enabled="1"/>
+      <Edge nodeIn="177" nodeOut="173" portIn="in" portOut="Id" enabled="1"/>
+      <Edge nodeIn="173" nodeOut="174" portIn="Get" portOut="out" enabled="1"/>
+      <Edge nodeIn="176" nodeOut="175" portIn="SilentActivate" portOut="out" enabled="1"/>
+      <Edge nodeIn="179" nodeOut="175" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="180" nodeOut="175" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="175" nodeOut="177" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="211" nodeOut="178" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="178" nodeOut="180" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="181" portIn="in6" portOut="Id" enabled="1"/>
+      <Edge nodeIn="71" nodeOut="181" portIn="in1" portOut="Id" enabled="1"/>
+      <Edge nodeIn="185" nodeOut="181" portIn="in" portOut="Id" enabled="1"/>
+      <Edge nodeIn="181" nodeOut="182" portIn="Get" portOut="out" enabled="1"/>
+      <Edge nodeIn="184" nodeOut="183" portIn="SilentActivate" portOut="out" enabled="1"/>
+      <Edge nodeIn="187" nodeOut="183" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="188" nodeOut="183" portIn="entityId" portOut="out" enabled="1"/>
+      <Edge nodeIn="183" nodeOut="185" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="212" nodeOut="186" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="186" nodeOut="188" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="213" nodeOut="208" portIn="in1" portOut="Out" enabled="1"/>
+      <Edge nodeIn="245" nodeOut="210" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="246" nodeOut="211" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="247" nodeOut="212" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="214" nodeOut="213" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="221" nodeOut="213" portIn="Completed" portOut="out" enabled="1"/>
+      <Edge nodeIn="210" nodeOut="214" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="211" nodeOut="214" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="212" nodeOut="214" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="222" nodeOut="220" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="3157" nodeOut="221" portIn="Trigger" portOut="Completed" enabled="1"/>
+      <Edge nodeIn="221" nodeOut="222" portIn="Activate" portOut="out" enabled="1"/>
+      <Edge nodeIn="234" nodeOut="232" portIn="in1" portOut="Out" enabled="1"/>
+      <Edge nodeIn="232" nodeOut="233" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="234" portIn="Rotation" portOut="out" enabled="1"/>
+      <Edge nodeIn="234" nodeOut="235" portIn="in2" portOut="Out" enabled="1"/>
+      <Edge nodeIn="235" nodeOut="236" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="234" nodeOut="237" portIn="in3" portOut="Out" enabled="1"/>
+      <Edge nodeIn="237" nodeOut="238" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="234" nodeOut="239" portIn="in4" portOut="Out" enabled="1"/>
+      <Edge nodeIn="239" nodeOut="240" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="234" nodeOut="241" portIn="in5" portOut="Out" enabled="1"/>
+      <Edge nodeIn="241" nodeOut="242" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="234" nodeOut="243" portIn="in6" portOut="Out" enabled="1"/>
+      <Edge nodeIn="243" nodeOut="244" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="160" nodeOut="245" portIn="Deactivate" portOut="out" enabled="1"/>
+      <Edge nodeIn="164" nodeOut="245" portIn="Disable" portOut="out" enabled="1"/>
+      <Edge nodeIn="176" nodeOut="246" portIn="Deactivate" portOut="out" enabled="1"/>
+      <Edge nodeIn="179" nodeOut="246" portIn="Disable" portOut="out" enabled="1"/>
+      <Edge nodeIn="184" nodeOut="247" portIn="Deactivate" portOut="out" enabled="1"/>
+      <Edge nodeIn="187" nodeOut="247" portIn="Disable" portOut="out" enabled="1"/>
+      <Edge nodeIn="354" nodeOut="348" portIn="false" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="354" nodeOut="348" portIn="true" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="393" nodeOut="348" portIn="in" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="356" nodeOut="350" portIn="B" portOut="NearEntityDist" enabled="1"/>
+      <Edge nodeIn="350" nodeOut="351" portIn="entityId" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="350" nodeOut="352" portIn="Entity1" portOut="Id" enabled="1"/>
+      <Edge nodeIn="350" nodeOut="353" portIn="Check" portOut="out" enabled="1"/>
+      <Edge nodeIn="353" nodeOut="354" portIn="paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="358" nodeOut="355" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="357" nodeOut="356" portIn="A" portOut="out" enabled="1"/>
+      <Edge nodeIn="358" nodeOut="357" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="349" nodeOut="358" portIn="WaterDroplets_Amount" portOut="out" enabled="1"/>
+      <Edge nodeIn="120" nodeOut="382" portIn="Get" portOut="UnHide" enabled="1"/>
+      <Edge nodeIn="126" nodeOut="383" portIn="Get" portOut="UnHide" enabled="1"/>
+      <Edge nodeIn="127" nodeOut="384" portIn="Get" portOut="UnHide" enabled="1"/>
+      <Edge nodeIn="112" nodeOut="386" portIn="Hide" portOut="Used" enabled="1"/>
+      <Edge nodeIn="148" nodeOut="386" portIn="in" portOut="Used" enabled="1"/>
+      <Edge nodeIn="110" nodeOut="387" portIn="Hide" portOut="Used" enabled="1"/>
+      <Edge nodeIn="149" nodeOut="387" portIn="in" portOut="Used" enabled="1"/>
+      <Edge nodeIn="114" nodeOut="388" portIn="Hide" portOut="Used" enabled="1"/>
+      <Edge nodeIn="147" nodeOut="388" portIn="in" portOut="Used" enabled="1"/>
+      <Edge nodeIn="53" nodeOut="390" portIn="in1" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="220" nodeOut="390" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="355" nodeOut="393" portIn="set" portOut="out" enabled="1"/>
+      <Edge nodeIn="3142" nodeOut="3150" portIn="Trigger" portOut="out" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{47DC641B-FA36-401F-AC1A-7F1873711B67}" Name="CoverSurface230" Pos="1706.3038,557.97845,57.301193" FloorNumber="-1" Rotate="-0.017452559,0,0,0.99984771" ColorRGB="11829830" SurfaceID="94" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{D4D8FB1D-42EE-4972-80D1-264013C9A72D}" Name="CoverSurface234" Pos="1730.1173,551.55859,56.579334" FloorNumber="-1" Rotate="0.73727733,0,0,0.67559022" ColorRGB="11829830" SurfaceID="95" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{92F4FC1D-BCD3-41D1-B5FD-836F739319CF}" Name="garden_gnome_trig" Pos="1631.9999,844,49.999996" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="ProximityTrigger" HasEntity="1">
+    <Properties bActivateWithUseButton="0" DimX="50" DimY="2" DimZ="20" bEnabled="1" EnterDelay="0" ExitDelay="0" esFactionFilter="" bInVehicleOnly="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" bRemoveOnTrigger="0" ScriptCommand="" bTriggerOnce="0" UsableMessage="">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{58449C21-EB94-410C-89D5-CE2AADAA2E3A}" Name="CoverSurface224" Pos="1717.37,574.39807,55.594501" FloorNumber="-1" Rotate="-0.17364821,0,0,0.98480773" ColorRGB="11829830" SurfaceID="96" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{75CCB521-75A7-45F4-B04A-8F3C2F711B84}" Name="CoverSurface235" Pos="1721.8613,546.30621,56.636131" FloorNumber="-1" Rotate="0.99984771,0,0,-0.017452376" ColorRGB="11829830" SurfaceID="97" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{FD36FD22-76EB-4E4D-86B5-6407A714AD25}" Name="CoverSurface220" Pos="1728.728,605.65582,56.684418" FloorNumber="-1" Rotate="0.30070579,0,0,0.95371699" ColorRGB="11829830" SurfaceID="98" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{35C15D25-3504-414C-A935-49C8EC56533F}" Name="CoverSurface240" Pos="1693.8002,537.78503,53.760792" FloorNumber="-1" Rotate="0.18223545,0,0,0.98325491" ColorRGB="11829830" SurfaceID="99" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{62643A26-F01D-4527-A2F8-680AF1FD4755}" Name="CoverSurface172" Pos="1646.9766,829.4397,47.310089" FloorNumber="-1" Rotate="-0.37460667,0,0,0.92718381" ColorRGB="11829830" SurfaceID="100" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="TagPoint" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{CEC11627-788C-405D-9539-FD29AC332E7B}" Name="object_hunt_location_05" Pos="1597.2206,498.80447,54.801704" FloorNumber="-1" Rotate="0.31550962,0.67056614,-0.22436811,-0.63281411" ColorRGB="16711680" EntityClass="TagPoint" HasEntity="1"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{0ECC2329-1712-40C6-B472-461E6AE5DDC3}" Name="CoverSurface202" Pos="1638.7054,713.63916,47.963039" FloorNumber="-1" Rotate="0.88294756,-0,0,-0.4694716" ColorRGB="11829830" SurfaceID="101" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{E924AF2E-48C0-472F-A751-DD59838929EF}" Name="CoverSurface243" Pos="1709.0205,638.54388,54.509804" FloorNumber="-1" Rotate="0.96126175,-0,0,-0.27563727" ColorRGB="11829830" SurfaceID="102" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="1" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="TagPoint" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{66B66D31-B473-43D6-A0E4-34466DAE94CC}" Name="object_hunt_location_02" Pos="1530.6312,620.46204,48.25555" FloorNumber="-1" Rotate="0.46390367,0.4639037,0.53366035,0.53366035" ColorRGB="16711680" EntityClass="TagPoint" HasEntity="1"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{D265553A-5544-4040-ADFB-D43D1C76DF61}" Name="CoverSurface229" Pos="1708.1117,567.79974,55.862087" FloorNumber="-1" Rotate="0.55193686,0,0,0.83388591" ColorRGB="11829830" SurfaceID="103" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{A3DB7F3C-E8E7-43FD-9D4D-1A59214BB505}" Name="MO_object_00" Pos="1747.8422,630.24683,79" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MissionObjective" HasEntity="1">
+    <Properties mission_MissionID="woodland.woodland_05_parent" bShowOnRadar="0" sTrackedEntityName=""/>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{FCDC403E-C7CA-4C44-8C2B-1F8297E76524}" Name="CoverSurface241" Pos="1688.6123,547.55957,55.741016" FloorNumber="-1" Rotate="-0.48480967,0,0,0.87461966" ColorRGB="11829830" SurfaceID="104" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="TagPoint" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{4B06033F-DD67-4D0B-B389-E3AE0429FC61}" Name="object_hunt_location_04" Pos="1539.739,691.91248,52.403305" FloorNumber="-1" Rotate="0.55643034,0.50987446,-0.44322699,-0.48369741" ColorRGB="16711680" EntityClass="TagPoint" HasEntity="1"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{9E644840-A808-470D-9F39-0E74B35453AA}" Name="garden_gnome_01" Pos="1747.8422,626.24683,75" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx" HasEntity="1">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/props/misc/garden_gnome/gardengnome.cgf" bPickable="0" bSerialize="0" soclasses_SmartObjectClass="" bUsable="1" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="0" bPushableByPlayers="0" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{68776241-4202-477F-8D9D-CD27F710D352}" Name="MO_object_03" Parent="{699D60E2-4067-41F8-A132-B193F3522B4B}" Pos="0,0,0.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MissionObjective" HasEntity="1">
+    <Properties mission_MissionID="woodland.woodland_05c" bShowOnRadar="1" sTrackedEntityName=""/>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{B2A4E443-10F8-4621-8DC0-6492D5A0E6BD}" Name="CoverSurface203" Pos="1703.4424,662.53217,51.240356" FloorNumber="-1" Rotate="0.97992474,0,0,-0.19936779" ColorRGB="11829830" SurfaceID="105" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{B618DD48-3FF3-4E62-84D3-D122EF60A1EC}" Name="CoverSurface219" Pos="1738.5469,625.77905,57.041969" FloorNumber="-1" Rotate="0.96814764,0,0,0.25038001" ColorRGB="11829830" SurfaceID="106" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{0BC56A57-F674-4D61-B10E-0ACDDEE98FDE}" Name="CoverSurface177" Pos="1653.6448,817.49915,46.91111" FloorNumber="-1" Rotate="-0.37460667,0,0,0.92718381" ColorRGB="11829830" SurfaceID="107" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{F6480C58-0B37-4190-9BE7-03E9CBB0D7E7}" Name="CoverSurface212" Pos="1727.384,654.44788,56.196011" FloorNumber="-1" Rotate="0.75470954,0,0,0.65605909" ColorRGB="11829830" SurfaceID="108" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{6AC0E55B-DC5B-4118-A854-E0601769912D}" Name="CoverSurface239" Pos="1712.826,544.13843,55.67054" FloorNumber="-1" Rotate="-0.25038007,0,0,0.96814764" ColorRGB="11829830" SurfaceID="109" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="1" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{5F71E160-72E0-4905-93D2-47510CD197A6}" Name="CoverSurface226" Pos="1722.9807,590.01233,57.901237" FloorNumber="-1" Rotate="0.99026811,0,0,-0.13917306" ColorRGB="11829830" SurfaceID="110" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{3E594063-9B0A-493A-AAA8-9FD0FB2BB722}" Name="CoverSurface289" Pos="1675.9718,645.81647,45.65506" FloorNumber="-1" Rotate="0.92387956,-0,0,-0.3826834" ColorRGB="11829830" SurfaceID="111" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="1" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{C2EFDA68-24FE-43CA-B955-20D0AD17F659}" Name="SpawnPoint5" Pos="1663.4414,863.87976,53.182362" FloorNumber="-1" Rotate="0.51503813,0,0,0.8571673" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{64417C6E-0B73-406C-8E8E-21E4C25C1772}" Name="CoverSurface237" Pos="1720.0673,540.87689,56.97348" FloorNumber="-1" Rotate="0.68199831,0,0,0.73135376" ColorRGB="11829830" SurfaceID="112" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{B0987F6E-1F00-4D71-990D-4E58D3EC70A0}" Name="CoverSurface290" Pos="1692.5197,632.19995,49.15984" FloorNumber="-1" Rotate="0.82903761,0,0,-0.55919284" ColorRGB="11829830" SurfaceID="113" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="1" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{2361606F-1A2A-4CE7-8440-0B63C8206847}" Name="MO_object_04" Parent="{EB00CEB3-CFDB-4361-9CC3-ACC757A3BF3A}" Pos="0,0,0.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MissionObjective" HasEntity="1">
+    <Properties mission_MissionID="woodland.woodland_05d" bShowOnRadar="1" sTrackedEntityName=""/>
+   </Object>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{D9981572-71B9-4EAC-A508-2DC9A0EAE12B}" Name="object_hunt_fake_trig_02" Pos="1747.8422,610.24683,75" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="ProximityTrigger" HasEntity="1">
+    <Properties bActivateWithUseButton="0" DimX="5" DimY="5" DimZ="5" bEnabled="1" EnterDelay="0" ExitDelay="0" esFactionFilter="" bInVehicleOnly="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" bRemoveOnTrigger="0" ScriptCommand="" bTriggerOnce="0" UsableMessage="">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="TagPoint" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{81B76875-6636-4C7A-8DB1-B5931B74C45C}" Name="object_hunt_location_06" Pos="1625.9935,721.40717,50.707375" FloorNumber="-1" Rotate="0.4639037,0.46390373,0.53366035,0.53366035" ColorRGB="16711680" EntityClass="TagPoint" HasEntity="1"/>
+   <Object Type="Brush" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{D0C25E79-6467-4A1F-908D-09DA121FDDC6}" Name="campfire2" Pos="1626.5858,721.50775,50.372833" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/fishing_camp/campfire.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{20F1DC7C-5BF0-4A8C-BCEF-607C46B1784C}" Name="CoverSurface242" Pos="1720.1134,644.02771,56.455414" FloorNumber="-1" Rotate="-0.095845819,0,0,0.9953962" ColorRGB="11829830" SurfaceID="114" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="1" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{2B600085-6A87-431D-9943-D82AE05B2EFE}" Name="CoverSurface201" Pos="1643.0605,718.54626,47.042988" FloorNumber="-1" Rotate="-0.061048545,0,0,0.99813479" ColorRGB="11829830" SurfaceID="115" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{F1939E87-FE76-4F27-8DBE-38D292928556}" Name="CoverSurface208" Pos="1723.7379,660.00262,55.371765" FloorNumber="-1" Rotate="0.21643963,0,0,0.97629601" ColorRGB="11829830" SurfaceID="116" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{663AEB87-3780-4DCE-B430-25F7946DB47C}" Name="MO_object_05" Parent="{D9981572-71B9-4EAC-A508-2DC9A0EAE12B}" Pos="0,0,0.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MissionObjective" HasEntity="1">
+    <Properties mission_MissionID="woodland.woodland_05e" bShowOnRadar="1" sTrackedEntityName=""/>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{5C12118C-A3D1-43A7-8B25-A37187C269F7}" Name="CoverSurface217" Pos="1723.1393,618.34448,56.365551" FloorNumber="-1" Rotate="0.98480773,0,0,0.17364824" ColorRGB="11829830" SurfaceID="117" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{3B7B3594-DB27-4579-AFF9-EEEB30CA2E81}" Name="CoverSurface200" Pos="1651.0461,837.54462,49.049995" FloorNumber="-1" Rotate="0.93667215,0,0,0.35020745" ColorRGB="11829830" SurfaceID="118" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{518C039A-EED7-4CF4-8278-AA6FABAA0DC2}" Name="garden_gnome_02" Pos="1747.8422,622.24683,75" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx" HasEntity="1">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/props/misc/garden_gnome/gardengnome.cgf" bPickable="0" bSerialize="0" soclasses_SmartObjectClass="" bUsable="1" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="0" bPushableByPlayers="0" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{0923CCA3-1194-4E71-ADA0-917BB1849695}" Name="CoverSurface236" Pos="1715.3252,548.12115,55.479069" FloorNumber="-1" Rotate="0.99984771,0,0,-0.017452376" ColorRGB="11829830" SurfaceID="119" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{B43638AA-57E9-4482-9638-E19A641A9E02}" Name="CoverSurface232" Pos="1717.0435,569.65149,55.549999" FloorNumber="-1" Rotate="0.98480779,0,0,-0.17364809" ColorRGB="11829830" SurfaceID="120" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{16175AAC-05E3-4717-8B80-43356205F294}" Name="CoverSurface195" Pos="1653.2201,823.23718,47.976181" FloorNumber="-1" Rotate="0.93667215,0,0,0.35020745" ColorRGB="11829830" SurfaceID="121" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="Brush" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{9BF886AE-0746-494E-8548-C017F1D47FF4}" Name="campfire6" Pos="1538.8971,691.84821,52.053246" FloorNumber="-1" Rotate="0.99802119,0.034851667,0.052304074,-0.0018264984" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/fishing_camp/campfire.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{7E7BB8AE-9D49-4A0C-A618-40F27286CB87}" Name="CoverSurface204" Pos="1712.3124,663.33655,53.676994" FloorNumber="-1" Rotate="0.8829475,0,0,0.46947169" ColorRGB="11829830" SurfaceID="122" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{FB46BBB1-B181-4D0B-8352-56F50CA9E0FA}" Name="CoverSurface192" Pos="1658.9475,812.97388,47.179039" FloorNumber="-1" Rotate="0.8949343,0,0,0.44619793" ColorRGB="11829830" SurfaceID="123" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{EB00CEB3-CFDB-4361-9CC3-ACC757A3BF3A}" Name="object_hunt_fake_trig_01" Pos="1747.8422,614.24683,75" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="ProximityTrigger" HasEntity="1">
+    <Properties bActivateWithUseButton="0" DimX="5" DimY="5" DimZ="5" bEnabled="1" EnterDelay="0" ExitDelay="0" esFactionFilter="" bInVehicleOnly="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" bRemoveOnTrigger="0" ScriptCommand="" bTriggerOnce="0" UsableMessage="">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{762CB4B5-B3E5-4AA6-8899-2C13E142A6B0}" Name="object_hunt_fake_trig_03" Pos="1747.8422,606.24683,75" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="ProximityTrigger" HasEntity="1">
+    <Properties bActivateWithUseButton="0" DimX="5" DimY="5" DimZ="5" bEnabled="1" EnterDelay="0" ExitDelay="0" esFactionFilter="" bInVehicleOnly="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" bRemoveOnTrigger="0" ScriptCommand="" bTriggerOnce="0" UsableMessage="">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{ADFD44B9-B17E-4953-9BB5-F4844B19C227}" Name="CoverSurface214" Pos="1727.6097,634.08221,54.930489" FloorNumber="-1" Rotate="-0.4694716,0,0,0.88294756" ColorRGB="11829830" SurfaceID="124" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{406B4DB9-5270-4270-B38B-A56C2B5C41E3}" Name="CoverSurface228" Pos="1705.9688,575.45038,56.287682" FloorNumber="-1" Rotate="0.94551861,0,0,0.32556817" ColorRGB="11829830" SurfaceID="125" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="TagPoint" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{9543FFC0-6A3A-4FDA-A7CD-0942CD4D6B30}" Name="object_hunt_location_03" Pos="1683.8575,553.26263,57.38063" FloorNumber="-1" Rotate="0.70538431,0.70538425,0.049325399,0.049325421" ColorRGB="16711680" EntityClass="TagPoint" HasEntity="1"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{EAB439D2-699C-476B-9856-FFDE2DB67CD8}" Name="CoverSurface244" Pos="1710.972,631.17072,55.705044" FloorNumber="-1" Rotate="-0.33380699,0,0,0.94264144" ColorRGB="11829830" SurfaceID="126" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="1" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{E7C9DAD4-1D7C-4663-A4BE-731C09B72451}" Name="CoverSurface194" Pos="1690.4723,680.53815,46.772411" FloorNumber="-1" Rotate="-0.37460667,0,0,0.92718381" ColorRGB="11829830" SurfaceID="127" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{F3246FDA-06B7-4C43-8C35-7F4D195C2798}" Name="CoverSurface233" Pos="1718.0303,559.4986,55.651516" FloorNumber="-1" Rotate="-0.17364821,0,0,0.98480773" ColorRGB="11829830" SurfaceID="128" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{B155D7DE-9703-47C1-A720-D604140621D1}" Name="CoverSurface223" Pos="1723.3574,585.10699,58.291233" FloorNumber="-1" Rotate="0.95881975,-0,0,-0.28401533" ColorRGB="11829830" SurfaceID="129" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{780952E0-227A-45DE-A6A2-825AAAD75B8E}" Name="CoverSurface216" Pos="1728.2252,623.48407,56.006618" FloorNumber="-1" Rotate="0.0871557,0,0,0.99619472" ColorRGB="11829830" SurfaceID="130" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="TagPoint" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{5FED40E2-B33C-483B-B758-F42DB3269117}" Name="object_hunt_location_01" Pos="1651.2657,596.00714,50.468613" FloorNumber="-1" Rotate="-0.3155095,-0.31550947,0.63281411,0.63281417" ColorRGB="16711680" EntityClass="TagPoint" HasEntity="1"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{699D60E2-4067-41F8-A132-B193F3522B4B}" Name="garden_gnome_03" Pos="1747.8422,618.24683,75" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="RigidBodyEx" HasEntity="1">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/props/misc/garden_gnome/gardengnome.cgf" bPickable="0" bSerialize="0" soclasses_SmartObjectClass="" bUsable="1" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="0" bPushableByPlayers="0" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{AE4645E7-63AB-4554-868D-EE8BC2CD00FA}" Name="CoverSurface227" Pos="1728.7328,593.06378,57.861061" FloorNumber="-1" Rotate="0.14780937,0,0,0.98901588" ColorRGB="11829830" SurfaceID="131" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="1" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{64879BEA-C48C-4147-9E72-607894FE2365}" Name="CoverSurface225" Pos="1723.4768,591.12909,57.989067" FloorNumber="-1" Rotate="0.17364815,0,0,0.98480779" ColorRGB="11829830" SurfaceID="132" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{27C6A3EA-4FFF-442B-B5AB-6DB6E0C63956}" Name="CoverSurface206" Pos="1706.0594,654.64819,52.031849" FloorNumber="-1" Rotate="0.7313537,0,0,0.68199837" ColorRGB="11829830" SurfaceID="133" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{2C179BEE-7D01-4027-AA5E-072C5F3CF64F}" Name="MO_object_01" Parent="{9E644840-A808-470D-9F39-0E74B35453AA}" Pos="0,0,0.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MissionObjective" HasEntity="1">
+    <Properties mission_MissionID="woodland.woodland_05a" bShowOnRadar="1" sTrackedEntityName=""/>
+   </Object>
+   <Object Type="Entity" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{98BD96EF-F2AB-47C5-BDC8-5B9F54EBC593}" Name="MO_object_02" Parent="{518C039A-EED7-4CF4-8278-AA6FABAA0DC2}" Pos="0,0,0.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MissionObjective" HasEntity="1">
+    <Properties mission_MissionID="woodland.woodland_05b" bShowOnRadar="1" sTrackedEntityName=""/>
+   </Object>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{F3A91DF4-F148-4B88-8568-A7015EC7760C}" Name="CoverSurface215" Pos="1723.9257,622.03644,56.098251" FloorNumber="-1" Rotate="0.0871557,0,0,0.99619472" ColorRGB="11829830" SurfaceID="134" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+   <Object Type="CoverSurface" Layer="AB05_Gameplay" LayerGUID="{BF33B98C-DD57-49A0-9751-D893951F52B9}" Id="{87F603F7-84CB-4D6A-87BE-75DD06DA6D86}" Name="CoverSurface205" Pos="1716.2419,658.99847,53.172508" FloorNumber="-1" Rotate="0.73135382,0,0,-0.68199831" ColorRGB="11829830" SurfaceID="135" Sampler="Default" LimitDepth="0.75" LimitHeight="2.75" LimitLeft="12" LimitRight="12" SampleWidth="0.25" SampleHeight="0.25" MaxStartHeight="0.5" SimplifyThreshold="0.075000003"/>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

@@ -1,0 +1,9 @@
+<MetaData>
+ <Gamerules MP1="InstantAction" MP2="TeamInstantAction" />
+ <MiniMap Filename="airfield.dds" startX="1722.0964" startY="1003.4763" endX="2490.0964" endY="1771.4763" width="512" height="512"/>
+ <Attributes>
+  <loading_video value=""/>
+  <loading_image value="Levels/Multiplayer/Airfield/LoadingAirfield.dds"/>
+  <DescriptionText text="@Loading_screen_info_airfield"/>
+ </Attributes>
+</MetaData>

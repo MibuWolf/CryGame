@@ -1,0 +1,594 @@
+<ObjectLayer>
+ <Layer Name="Lighting_Helpers" GUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Exportable="0" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="{28949EA0-3B46-49FE-A546-F4FD45336737}">
+  <LayerObjects>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{C091E303-6388-4FCB-9033-7E5129003073}" Name="lighting_helper14" Pos="1487.7578,870.80365,40.321926" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{C5EF5705-9358-4D0E-AF6F-012A79D1BC83}" Name="lighting_helper52" Pos="1679.4084,518.3501,59.057411" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{8F284F06-3A84-40E7-8BDF-02B551BB9AF4}" Name="lighting_helper17" Pos="1528.8921,850.10101,49.662148" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{19248D07-B3C4-422E-B6A1-5A1C503FC42A}" Name="lighting_helper49" Pos="1700.3247,544.3573,57.982689" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{6FBE6508-8308-4670-9D8B-036A0E064EA5}" Name="lighting_helper34" Pos="1652.1517,781.77576,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{FCB56F0B-A784-49CF-91F0-7D94C73DD771}" Name="lighting_helper70" Pos="1579.9806,719.23645,56.965" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{4EF2090C-F162-4676-BBC2-069B1BFE5A5D}" Name="lighting_helper90" Pos="1548.1583,633.72791,50.51524" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{5169520C-2DC0-49FB-BA3E-ABF47EB4B063}" Name="lighting_helper30" Pos="1656.6807,890.58997,57.180824" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{91282413-1935-4546-81E5-EE030774416A}" Name="lighting_helper76" Pos="1499.6123,629.84003,52.407738" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{4EDF3D18-7DDE-487A-9E14-B2F82ABB02AE}" Name="lighting_helper39" Pos="1681.3569,637.60333,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{DDD4BE1A-CFCA-419D-A9FA-A1E3E6581852}" Name="lighting_helper48" Pos="1730.3224,555.07983,59.547874" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{C667E51B-070D-4C8B-93D3-CE93F1D5EFDE}" Name="lighting_helper62" Pos="1639.1481,554.25378,56.005886" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{E43D5922-8F50-4C09-98FA-CEB690FB10ED}" Name="lighting_helper4" Pos="1402.5804,863.85956,38.026394" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{91F52627-1632-43EA-9A38-72D10F0D9652}" Name="lighting_helper80" Pos="1590.9108,643.6955,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{CD967128-946B-441F-BC76-214BFC0585C2}" Name="lighting_helper33" Pos="1640.1698,817.67737,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{791EC828-D791-4FF9-B73A-B874854F1C7C}" Name="lighting_helper10" Pos="1420.8368,922.88739,42.673767" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{D686E32C-DB25-402B-A298-C61A1C55CBF1}" Name="lighting_helper11" Pos="1441.8702,921.08282,41.344097" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{16957B38-37EA-4742-90B0-1741FFCC0F26}" Name="lighting_helper27" Pos="1593.3881,888.79266,49.620564" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{DFCA493A-18AF-4F6F-A2D5-57A96A05837C}" Name="lighting_helper86" Pos="1527.7183,599.34052,50.51524" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{C2BF343C-42D3-43F0-BAA5-C200527C0FF5}" Name="lighting_helper58" Pos="1604.2286,504.92636,57.441483" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{9C27083F-516C-4B6F-B2FC-2687BA19E92A}" Name="lighting_helper64" Pos="1678.4427,588.77338,55.238422" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{6309F940-1BA0-4602-9A76-D6CE3AFE1C15}" Name="lighting_helper95" Pos="1616.6909,597.16016,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{6FF6C441-A7A1-4AD7-855B-765FE0E5FA5C}" Name="lighting_helper40" Pos="1708.4951,658.2923,56.508373" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{DD16D741-A766-494E-BEC1-3FD9B8C3B677}" Name="lighting_helper57" Pos="1618.004,518.32159,57.884041" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{907EF346-FD31-4882-9D74-B2A519FD1ADF}" Name="lighting_helper46" Pos="1716.1559,581.69031,61.187233" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{47591948-473A-47A2-8607-923F3B133264}" Name="lighting_helper77" Pos="1505.7202,607.8363,50.51524" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{ED741F48-AD3E-48F3-BFCE-3E0EA657D915}" Name="lighting_helper47" Pos="1712.9043,560.25055,58.597347" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{40AF254A-8090-49CE-BD57-72F6CECFCB0F}" Name="lighting_helper32" Pos="1627.9562,842.94989,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{9038744B-19FD-4300-B184-EF56A5D5BA76}" Name="lighting_helper6" Pos="1424.202,878.12299,39.308552" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{2C91B24B-C187-4CDA-A3E6-798D94D27508}" Name="lighting_helper24" Pos="1510.3591,850.19818,42.175991" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{AFC6D34B-CB4E-48FB-8EDC-70319DA225C3}" Name="lighting_helper69" Pos="1588.3151,706.25714,54.437485" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{EECC804C-7A74-4205-BA7D-8ABBEA0B1347}" Name="lighting_helper18" Pos="1546.2804,847.54901,45.380508" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{BB7AC14D-9DF8-4E3D-9AF9-033E0CC54444}" Name="lighting_helper82" Pos="1570.025,578.33551,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{CE826F50-E869-4597-8E1F-2836D5ED71A6}" Name="lighting_helper50" Pos="1683.5385,550.48444,59.133911" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{74E35351-1807-4815-B333-765C054B1A9B}" Name="lighting_helper15" Pos="1501.6586,878.87958,41.135437" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{7BB73752-CD63-4FCA-BA96-3E0F3C068833}" Name="lighting_helper53" Pos="1652.3043,506.19763,58.065792" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{C96E9F54-0955-47A2-945A-ACF847C0E6C7}" Name="lighting_helper51" Pos="1675.4019,539.13062,57.226311" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{13600657-C217-45FF-B45A-FA70105EF1DE}" Name="lighting_helper81" Pos="1580.1068,611.0899,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{2DB88957-2749-49D0-A122-2BBFE0F70640}" Name="lighting_helper41" Pos="1724.0377,662.58856,60.302574" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{7048AA5D-EAEA-44B9-A642-6D110E9C1FEC}" Name="lighting_helper2" Pos="1355.8738,907.87421,41.71825" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{9586095F-B185-4850-BC06-4C78948CBA6D}" Name="lighting_helper97" Pos="1607.1127,617.24536,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{5EC70E61-F1C9-44AB-983B-8AE009426C52}" Name="lighting_helper25" Pos="1565.1675,860.63129,45.380508" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{B6BEFE63-A3E7-4643-8259-77CD291DFD1F}" Name="lighting_helper43" Pos="1709.3518,635.03101,61.384403" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{55CB4865-1BB4-41C2-B706-F7DB517A7F6F}" Name="lighting_helper37" Pos="1627.0647,721.73505,54.654568" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{CA4B8765-C5B0-4307-B9BE-3ABF16F2AAF2}" Name="lighting_helper55" Pos="1651.6267,538.7312,59.142361" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{AF87CA67-E04D-4BA0-A3A2-2BF39D49691E}" Name="lighting_helper13" Pos="1471.8226,888.83771,40.925034" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{35C2766A-4233-41C3-BEE0-8408515C42A1}" Name="lighting_helper67" Pos="1619.9122,678.82733,50.246555" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{83D5496F-446F-4C6D-B4AD-DF7765DA25E7}" Name="lighting_helper7" Pos="1428.767,854.54114,40.164951" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{7C297D70-A833-4FED-84B2-9C7348D3B02C}" Name="lighting_helper66" Pos="1633.6569,581.50555,52.039997" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{F6D5BE70-2C40-4352-B3AA-F8F255BFB4AA}" Name="lighting_helper59" Pos="1599.7877,529.40698,56.627934" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{20488E71-1EEA-422D-8B68-DE767C8738D3}" Name="lighting_helper92" Pos="1557.3407,542.04791,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{6B0EFF74-2CAF-4E5C-9BB1-97371EDA90A6}" Name="lighting_helper8" Pos="1420.3693,900.3941,40.864685" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{4579437B-8520-479F-B972-D36E0AB95263}" Name="lighting_helper91" Pos="1534.6907,533.60229,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{5D94F87B-40A9-47DF-BD90-4E373BE396D4}" Name="lighting_helper3" Pos="1381.9542,887.93036,39.499958" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{065DE67E-8187-463E-852F-FBC21996F8B9}" Name="lighting_helper5" Pos="1329.5044,930.3103,48.066673" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{CED80880-0935-4683-9F96-7CC7CA670DB5}" Name="lighting_helper9" Pos="1430.3483,910.17719,41.655304" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{55037983-60EA-4BE7-A72C-4270125DC4F4}" Name="lighting_helper99" Pos="1468.379,537.10425,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{81858A87-C487-4D50-85B9-E0A87419D8F8}" Name="lighting_helper42" Pos="1725.0367,640.77362,60.733631" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{0D91698C-B077-4735-8E06-066427CD10A8}" Name="lighting_helper60" Pos="1581.2543,529.46442,57.815857" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{BD50028D-7460-48D1-8EAF-37C05F61610D}" Name="lighting_helper26" Pos="1567.422,893.34192,50" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{1BE2F28D-B11A-419D-9A74-AAC48C9B9A99}" Name="lighting_helper79" Pos="1625.455,656.57623,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{7B077492-7BD7-48AF-B000-FF92E28EC9A9}" Name="lighting_helper89" Pos="1542.4963,612.44684,50.51524" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{B36EE793-7BE0-43A2-9115-81C2D2299036}" Name="lighting_helper12" Pos="1460.1149,912.401,39.887142" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{D836029A-38B1-495E-AEFA-7B7BE375597D}" Name="lighting_helper36" Pos="1671.5865,691.63831,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{05FC479D-DFD7-45A6-B4B6-27689CC7B414}" Name="lighting_helper88" Pos="1536.1221,590.92438,50.51524" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{C660ED9D-B48A-43C9-AAFE-7A5F97E1E000}" Name="lighting_helper98" Pos="1465.104,561.31152,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{F50093A0-9A67-4DBB-BEDF-10B532DB4463}" Name="lighting_helper84" Pos="1515.4896,549.90021,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{993847A1-42C4-4995-8997-352C2F0420BB}" Name="lighting_helper20" Pos="1396.2772,844.11078,38.026394" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{542DD5A3-EE85-423E-917D-6A464D506AF9}" Name="lighting_helper29" Pos="1627.2814,884.1001,51.924923" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{56C95CA8-2F9D-4CF4-83B0-631CE89127B3}" Name="lighting_helper71" Pos="1557.7889,692.34662,56.099434" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{94A200AC-952F-4E14-9D5A-7A754F3D7233}" Name="lighting_helper44" Pos="1732.5364,621.79645,62.375854" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{FDE88DAE-8141-4124-B161-50D6A95437A9}" Name="lighting_helper63" Pos="1658.0836,565.25616,58.469448" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{75D4F5AE-849B-437E-9F4B-E99CD3D93F7A}" Name="lighting_helper68" Pos="1605.1292,694.5094,52.84573" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{B91B0DAF-E93A-452A-A10F-D58E80855295}" Name="lighting_helper72" Pos="1547.6477,671.95697,53.890675" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{0C76F3B0-C482-4812-8C7D-9335F67BDFAF}" Name="lighting_helper19" Pos="1380.4054,902.22919,45.146366" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{DEBDCCB7-6750-493E-BEF6-0CE2E1EB066C}" Name="lighting_helper54" Pos="1625.3929,497.72885,57.356998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{CE14E2B7-5648-42A2-9B01-3185D5462C85}" Name="lighting_helper56" Pos="1640.1262,523.63513,57.169636" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{5D154BB9-09F0-47CD-9764-37E317A4DE26}" Name="lighting_helper78" Pos="1656.9758,654.73389,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{3D6DDCBB-5513-4174-9728-95D81F6EA479}" Name="lighting_helper28" Pos="1629.6138,908.95123,53.884373" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{4F9269C0-A470-47EC-BBCF-B8CEEC97E853}" Name="lighting_helper31" Pos="1654.3009,860.25757,59.288971" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{FB070DC6-F4CD-4992-8435-65D541704BF1}" Name="lighting_helper45" Pos="1721.9968,606.19739,64.732666" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{098678C6-5E88-4BC8-BE7F-908EA4C49DD8}" Name="lighting_helper23" Pos="1499.2656,852.75305,44.877769" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{D13C88C6-E386-4AFD-AB7E-B185E9873248}" Name="lighting_helper94" Pos="1607.5779,577.2489,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{3B0CB6C6-5DB6-4991-837B-28BA0C71A756}" Name="lighting_helper83" Pos="1545.9459,560.26923,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{A8FE32CB-3BCF-4928-992B-EF769DC45787}" Name="lighting_helper16" Pos="1507.4266,864.50031,42.175991" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{2F8173CD-8EDA-47A9-8F7E-AF965807B9C2}" Name="lighting_helper74" Pos="1529.5625,651.01984,55.864895" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{AF348FCE-9A90-473A-84C2-F7994C161B72}" Name="lighting_helper65" Pos="1648.1658,600.005,55.461967" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{705EDDD0-0503-4912-B33E-211D71A2A2E3}" Name="lighting_helper38" Pos="1691.8163,666.2113,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{EBFF49D4-6764-415B-ABA2-BD7869039800}" Name="lighting_helper61" Pos="1619.2081,544.00177,60.214504" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{438209DB-0A46-48C1-983B-9A212E6458D5}" Name="lighting_helper21" Pos="1367.0493,851.0932,43.892467" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{3E340BDF-5AE6-4C4C-9AC4-A353D8E7D21C}" Name="lighting_helper85" Pos="1486.3792,548.45563,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{47F427E7-633F-4F63-8A01-BE35D1138850}" Name="lighting_helper73" Pos="1518.0259,670.13977,57.309391" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{FF8891EA-656C-45FA-AD54-F96F0BB2A53D}" Name="lighting_helper87" Pos="1521.2291,580.47888,50.51524" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{2AAF36EB-6338-470F-AC05-59DDE6B9BF29}" Name="lighting_helper75" Pos="1506.8602,644.45258,54.112759" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{6FA5E0EE-0D3C-4150-9E7A-8D8FA5279D32}" Name="lighting_helper96" Pos="1620.7819,613.31897,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{D3BDF0F3-3DF5-4827-801B-D99E32C97878}" Name="lighting_helper22" Pos="1485.7484,859.28705,44.128208" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{0B5377F5-3199-4AA9-97D3-06E682CF13A1}" Name="lighting_helper35" Pos="1661.8418,735.62506,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Lighting_Helpers" LayerGUID="{80914204-1BD6-4331-AF14-5CB01BD32FF7}" Id="{EEA138FB-92B2-4BEA-929A-7C8FE0D182D7}" Name="lighting_helper93" Pos="1582.2479,557.58185,50.418064" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Materials/references/black_reflective" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_noproxy.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

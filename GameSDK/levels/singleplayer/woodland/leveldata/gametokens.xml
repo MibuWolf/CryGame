@@ -1,0 +1,19 @@
+<GameTokens>
+ <GameTokensLibrary>
+  <LevelLibrary Name="Level">
+   <GameToken Name="item_location.01" Type="Bool" Value="true" LocalOnly="1"/>
+   <GameToken Name="item_location.02" Type="Bool" Value="true" LocalOnly="1"/>
+   <GameToken Name="item_location.03" Type="Bool" Value="true" LocalOnly="1"/>
+   <GameToken Name="item_location.04" Type="Bool" Value="true" LocalOnly="1"/>
+   <GameToken Name="item_location.05" Type="Bool" Value="true" LocalOnly="1"/>
+   <GameToken Name="item_location.06" Type="Bool" Value="true" LocalOnly="1"/>
+   <GameToken Name="Cutscene.Playing" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Missions.Mission_01a" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Missions.Mission_01b" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Missions.Mission_01c" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="battleflow.area" Type="Int" Value="0" LocalOnly="1"/>
+   <GameToken Name="Missions.Mission_03a" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Missions.Mission_05a" Type="Bool" Value="false" LocalOnly="1"/>
+  </LevelLibrary>
+ </GameTokensLibrary>
+</GameTokens>

@@ -1,0 +1,627 @@
+<ObjectLayer>
+ <Layer Name="room_01_assets" GUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Exportable="1" ExportLayerPak="1" DefaultLoaded="1" HavePhysics="1" IsDefaultColor="1" ParentGUID="{8CE417F9-25A1-4F61-BBE5-1C7D03658DAE}">
+  <LayerObjects>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{81223507-0D15-4A08-BA68-5BB135C39328}" Name="sandpit1" Pos="32,32,15.12" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/natural/ground/terrain/sand/sandpit.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="1" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="262144">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="VisArea" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{F7752112-0D93-450D-8C3E-C0B87DE934E3}" Name="VisArea4" Pos="28,43.75,1" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="33023" Height="24" DisplayFilled="1" AffectedBySun="0" IgnoreSkyColor="0" IgnoreGI="0" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" IgnoreOutdoorAO="0" EntityClass="AreaShape" HasEntity="0">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="30,0,0"/>
+     <Point Pos="30,24,0"/>
+     <Point Pos="0,24,0"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="GeomEntity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{A5C3BA13-1226-4804-B7C1-1E3841CF0F4C}" Name="primitive_sphere_small2" Pos="46.5,48.5,16.625" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_small.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="8" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{9409361A-DB05-477B-A55E-AF5DB1042799}" Name="primitive_sphere_small5" Pos="53.625,60.25,16.625" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_small.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{EF4E851A-F219-4134-944F-CBD397239F65}" Name="FogVolume1" Pos="15.56,35,16.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FogVolume" HasEntity="1">
+    <Properties bActive="1" bAffectsThisAreaOnly="0" color_Color="0.00913406,0.00913406,0.00913406" DensityNoiseOffset="0" DensityNoiseScale="0" DensityNoiseTimeFrequency="0" DensityOffset="0" color_EmissionColor="1,1,1" EmissionIntensity="0" FallOffDirLati="90" FallOffDirLong="0" FallOffScale="1" FallOffShift="0" GlobalDensity="20" fHDRDynamic="0" bIgnoresVisAreas="0" NearCutoff="0" RampEnd="50" RampInfluence="0" RampStart="0" SoftEdges="1" bUseGlobalFogColor="0" eiVolumeType="1" WindInfluence="1">
+     <DensityNoiseFrequency x="10" y="10" z="10"/>
+     <Size x="1" y="2" z="1"/>
+    </Properties>
+   </Object>
+   <Object Type="OccluderPlane" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{F5725B20-E274-4172-882D-BB01B28CA9C0}" Name="OccluderPlane4" Pos="29,53,8" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="3965128" Height="16" DisplayFilled="1" CullDistRatio="100" UseInIndoors="0" DoubleSide="0" EntityClass="AreaShape" HasEntity="0">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="21,0,0"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{F8F95927-8956-44CA-95C8-43BBA1BEE541}" Name="set_b_8m_a1" Pos="42,50,16" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/scifi/set_b/set_b_8m_a.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="4" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{6424E130-EBFC-456D-BB62-A3EDF3614135}" Name="tubs_set_wood_lrg_a1" Pos="44.540001,51.32,16" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/furniture/bathroom/tubs_set_wood/tubs_set_wood_lrg_a.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="50" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{62E77D32-57A7-4B67-917C-21D69C00E06F}" Name="set_b_closed_room_floor_lowered1" Pos="32,32,16" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/architecture/scifi/set_b/set_b_room_closed_floor_lowered.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{88DBB636-4CE2-4AA4-B2E9-459F5398B58A}" Name="pottery_amphora2" Pos="52.524998,50.525002,17.300001" FloorNumber="-1" Rotate="1,0,0,0" Scale="0.5,0.5,0.5" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/misc/pottery/amphora/pottery_amphora.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="90" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="GeomEntity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{7C221444-C737-410F-B630-163246989264}" Name="primitive_sphere_small3" Pos="46,48.5,16.625" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Objects/pbs_reference/gloss100" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_small.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="8" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{AA46A148-42DE-4D15-B0D9-1F3E41EA8242}" Name="FogVolume5" Pos="49.240002,57.625,16.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FogVolume" HasEntity="1">
+    <Properties bActive="1" bAffectsThisAreaOnly="0" color_Color="0.00913406,0.00913406,0.00913406" DensityNoiseOffset="0" DensityNoiseScale="0" DensityNoiseTimeFrequency="0" DensityOffset="0" color_EmissionColor="1,1,1" EmissionIntensity="0" FallOffDirLati="90" FallOffDirLong="0" FallOffScale="1" FallOffShift="0" GlobalDensity="20" fHDRDynamic="0" bIgnoresVisAreas="0" NearCutoff="0" RampEnd="50" RampInfluence="0" RampStart="0" SoftEdges="1" bUseGlobalFogColor="0" eiVolumeType="1" WindInfluence="1">
+     <DensityNoiseFrequency x="10" y="10" z="10"/>
+     <Size x="1" y="2" z="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{BDC4FC4E-3C06-4CB1-8881-D6D219781A50}" Name="basket_wicker_c1" Pos="31.385445,49.207413,16" FloorNumber="-1" Rotate="0.86162919,0,0,0.50753838" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/industrial/baskets/wicker/basket_wicker_c.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="42" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="ParticleEntity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{6D97B94F-E361-4AA8-9F7C-97AF08DB43FE}" Name="ParticleEffect29" Pos="52,61,17" FloorNumber="-1" Rotate="0.70710677,0.70710677,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="ParticleEffect" HasEntity="1" ParticleEntityName="">
+    <Properties bActive="0" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="Level.text.vr_intro" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx" esSoundObstructionType="Ignore"/>
+    </Properties>
+   </Object>
+   <Object Type="Portal" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{B0F5D754-7B20-4226-989B-CD4B7F257211}" Name="Portal1" Pos="34.5,43.5,15.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="3996260" Height="4" DisplayFilled="1" AffectedBySun="0" IgnoreSkyColor="0" IgnoreGI="0" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" IgnoreOutdoorAO="0" UseDeepness="1" DoubleSide="1" LightBlending="1" LightBlendValue="0.5" EntityClass="AreaShape" HasEntity="0">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-5,0,0"/>
+     <Point Pos="-5,0.5,0"/>
+     <Point Pos="0,0.5,0"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="VisArea" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{65D43256-86E0-4E81-A63D-5B2105ECE3CB}" Name="VisArea1" Pos="15,15.75,1" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="33023" Height="24" DisplayFilled="1" AffectedBySun="0" IgnoreSkyColor="0" IgnoreGI="0" ViewDistRatio="100" SkyOnly="0" OceanIsVisible="0" IgnoreOutdoorAO="0" EntityClass="AreaShape" HasEntity="0">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="34,0,0"/>
+     <Point Pos="34,28,0"/>
+     <Point Pos="0,28,0"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{88224268-5641-4125-ABA1-7C649D9C65CD}" Name="FogVolume2" Pos="15.56,28.75,16.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FogVolume" HasEntity="1">
+    <Properties bActive="1" bAffectsThisAreaOnly="0" color_Color="0.00913406,0.00913406,0.00913406" DensityNoiseOffset="0" DensityNoiseScale="0" DensityNoiseTimeFrequency="0" DensityOffset="0" color_EmissionColor="1,1,1" EmissionIntensity="0" FallOffDirLati="90" FallOffDirLong="0" FallOffScale="1" FallOffShift="0" GlobalDensity="20" fHDRDynamic="0" bIgnoresVisAreas="0" NearCutoff="0" RampEnd="50" RampInfluence="0" RampStart="0" SoftEdges="1" bUseGlobalFogColor="0" eiVolumeType="1" WindInfluence="1">
+     <DensityNoiseFrequency x="10" y="10" z="10"/>
+     <Size x="1" y="2" z="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{99FD1275-55C9-47C7-A943-E0D3FA47B57E}" Name="set_b_90_8m1" Pos="32,50,16" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710671" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/scifi/set_b/set_b_90_8m.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="5" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{DC9CC37A-3010-4084-BE01-64A9F4B50ABB}" Name="civil_box_a1" Pos="52.099998,50,16.690001" FloorNumber="-1" Rotate="0.93969262,0,0,0.34202018" Scale="0.5,0.5,0.5" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/industrial/boxes/civil_box/civil_box_a.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="25" ViewDistRatio="37" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{DDFEE87A-9C66-4E11-B755-E59791BB2D0B}" Name="set_b_8m_b1" Pos="52,60,16" FloorNumber="-1" Rotate="-4.3711388e-08,0,0,1" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/architecture/scifi/set_b/set_b_8m_b.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="3" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{B895647F-9758-408C-AFD5-5FFB2E34D58A}" Name="set_b_90_8m2" Pos="52,50,16" FloorNumber="-1" Rotate="0.70710683,0,0,-0.70710677" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/scifi/set_b/set_b_90_8m.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="5" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{3C52EE7F-F90F-4F75-A5C9-6875E8AAF337}" Name="FG_VRSetup" Pos="20,32,17" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FlowgraphEntity" HasEntity="1">
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="12" Class="Game:Start" pos="-780,660,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="72" Name="Setup" Class="_commentbox" pos="-840,360.77881,0" flags="0">
+       <Inputs TextSize="1" Color="0.296138,0.863157,0.187821" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1330" Height="570"/>
+       <NodeSize Width="1330" Height="606.88269"/>
+      </Node>
+      <Node Id="100" Class="Time:Delay" pos="30,820,0" flags="0">
+       <Inputs delay="5" resetOnInput="0"/>
+      </Node>
+      <Node Id="118" Name="Delay_movement_for_5s_on_spawn_for_intro_text" Class="_comment" pos="-50,780,0" flags="0"/>
+      <Node Id="122" Class="entity:ParticleEffect" pos="-540,820,0" flags="0" EntityGUID="{6D97B94F-E361-4AA8-9F7C-97AF08DB43FE}" EntityGUID_64="4AA8E3616D97B94F">
+       <Inputs entityId="0" Disable="0" Enable="0" Kill="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="125" Name="Show_intro_text_PFX" Class="_comment" pos="-540,790,0" flags="0"/>
+      <Node Id="132" Class="Debug:ConsoleVariable" pos="-540,460,0" flags="0">
+       <Inputs CVar="r_StereoMode" Value=""/>
+      </Node>
+      <Node Id="134" Class="Math:Equal" pos="-160,460,0" flags="0">
+       <Inputs A="0" B="1"/>
+      </Node>
+      <Node Id="135" Name="Only_apply_if_VR_is_enabled" Class="_comment" pos="-540,430,0" flags="0"/>
+      <Node Id="159" Class="Engine:LayerSwitch" pos="60,460,0" flags="0">
+       <Inputs Layer="player_collisions_vr"/>
+      </Node>
+      <Node Id="160" Name="Disable_extended_collisions_when_not_in_VR" Class="_comment" pos="60,430,0" flags="0"/>
+      <Node Id="162" Class="Module:Call_vr_setup" pos="-540,660,0" flags="0">
+       <Inputs Instanced="1" InstanceID="-1"/>
+      </Node>
+      <Node Id="163" Name="Calls_vr_setup_Flowgraph_Module" Class="_comment" pos="-540,630,0" flags="0"/>
+      <Node Id="165" Class="Input:ActionMaps:ActionMapManager" pos="-330,820,0" flags="1">
+       <Inputs ResetState="0"/>
+      </Node>
+      <Node Id="166" Class="Input:ActionMaps:ActionMapManager" pos="230,820,0" flags="0">
+       <Inputs ResetState="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="122" nodeOut="12" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="122" nodeOut="12" portIn="Spawn" portOut="output" enabled="1"/>
+      <Edge nodeIn="132" nodeOut="12" portIn="Get" portOut="output" enabled="1"/>
+      <Edge nodeIn="162" nodeOut="12" portIn="Call" portOut="output" enabled="1"/>
+      <Edge nodeIn="166" nodeOut="100" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="134" nodeOut="132" portIn="A" portOut="CurValue" enabled="1"/>
+      <Edge nodeIn="159" nodeOut="134" portIn="Hide" portOut="false" enabled="1"/>
+      <Edge nodeIn="159" nodeOut="134" portIn="Unhide" portOut="true" enabled="1"/>
+      <Edge nodeIn="100" nodeOut="162" portIn="in" portOut="OnCalled" enabled="1"/>
+      <Edge nodeIn="165" nodeOut="162" portIn="Disable" portOut="OnCalled" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{59ED4380-989B-49DA-9118-02A9273A410C}" Name="RB_DoorLeft1" Pos="32,43.68,16" FloorNumber="-1" Rotate="-4.3711388e-08,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="RigidBodyEx" HasEntity="1">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="1" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/architecture/scifi/set_b/set_b_door_part.cgf" bPickable="0" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="OccluderPlane" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{94FF9D83-0716-4A65-A688-0BE15965E16C}" Name="OccluderPlane1" Pos="34,47,8" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="3965128" Height="16" DisplayFilled="1" CullDistRatio="100" UseInIndoors="0" DoubleSide="0" EntityClass="AreaShape" HasEntity="0">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="23,0,0"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="TagPoint" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{334D0E84-E254-4F8B-9ABF-72F98B1B7E4C}" Name="TP_DoorCenter1" Pos="32,43.68,16" FloorNumber="-1" Rotate="-4.3711388e-08,0,0,1" ColorRGB="16711680" EntityClass="TagPoint" HasEntity="1"/>
+   <Object Type="TagPoint" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{09D7A18B-63CF-4898-B372-06D55A4E0CE9}" Name="TP_DoorLeft1" Pos="30.5,43.68,16" FloorNumber="-1" Rotate="-4.3711388e-08,0,0,1" ColorRGB="16711680" EntityClass="TagPoint" HasEntity="1"/>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{E6205690-5F86-4E32-8DC1-4CB2DD83C3C0}" Name="lobster1" Pos="51.849998,49.799999,16.190001" FloorNumber="-1" Rotate="0.93969262,0,0,-0.34202012" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/maritime/lobster/lobster.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="30" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{AB3BB693-7546-48C8-B750-FFB8DBF475A2}" Name="colossus1" Pos="32,50,16" FloorNumber="-1" Rotate="-0.38268334,0,0,0.92387956" Scale="0.25,0.25,0.25" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/misc/colossal_statue/colossus.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="14" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{7EB7A794-1A48-48C8-867F-65AA721C13FC}" Name="pottery_amphora1" Pos="51.099998,48.974998,16" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/misc/pottery/amphora/pottery_amphora.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="45" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{20E95D9A-52BE-4C6D-940E-8CD249100D41}" Name="shelf_standing_a1" Pos="52,50,16" FloorNumber="-1" Rotate="-0.38268346,0,0,0.9238795" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/furniture/shelves/standing_a/shelf_standing_a.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="25" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{B55E469C-D331-4885-87F2-F52D5071811B}" Name="set_b_closed_room1" Pos="32,32,16" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/scifi/set_b/set_b_closed_room.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{B3E79B9F-3282-4B5E-B09B-C93ECA009779}" Name="FogVolume3" Pos="48.43,28.75,16.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FogVolume" HasEntity="1">
+    <Properties bActive="1" bAffectsThisAreaOnly="0" color_Color="0.00913406,0.00913406,0.00913406" DensityNoiseOffset="0" DensityNoiseScale="0" DensityNoiseTimeFrequency="0" DensityOffset="0" color_EmissionColor="1,1,1" EmissionIntensity="0" FallOffDirLati="90" FallOffDirLong="0" FallOffScale="1" FallOffShift="0" GlobalDensity="20" fHDRDynamic="0" bIgnoresVisAreas="0" NearCutoff="0" RampEnd="50" RampInfluence="0" RampStart="0" SoftEdges="1" bUseGlobalFogColor="0" eiVolumeType="1" WindInfluence="1">
+     <DensityNoiseFrequency x="10" y="10" z="10"/>
+     <Size x="1" y="2" z="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{84844EA2-7F18-4617-8405-574C6750AAC7}" Name="SpawnPoint1" Pos="52,62,16" FloorNumber="-1" Rotate="-4.3711388e-08,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="SpawnPoint" HasEntity="1">
+    <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{49148EA4-CAFE-4F1C-9360-DD8D3FEE0BDF}" Name="gardengnome1" Pos="51.674999,49.799999,18.059999" FloorNumber="-1" Rotate="-3.5806274e-08,-0.57357651,0.819152,2.5071824e-08" Scale="0.5,0.5,0.5" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/misc/garden_gnome/gardengnome.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="55" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{F9F65AA8-CB14-4D08-B0AE-B227FD7E78D4}" Name="Light74" Pos="52,60,17" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="8" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light" HasEntity="1">
+    <Properties bActive="0" fAttenuationBulbSize="1" Radius="10" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="0.1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows eiCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{CF6475A8-7AFB-406B-ADC5-24B1D469EC86}" Name="RB_DoorRight1" Pos="32,43.68,16" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="RigidBodyEx" HasEntity="1">
+    <Properties bCanTriggerAreas="0" bDamagesPlayerOnCollisionSP="1" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/architecture/scifi/set_b/set_b_door_part.cgf" bPickable="0" bSerialize="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <AI bUsedAsDynamicObstacle="1"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <CGFPropsOverride player_can_break="">
+       <Constraint constraint_collides="" constraint_damping="" constraint_limit="" constraint_maxang="" constraint_minang=""/>
+       <Deformable explosion_scale="" hardness="" max_impulse="" max_stretch="" skin_dist="" stiffness="" thickness=""/>
+       <Joint bend="" limit="" pull="" push="" shift="" twist=""/>
+      </CGFPropsOverride>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+      <ForeignData bMovingPlatform="0"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{3C0138AE-6D6D-47EE-8FB0-8DF9FDA66341}" Name="basket_wicker_a1" Pos="31.668568,50.32822,16" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/industrial/baskets/wicker/basket_wicker_a.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="56" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="TagPoint" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{B875A4B5-325B-479B-9FFF-C2ADF47ECDCE}" Name="TP_DoorRight1" Pos="33.5,43.68,16" FloorNumber="-1" Rotate="-4.3711388e-08,0,0,1" ColorRGB="16711680" EntityClass="TagPoint" HasEntity="1"/>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{180AEAB5-C45B-43AD-8447-103EE3C90A46}" Name="FG_Setup" Pos="21,32,17" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FlowgraphEntity" HasEntity="1">
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="1" Class="Engine:LayerSwitch" pos="2880,-1080,0" flags="0">
+       <Inputs Layer="fence"/>
+      </Node>
+      <Node Id="2" Class="Engine:LayerSwitch" pos="2880,-920,0" flags="0">
+       <Inputs Layer="lights"/>
+      </Node>
+      <Node Id="3" Class="Engine:LayerSwitch" pos="2880,-760,0" flags="0">
+       <Inputs Layer="physics"/>
+      </Node>
+      <Node Id="4" Class="Engine:LayerSwitch" pos="2880,-600,0" flags="0">
+       <Inputs Layer="probes"/>
+      </Node>
+      <Node Id="5" Class="Engine:LayerSwitch" pos="2880,-440,0" flags="0">
+       <Inputs Layer="vegetation"/>
+      </Node>
+      <Node Id="14" Class="Logic:Any" pos="2640,-1060,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="17" Class="Debug:InputKey" pos="2040,-1060,0" flags="0">
+       <Inputs entityId="0" Key="1" NonDevMode="0"/>
+      </Node>
+      <Node Id="20" Class="Logic:Sequentializer" pos="2360,-1060,0" flags="0" InHideMask="63" OutHideMask="1023">
+       <Inputs Closed="0" Reverse="0"/>
+      </Node>
+      <Node Id="21" Class="Game:Start" pos="1120,-480,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="22" Class="Debug:InputKey" pos="2040,-900,0" flags="0">
+       <Inputs entityId="0" Key="2" NonDevMode="0"/>
+      </Node>
+      <Node Id="23" Class="Logic:Sequentializer" pos="2360,-900,0" flags="0" InHideMask="63" OutHideMask="1023">
+       <Inputs Closed="0" Reverse="0"/>
+      </Node>
+      <Node Id="25" Class="Logic:Any" pos="2640,-900,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="26" Class="Debug:InputKey" pos="2040,-740,0" flags="0">
+       <Inputs entityId="0" Key="3" NonDevMode="0"/>
+      </Node>
+      <Node Id="27" Class="Logic:Sequentializer" pos="2360,-740,0" flags="0" InHideMask="63" OutHideMask="1023">
+       <Inputs Closed="0" Reverse="0"/>
+      </Node>
+      <Node Id="28" Class="Logic:Any" pos="2640,-740,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="29" Class="Debug:InputKey" pos="2040,-580,0" flags="0">
+       <Inputs entityId="0" Key="4" NonDevMode="0"/>
+      </Node>
+      <Node Id="30" Class="Logic:Sequentializer" pos="2360,-580,0" flags="0" InHideMask="63" OutHideMask="1023">
+       <Inputs Closed="0" Reverse="0"/>
+      </Node>
+      <Node Id="31" Class="Logic:Any" pos="2640,-580,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="32" Class="Debug:InputKey" pos="2040,-420,0" flags="0">
+       <Inputs entityId="0" Key="5" NonDevMode="0"/>
+      </Node>
+      <Node Id="33" Class="Logic:Sequentializer" pos="2360,-420,0" flags="0" InHideMask="63" OutHideMask="1023">
+       <Inputs Closed="0" Reverse="0"/>
+      </Node>
+      <Node Id="34" Class="Logic:Any" pos="2640,-420,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="35" Class="Engine:LayerSwitch" pos="1120,-400,0" flags="0">
+       <Inputs Layer="room_01_assets"/>
+      </Node>
+      <Node Id="37" Class="Debug:Log" pos="3140,-1080,0" flags="0">
+       <Inputs message="fence hidden"/>
+      </Node>
+      <Node Id="38" Class="Debug:Log" pos="3140,-920,0" flags="0">
+       <Inputs message="lights hidden"/>
+      </Node>
+      <Node Id="39" Class="Debug:Log" pos="3140,-760,0" flags="0">
+       <Inputs message="physics hidden"/>
+      </Node>
+      <Node Id="40" Class="Debug:Log" pos="3140,-600,0" flags="0">
+       <Inputs message="probes hidden"/>
+      </Node>
+      <Node Id="41" Class="Debug:Log" pos="3140,-440,0" flags="0">
+       <Inputs message="vegetation hidden"/>
+      </Node>
+      <Node Id="49" Class="entity:ProximityTrigger" pos="1080,-1820,0" flags="0" EntityGUID="{F8DBEEE5-EB04-452F-8D75-078B8A0B9807}" EntityGUID_64="452FEB04F8DBEEE5">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="55" Class="Movement:MoveEntityTo" pos="2000,-2000,0" flags="0" EntityGUID="{CF6475A8-7AFB-406B-ADC5-24B1D469EC86}" EntityGUID_64="406B7AFBCF6475A8">
+       <Inputs entityId="0" Destination="0,0,0" DynamicUpdate="1" ValueType="0" Speed="1" EaseDistance="0.5" EaseOutDistance="0.5" CoordSys="0"/>
+      </Node>
+      <Node Id="56" Class="Movement:MoveEntityTo" pos="1560,-2000,0" flags="0" EntityGUID="{59ED4380-989B-49DA-9118-02A9273A410C}" EntityGUID_64="49DA989B59ED4380">
+       <Inputs entityId="0" Destination="0,0,0" DynamicUpdate="1" ValueType="0" Speed="1" EaseDistance="0.5" EaseOutDistance="0.5" CoordSys="0"/>
+      </Node>
+      <Node Id="58" Class="entity:TagPoint" pos="1420,-2000,0" flags="0" InHideMask="31" OutHideMask="63" EntityGUID="{09D7A18B-63CF-4898-B372-06D55A4E0CE9}" EntityGUID_64="489863CF09D7A18B">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" CoordSys="1"/>
+      </Node>
+      <Node Id="60" Class="entity:TagPoint" pos="1860,-2000,0" flags="0" InHideMask="31" OutHideMask="63" EntityGUID="{B875A4B5-325B-479B-9FFF-C2ADF47ECDCE}" EntityGUID_64="479B325BB875A4B5">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" CoordSys="1"/>
+      </Node>
+      <Node Id="61" Class="Movement:MoveEntityTo" pos="1560,-1740,0" flags="0" EntityGUID="{59ED4380-989B-49DA-9118-02A9273A410C}" EntityGUID_64="49DA989B59ED4380">
+       <Inputs entityId="0" Destination="0,0,0" DynamicUpdate="1" ValueType="0" Speed="1" EaseDistance="0.5" EaseOutDistance="0.5" CoordSys="0"/>
+      </Node>
+      <Node Id="62" Class="Movement:MoveEntityTo" pos="2000,-1740,0" flags="0" EntityGUID="{CF6475A8-7AFB-406B-ADC5-24B1D469EC86}" EntityGUID_64="406B7AFBCF6475A8">
+       <Inputs entityId="0" Destination="0,0,0" DynamicUpdate="1" ValueType="0" Speed="1" EaseDistance="0.5" EaseOutDistance="0.5" CoordSys="0"/>
+      </Node>
+      <Node Id="64" Class="entity:TagPoint" pos="1420,-1740,0" flags="0" InHideMask="31" OutHideMask="63" EntityGUID="{334D0E84-E254-4F8B-9ABF-72F98B1B7E4C}" EntityGUID_64="4F8BE254334D0E84">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" CoordSys="1"/>
+      </Node>
+      <Node Id="65" Class="entity:TagPoint" pos="1860,-1740,0" flags="0" InHideMask="31" OutHideMask="63" EntityGUID="{334D0E84-E254-4F8B-9ABF-72F98B1B7E4C}" EntityGUID_64="4F8BE254334D0E84">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" CoordSys="1"/>
+      </Node>
+      <Node Id="70" Name="Door" Class="_commentbox" pos="1040,-2072.3333,0" flags="0">
+       <Inputs TextSize="1" Color="0.879623,0.658375,0.181164" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1660" Height="790"/>
+       <NodeSize Width="1660" Height="817.64063"/>
+      </Node>
+      <Node Id="71" Name="Layer_debug" Class="_commentbox" pos="1040,-1150.5559,0" flags="0">
+       <Inputs TextSize="1" Color="1,0.138432,0.138432" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="2400" Height="1320"/>
+       <NodeSize Width="2400" Height="1347.6406"/>
+      </Node>
+      <Node Id="88" Class="Engine:LayerSwitch" pos="2880,-280,0" flags="0">
+       <Inputs Layer="flares"/>
+      </Node>
+      <Node Id="89" Class="Debug:InputKey" pos="2040,-260,0" flags="0">
+       <Inputs entityId="0" Key="6" NonDevMode="0"/>
+      </Node>
+      <Node Id="90" Class="Logic:Sequentializer" pos="2360,-260,0" flags="0" InHideMask="63" OutHideMask="1023">
+       <Inputs Closed="0" Reverse="0"/>
+      </Node>
+      <Node Id="91" Class="Logic:Any" pos="2640,-260,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="92" Class="Debug:Log" pos="3140,-280,0" flags="0">
+       <Inputs message="flares hidden"/>
+      </Node>
+      <Node Id="93" Class="Engine:LayerSwitch" pos="2880,-120,0" flags="0">
+       <Inputs Layer="particles"/>
+      </Node>
+      <Node Id="94" Class="Debug:InputKey" pos="2040,-100,0" flags="0">
+       <Inputs entityId="0" Key="7" NonDevMode="0"/>
+      </Node>
+      <Node Id="95" Class="Logic:Sequentializer" pos="2360,-100,0" flags="0" InHideMask="63" OutHideMask="1023">
+       <Inputs Closed="0" Reverse="0"/>
+      </Node>
+      <Node Id="96" Class="Logic:Any" pos="2640,-100,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="97" Class="Debug:Log" pos="3140,-120,0" flags="0">
+       <Inputs message="particles hidden"/>
+      </Node>
+      <Node Id="98" Class="Engine:LayerSwitch" pos="2880,40,0" flags="0">
+       <Inputs Layer="decals"/>
+      </Node>
+      <Node Id="99" Class="Debug:InputKey" pos="2040,60,0" flags="0">
+       <Inputs entityId="0" Key="8" NonDevMode="0"/>
+      </Node>
+      <Node Id="100" Class="Logic:Sequentializer" pos="2360,60,0" flags="0" InHideMask="63" OutHideMask="1023">
+       <Inputs Closed="0" Reverse="0"/>
+      </Node>
+      <Node Id="101" Class="Logic:Any" pos="2640,60,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="102" Class="Debug:Log" pos="3140,40,0" flags="0">
+       <Inputs message="decals hidden"/>
+      </Node>
+      <Node Id="104" Class="Audio:Trigger" pos="2280,-2000,0" flags="0" EntityGUID="{21F1D91F-3A0F-409D-9FDB-3716504B8C73}" EntityGUID_64="409D3A0F21F1D91F">
+       <Inputs entityId="0" audioTrigger_PlayTrigger="Play_l_vr_demo_sce_door_opened" audioTrigger_StopTrigger=""/>
+      </Node>
+      <Node Id="105" Name="Doors_Open" Class="_comment" pos="1760,-2030,0" flags="0"/>
+      <Node Id="106" Name="Doors_Close" Class="_comment" pos="1760,-1770,0" flags="0"/>
+      <Node Id="107" Class="Audio:Trigger" pos="2280,-1740,0" flags="0" EntityGUID="{21F1D91F-3A0F-409D-9FDB-3716504B8C73}" EntityGUID_64="409D3A0F21F1D91F">
+       <Inputs entityId="0" audioTrigger_PlayTrigger="Play_l_vr_demo_sce_door_closed" audioTrigger_StopTrigger=""/>
+      </Node>
+      <Node Id="109" Class="Audio:Trigger" pos="1560,-1520,0" flags="0" EntityGUID="{21F1D91F-3A0F-409D-9FDB-3716504B8C73}" EntityGUID_64="409D3A0F21F1D91F">
+       <Inputs entityId="0" audioTrigger_PlayTrigger="Play_l_vr_demo_sce_door_open" audioTrigger_StopTrigger=""/>
+      </Node>
+      <Node Id="110" Class="Audio:Trigger" pos="1560,-1400,0" flags="0" EntityGUID="{21F1D91F-3A0F-409D-9FDB-3716504B8C73}" EntityGUID_64="409D3A0F21F1D91F">
+       <Inputs entityId="0" audioTrigger_PlayTrigger="Play_l_vr_demo_sce_door_close" audioTrigger_StopTrigger=""/>
+      </Node>
+      <Node Id="111" Class="Logic:Any" pos="1660,-480,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="112" Class="Engine:LayerSwitch" pos="1120,-270,0" flags="0">
+       <Inputs Layer="no_stream"/>
+      </Node>
+      <Node Id="113" Class="Engine:LayerSwitch" pos="1120,-140,0" flags="0">
+       <Inputs Layer="audio"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="37" nodeOut="1" portIn="input" portOut="Hidden" enabled="1"/>
+      <Edge nodeIn="38" nodeOut="2" portIn="input" portOut="Hidden" enabled="1"/>
+      <Edge nodeIn="39" nodeOut="3" portIn="input" portOut="Hidden" enabled="1"/>
+      <Edge nodeIn="40" nodeOut="4" portIn="input" portOut="Hidden" enabled="1"/>
+      <Edge nodeIn="41" nodeOut="5" portIn="input" portOut="Hidden" enabled="1"/>
+      <Edge nodeIn="1" nodeOut="14" portIn="Unhide" portOut="out" enabled="1"/>
+      <Edge nodeIn="20" nodeOut="17" portIn="In" portOut="Pressed" enabled="1"/>
+      <Edge nodeIn="1" nodeOut="20" portIn="Hide" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="14" nodeOut="20" portIn="in2" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="14" nodeOut="21" portIn="in1" portOut="output" enabled="1"/>
+      <Edge nodeIn="25" nodeOut="21" portIn="in1" portOut="output" enabled="1"/>
+      <Edge nodeIn="28" nodeOut="21" portIn="in1" portOut="output" enabled="1"/>
+      <Edge nodeIn="31" nodeOut="21" portIn="in1" portOut="output" enabled="1"/>
+      <Edge nodeIn="34" nodeOut="21" portIn="in1" portOut="output" enabled="1"/>
+      <Edge nodeIn="35" nodeOut="21" portIn="Unhide" portOut="output" enabled="1"/>
+      <Edge nodeIn="91" nodeOut="21" portIn="in1" portOut="output" enabled="1"/>
+      <Edge nodeIn="96" nodeOut="21" portIn="in1" portOut="output" enabled="1"/>
+      <Edge nodeIn="101" nodeOut="21" portIn="in1" portOut="output" enabled="1"/>
+      <Edge nodeIn="111" nodeOut="21" portIn="in1" portOut="output" enabled="0"/>
+      <Edge nodeIn="112" nodeOut="21" portIn="Unhide" portOut="output" enabled="1"/>
+      <Edge nodeIn="113" nodeOut="21" portIn="Unhide" portOut="output" enabled="1"/>
+      <Edge nodeIn="23" nodeOut="22" portIn="In" portOut="Pressed" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="23" portIn="Hide" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="25" nodeOut="23" portIn="in2" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="25" portIn="Unhide" portOut="out" enabled="1"/>
+      <Edge nodeIn="27" nodeOut="26" portIn="In" portOut="Pressed" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="27" portIn="Hide" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="28" nodeOut="27" portIn="in2" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="28" portIn="Unhide" portOut="out" enabled="1"/>
+      <Edge nodeIn="30" nodeOut="29" portIn="In" portOut="Pressed" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="30" portIn="Hide" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="31" nodeOut="30" portIn="in2" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="31" portIn="Unhide" portOut="out" enabled="1"/>
+      <Edge nodeIn="33" nodeOut="32" portIn="In" portOut="Pressed" enabled="1"/>
+      <Edge nodeIn="5" nodeOut="33" portIn="Hide" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="34" nodeOut="33" portIn="in2" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="5" nodeOut="34" portIn="Unhide" portOut="out" enabled="1"/>
+      <Edge nodeIn="56" nodeOut="49" portIn="Start" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="56" nodeOut="49" portIn="Stop" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="61" nodeOut="49" portIn="Stop" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="61" nodeOut="49" portIn="Start" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="109" nodeOut="49" portIn="Play" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="110" nodeOut="49" portIn="Play" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="104" nodeOut="55" portIn="Play" portOut="Finish" enabled="1"/>
+      <Edge nodeIn="55" nodeOut="56" portIn="Start" portOut="Start" enabled="1"/>
+      <Edge nodeIn="55" nodeOut="56" portIn="Stop" portOut="Stop" enabled="1"/>
+      <Edge nodeIn="56" nodeOut="58" portIn="Destination" portOut="pos" enabled="1"/>
+      <Edge nodeIn="55" nodeOut="60" portIn="Destination" portOut="pos" enabled="1"/>
+      <Edge nodeIn="62" nodeOut="61" portIn="Start" portOut="Start" enabled="1"/>
+      <Edge nodeIn="62" nodeOut="61" portIn="Stop" portOut="Stop" enabled="1"/>
+      <Edge nodeIn="107" nodeOut="62" portIn="Play" portOut="Finish" enabled="1"/>
+      <Edge nodeIn="61" nodeOut="64" portIn="Destination" portOut="pos" enabled="1"/>
+      <Edge nodeIn="62" nodeOut="65" portIn="Destination" portOut="pos" enabled="1"/>
+      <Edge nodeIn="92" nodeOut="88" portIn="input" portOut="Hidden" enabled="1"/>
+      <Edge nodeIn="90" nodeOut="89" portIn="In" portOut="Pressed" enabled="1"/>
+      <Edge nodeIn="88" nodeOut="90" portIn="Hide" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="91" nodeOut="90" portIn="in2" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="88" nodeOut="91" portIn="Unhide" portOut="out" enabled="1"/>
+      <Edge nodeIn="97" nodeOut="93" portIn="input" portOut="Hidden" enabled="1"/>
+      <Edge nodeIn="95" nodeOut="94" portIn="In" portOut="Pressed" enabled="1"/>
+      <Edge nodeIn="93" nodeOut="95" portIn="Hide" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="96" nodeOut="95" portIn="in2" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="93" nodeOut="96" portIn="Unhide" portOut="out" enabled="1"/>
+      <Edge nodeIn="102" nodeOut="98" portIn="input" portOut="Hidden" enabled="1"/>
+      <Edge nodeIn="100" nodeOut="99" portIn="In" portOut="Pressed" enabled="1"/>
+      <Edge nodeIn="98" nodeOut="100" portIn="Hide" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="101" nodeOut="100" portIn="in2" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="98" nodeOut="101" portIn="Unhide" portOut="out" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="111" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="22" nodeOut="111" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="111" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="29" nodeOut="111" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="32" nodeOut="111" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="89" nodeOut="111" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="94" nodeOut="111" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="99" nodeOut="111" portIn="Enable" portOut="out" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="GeomEntity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{4384CCBA-330B-42F5-A0E1-0A8A0024E044}" Name="primitive_sphere_small4" Pos="53.625,59.75,16.625" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Objects/pbs_reference/gloss100" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_small.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{20758EBC-558E-4850-A11D-13314494B801}" Name="Light73" Pos="30.33773,44.064331,16.081619" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="8" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Light" HasEntity="1">
+    <Properties bActive="0" fAttenuationBulbSize="0.05" Radius="10" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows eiCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{64D9E1CE-C722-44C3-B7F5-A892D68A4FE3}" Name="primitive_sphere_small6" Pos="32,37.5,15.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_small.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Brush" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{826BE4D1-3D1E-407E-A544-ECA6D2533648}" Name="basket_wicker_b1" Pos="32.875,50.852985,16" FloorNumber="-1" Rotate="0.96592581,0,0,0.25881904" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/props/industrial/baskets/wicker/basket_wicker_b.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="32" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{25E014D5-86D6-4504-B101-C2F7B8C5392C}" Name="FogVolume6" Pos="49.240002,62.75,16.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FogVolume" HasEntity="1">
+    <Properties bActive="1" bAffectsThisAreaOnly="0" color_Color="0.00913406,0.00913406,0.00913406" DensityNoiseOffset="0" DensityNoiseScale="0" DensityNoiseTimeFrequency="0" DensityOffset="0" color_EmissionColor="1,1,1" EmissionIntensity="0" FallOffDirLati="90" FallOffDirLong="0" FallOffScale="1" FallOffShift="0" GlobalDensity="20" fHDRDynamic="0" bIgnoresVisAreas="0" NearCutoff="0" RampEnd="50" RampInfluence="0" RampStart="0" SoftEdges="1" bUseGlobalFogColor="0" eiVolumeType="1" WindInfluence="1">
+     <DensityNoiseFrequency x="10" y="10" z="10"/>
+     <Size x="1" y="2" z="1"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{106178E9-701F-4C4C-9220-2596C0ACE86D}" Name="primitive_sphere_small7" Pos="31.5,37.5,15.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="Objects/pbs_reference/gloss100" MatLayersMask="0" Geometry="Objects/default/primitive_sphere_small.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="1" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="GeomEntity" HasEntity="1">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="room_01_assets" LayerGUID="{6AF21CE5-0248-48F4-BE37-7E6B2C6D6F98}" Id="{DC687CF9-E40C-4AA4-99A9-FAE3F7175E56}" Name="FogVolume4" Pos="48.43,35,16.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FogVolume" HasEntity="1">
+    <Properties bActive="1" bAffectsThisAreaOnly="0" color_Color="0.00913406,0.00913406,0.00913406" DensityNoiseOffset="0" DensityNoiseScale="0" DensityNoiseTimeFrequency="0" DensityOffset="0" color_EmissionColor="1,1,1" EmissionIntensity="0" FallOffDirLati="90" FallOffDirLong="0" FallOffScale="1" FallOffShift="0" GlobalDensity="20" fHDRDynamic="0" bIgnoresVisAreas="0" NearCutoff="0" RampEnd="50" RampInfluence="0" RampStart="0" SoftEdges="1" bUseGlobalFogColor="0" eiVolumeType="1" WindInfluence="1">
+     <DensityNoiseFrequency x="10" y="10" z="10"/>
+     <Size x="1" y="2" z="1"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

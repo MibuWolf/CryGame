@@ -1,0 +1,22 @@
+<ObjectLayer>
+ <Layer Name="probes" GUID="{BB21779F-9D04-44D9-B1E9-26CCF0244967}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="EnvironmentProbe" Layer="probes" LayerGUID="{BB21779F-9D04-44D9-B1E9-26CCF0244967}" Id="{475DC906-B92A-4790-9CF3-92D958C5B90E}" Name="l_probe_room1" Pos="16,16,18" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="30" BoxSizeY="20" BoxSizeZ="8" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="0.75" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="0" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="1" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/vr_demo/l_probe_room1_cm.tif"/>
+     <Projection fBoxHeight="8" fBoxLength="30" bBoxProject="1" fBoxWidth="20" vFadeDimensionsBottom="0" vFadeDimensionsFar="0" vFadeDimensionsLeft="0" vFadeDimensionsNear="0" vFadeDimensionsRight="0" vFadeDimensionsTop="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="probes" LayerGUID="{BB21779F-9D04-44D9-B1E9-26CCF0244967}" Id="{8B3A8B9F-E9DC-4B1A-A380-BD6D7FEDAEAB}" Name="l_probe_hallway1" Pos="16,31.875,18" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="6" BoxSizeY="18" BoxSizeZ="6" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="0.25" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="1" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/vr_demo/l_probe_hallway1_cm.tif"/>
+     <Projection fBoxHeight="6" fBoxLength="6" bBoxProject="1" fBoxWidth="18" vFadeDimensionsBottom="0" vFadeDimensionsFar="0" vFadeDimensionsLeft="0" vFadeDimensionsNear="0" vFadeDimensionsRight="0" vFadeDimensionsTop="0"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

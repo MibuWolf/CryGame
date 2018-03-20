@@ -1,0 +1,1363 @@
+<ObjectLayer>
+ <Layer Name="Audio" FullName="Audio" GUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Hidden="0" Frozen="0" Expanded="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="1" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{029EC254-E6E2-4C0E-8D94-BC95250C3DC0}" Name="AS_ab5_ambience_lake" Pos="1570.75,810.375,0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="70" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="70">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="1"/>
+        <Point Pos="18.625,40.25,0" ObstructSound="1"/>
+        <Point Pos="45.75,57.625,0" ObstructSound="1"/>
+        <Point Pos="83.5,54,0" ObstructSound="0"/>
+        <Point Pos="87.75,47,0" ObstructSound="1"/>
+        <Point Pos="122.25,48.125,0" ObstructSound="1"/>
+        <Point Pos="114.75,-41.25,0" ObstructSound="0"/>
+        <Point Pos="35.625,-60.875,0" ObstructSound="1"/>
+       </Points>
+       <Roof ObstructSound="0"/>
+       <Floor ObstructSound="0"/>
+       <Entities>
+        <Entity Id="241"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="18.625,40.25,0"/>
+     <Point Pos="45.75,57.625,0"/>
+     <Point Pos="83.5,54,0"/>
+     <Point Pos="87.75,47,0"/>
+     <Point Pos="122.25,48.125,0"/>
+     <Point Pos="114.75,-41.25,0"/>
+     <Point Pos="35.625,-60.875,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{93EC75A8-7609-4583-BC3F-9BECAF08C32F}"/>
+    </Entities>
+    <SoundData Side1="1" Side2="1" Side3="1" Side4="0" Side5="1" Side6="1" Side7="0" Side8="1" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{05BD50EA-4FCC-4E8A-AC79-9CFFBF9CB64A}" Name="AS_ab6_waterfall" Pos="1476.897,529.01978,37" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="15" InnerFadeDistance="0" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="0" Proximity="0" Priority="0" InnerFadeDistance="0" Height="15">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="0"/>
+        <Point Pos="-7.9124756,19.564514,0" ObstructSound="1"/>
+        <Point Pos="-8.2186279,24.395691,0" ObstructSound="0"/>
+        <Point Pos="-3.7420654,38.591309,0" ObstructSound="0"/>
+        <Point Pos="-10.934814,40.173462,0" ObstructSound="0"/>
+        <Point Pos="-12.719116,25.810791,0" ObstructSound="1"/>
+        <Point Pos="-13.188354,17.718384,0" ObstructSound="0"/>
+        <Point Pos="-6.619873,-2.1533813,0" ObstructSound="0"/>
+        <Point Pos="-0.14306641,-0.090698242,0" ObstructSound="0"/>
+       </Points>
+       <Roof ObstructSound="0"/>
+       <Floor ObstructSound="0"/>
+       <Entities>
+        <Entity Id="215"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-7.9124756,19.564514,0"/>
+     <Point Pos="-8.2186279,24.395691,0"/>
+     <Point Pos="-3.7420654,38.591309,0"/>
+     <Point Pos="-10.934814,40.173462,0"/>
+     <Point Pos="-12.719116,25.810791,0"/>
+     <Point Pos="-13.188354,17.718384,0"/>
+     <Point Pos="-6.619873,-2.1533813,0"/>
+     <Point Pos="-0.14306641,-0.090698242,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{5726341E-A290-4447-9FA8-00412942E7FB}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="1" Side3="0" Side4="0" Side5="0" Side6="1" Side7="0" Side8="0" Side9="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{0E1C7FDA-FD29-4F2B-9B28-921E21F5E2E0}" Name="AS_ab4_river_fast" Pos="1682.078,876.30933,48.540001" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="6" InnerFadeDistance="0" AreaId="0" GroupId="2" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="2" Proximity="0" Priority="20" InnerFadeDistance="0" Height="6">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="0"/>
+        <Point Pos="-36.074707,-16.620605,0" ObstructSound="0"/>
+        <Point Pos="-32.80249,-25.520874,0" ObstructSound="0"/>
+        <Point Pos="-0.92773438,-16.281921,0" ObstructSound="0"/>
+        <Point Pos="1.6550293,-7.0379639,0" ObstructSound="0"/>
+       </Points>
+       <Roof ObstructSound="0"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="239"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-36.074707,-16.620605,0"/>
+     <Point Pos="-32.80249,-25.520874,0"/>
+     <Point Pos="-0.92773438,-16.281921,0"/>
+     <Point Pos="1.6550293,-7.0379639,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{1C6255A2-D7FD-495C-98BD-A9941590E09F}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Roof="0" Floor="1"/>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{10C4A58E-070D-405E-BE13-A9B896E65954}" Name="ATS_ab3_sfx_bird_crow_01" Pos="1544.1526,856.29205,48.467754" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_crow" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{12A85174-F9DA-40AA-85B8-064597879C10}" Name="ATS_ab3_sfx_bird_crow" Pos="1587.4794,888.63495,61.928394" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_crow" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{13C0B960-A587-467E-9D70-181899EC42D1}" Name="AS_ab5_waterfall" Pos="1640.454,858.68719,45" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="9" InnerFadeDistance="0" AreaId="0" GroupId="2" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="2" Proximity="0" Priority="20" InnerFadeDistance="0" Height="9">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="0"/>
+        <Point Pos="4.456665,-10.289917,0" ObstructSound="0"/>
+        <Point Pos="10.473511,-7.4098511,0" ObstructSound="0"/>
+        <Point Pos="6.567749,2.7653198,0" ObstructSound="0"/>
+       </Points>
+       <Roof ObstructSound="0"/>
+       <Floor ObstructSound="0"/>
+       <Entities>
+        <Entity Id="212"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="4.456665,-10.289917,0"/>
+     <Point Pos="10.473511,-7.4098511,0"/>
+     <Point Pos="6.567749,2.7653198,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{DC268F0C-C748-4ED3-9AE7-8187F8B0E0BF}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{1C6255A2-D7FD-495C-98BD-A9941590E09F}" Name="AAA_ab4_river_fast" Pos="1662.4958,869.14868,56.990078" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="" fEnvironmentDistance="5" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_river_fast" audioRTPCRtpc="area_fade_distance" fRtpcDistance="15" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{21B6BCD9-36CD-412D-94F9-3B852771658F}" Name="ATS_ab1_sfx_log_creak" Pos="1323.2273,935.77771,48.333931" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_log_creak" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{21C4E1D0-23DA-445E-B35A-C3A08C03E617}" Name="ATS_ab1_sfx_bird_nighthawk" Pos="1414.2651,902.67981,45.387821" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_nighthawk" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{26EC2C30-BCC5-4CC3-AA4C-467233BA6CAE}" Name="ATS_ab1_sfx_bird_chirping" Pos="1319.312,917.86652,57.818344" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_chirping" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{28FE74E5-0038-4238-8545-267328E881D4}" Name="AAA_ab4_waterfall_small" Pos="1680.4757,873.05939,55.349648" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="" fEnvironmentDistance="5" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab4_waterfall_small" audioRTPCRtpc="area_fade_distance" fRtpcDistance="45" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{2A869763-6B46-431D-B18B-E832259A694F}" Name="ATS_ab1_sfx_water_dripping" Pos="1493.7795,910.75623,34.835487" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_water_dripping" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{31A3F91F-AF52-48A2-8267-DB3DC33AC556}" Name="ATS_ab1_sfx_bird_woodpecker" Pos="1470.7393,922.31488,52.006527" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_woodpecker" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Entity" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{362B30C4-CAF7-4B4C-AE4C-669675EF577C}" Name="PT_bird_fly_off" Pos="1654.6106,895.88025,54.868557" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="ProximityTrigger" HasEntity="1">
+    <Properties bActivateWithUseButton="0" DimX="10" DimY="15" DimZ="5" bEnabled="1" EnterDelay="0" ExitDelay="0" esFactionFilter="" bInVehicleOnly="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" bRemoveOnTrigger="0" ScriptCommand="" bTriggerOnce="0" UsableMessage="">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{DE73851B-7E35-419F-A509-51D204F555DE}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{37B010C0-F707-4F25-A3F9-2A8E9C2413B7}" Name="AS_ab6_ambience_forest_a" Pos="1482.2111,598.22968,0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="70" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="30" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="30" InnerFadeDistance="0" Height="70">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="1"/>
+        <Point Pos="2.3267822,51.485474,0" ObstructSound="1"/>
+        <Point Pos="75.681763,134.63202,0" ObstructSound="1"/>
+        <Point Pos="114.13037,129.8559,0" ObstructSound="1"/>
+        <Point Pos="130.73962,103.237,0" ObstructSound="0"/>
+        <Point Pos="113.58179,93.394043,0" ObstructSound="1"/>
+        <Point Pos="35.103516,29.763306,0" ObstructSound="0"/>
+        <Point Pos="27.705811,-8.0332642,0" ObstructSound="1"/>
+       </Points>
+       <Roof ObstructSound="1"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="235"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="2.3267822,51.485474,0"/>
+     <Point Pos="75.681763,134.63202,0"/>
+     <Point Pos="114.13037,129.8559,0"/>
+     <Point Pos="130.73962,103.237,0"/>
+     <Point Pos="113.58179,93.394043,0"/>
+     <Point Pos="35.103516,29.763306,0"/>
+     <Point Pos="27.705811,-8.0332642,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{3F21A48A-3A2D-4453-AE02-4664F7495140}"/>
+    </Entities>
+    <SoundData Side1="1" Side2="1" Side3="1" Side4="1" Side5="0" Side6="1" Side7="0" Side8="1" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{3F21A48A-3A2D-4453-AE02-4664F7495140}" Name="AAA_ab6_ambience_forest_a" Pos="1548.111,625.73853,80" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="forest" fEnvironmentDistance="30" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab6_forest" audioRTPCRtpc="area_fade_distance" fRtpcDistance="30" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{4012DB6F-B587-45DB-A3FD-6E5C81D34B36}" Name="ATS_trackview_toad" Pos="1430.9941,852.72974,37.662464" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{60F18291-C2A1-46F7-BA7F-02F390C85BB2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{44DEC84F-6830-4A26-84EA-D09820E8E2AE}" Name="ATS_ab3_sfx_bird_crow_03" Pos="1584.7367,900.15576,58.462189" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_crow" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{4C6C2C6A-A1AF-4979-88B2-5A024419F7FF}" Name="ATS_ab4_sfx_bird_nighthawk_01" Pos="1614.6537,901.58496,55.159683" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_nighthawk" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{4CC61E82-E9C9-448F-8D38-EDA2FF79A3F4}" Name="AAA_lake_calm" Pos="1651.1154,819.87158,49.111916" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="" fEnvironmentDistance="3" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_lake_calm" audioRTPCRtpc="area_fade_distance" fRtpcDistance="10" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AreaSphere" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{4CE70299-CB9D-4D90-A8EF-60F9F0646034}" Name="AS_ab4_waterfall" Pos="1683.0022,872.93274,53.275436" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" MatLayersMask="0" InnerFadeDistance="0" AreaId="-1" FadeInZone="0" Radius="10" GroupId="0" Priority="0" Filled="0" EntityClass="AreaSphere" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="-1" Group="0" Proximity="0" Priority="0" InnerFadeDistance="0" SphereCenter="0,0,0" SphereRadius="10">
+       <Entities>
+        <Entity Id="256"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Entities>
+     <Entity Id="{28FE74E5-0038-4238-8545-267328E881D4}"/>
+    </Entities>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{56750419-F008-4F9B-B56D-C9E972D317CB}" Name="AS_ab1_ambience_open_ground" Pos="1506.884,913.02148,0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="70" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="70">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="1"/>
+        <Point Pos="-12.737061,25.195618,0" ObstructSound="1"/>
+        <Point Pos="-111.39539,56.16333,0" ObstructSound="1"/>
+        <Point Pos="-110.78503,18.316833,0" ObstructSound="1"/>
+        <Point Pos="-92.915771,-29.152161,0" ObstructSound="0"/>
+        <Point Pos="-119.49487,-54.144226,0" ObstructSound="0"/>
+        <Point Pos="-78.069336,-90.266785,0" ObstructSound="1"/>
+        <Point Pos="-50.629028,-59.446289,0" ObstructSound="1"/>
+        <Point Pos="-55.018066,-38.341675,0" ObstructSound="1"/>
+        <Point Pos="-33.314331,-41.558411,0" ObstructSound="0"/>
+        <Point Pos="-18.347656,-32.898926,0" ObstructSound="1"/>
+        <Point Pos="-15.88562,-10.602661,0" ObstructSound="1"/>
+       </Points>
+       <Roof ObstructSound="1"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="254"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-12.737061,25.195618,0"/>
+     <Point Pos="-111.39539,56.16333,0"/>
+     <Point Pos="-110.78503,18.316833,0"/>
+     <Point Pos="-92.915771,-29.152161,0"/>
+     <Point Pos="-119.49487,-54.144226,0"/>
+     <Point Pos="-78.069336,-90.266785,0"/>
+     <Point Pos="-50.629028,-59.446289,0"/>
+     <Point Pos="-55.018066,-38.341675,0"/>
+     <Point Pos="-33.314331,-41.558411,0"/>
+     <Point Pos="-18.347656,-32.898926,0"/>
+     <Point Pos="-15.88562,-10.602661,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{6875A3DB-6B3D-48AE-9643-C1C0E9EC1D1F}"/>
+    </Entities>
+    <SoundData Side1="1" Side2="1" Side3="1" Side4="1" Side5="0" Side6="0" Side7="1" Side8="1" Side9="1" Side10="0" Side11="1" Side12="1" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{5726341E-A290-4447-9FA8-00412942E7FB}" Name="AAA_ab6_waterfall" Pos="1465.3967,554.01599,52.638863" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="" fEnvironmentDistance="5" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab6_waterfall_small" audioRTPCRtpc="area_fade_distance" fRtpcDistance="45" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{5B50B37B-0A39-405C-85BE-9123BAF76634}" Name="AS_ab6_ambience_lake" Pos="1606.3409,747.95569,0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="70" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="70">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="0"/>
+        <Point Pos="79.485229,19.318787,0" ObstructSound="1"/>
+        <Point Pos="162.2749,-133.6424,0" ObstructSound="1"/>
+        <Point Pos="126.43262,-215.94977,0" ObstructSound="1"/>
+        <Point Pos="71.220947,-261.17371,0" ObstructSound="1"/>
+        <Point Pos="-6.9787598,-265.62625,0" ObstructSound="1"/>
+        <Point Pos="-42.471924,-230.09143,0" ObstructSound="1"/>
+        <Point Pos="-122.81226,-249.07632,0" ObstructSound="1"/>
+        <Point Pos="-190.52271,-176.18939,0" ObstructSound="0"/>
+        <Point Pos="-170.52563,-150.51587,0" ObstructSound="1"/>
+        <Point Pos="-123.43713,-148.28754,0" ObstructSound="1"/>
+        <Point Pos="-124.31824,-97.966858,0" ObstructSound="1"/>
+        <Point Pos="-52.268311,-13.545837,0" ObstructSound="1"/>
+       </Points>
+       <Roof ObstructSound="1"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="220"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="79.485229,19.318787,0"/>
+     <Point Pos="162.2749,-133.6424,0"/>
+     <Point Pos="126.43262,-215.94977,0"/>
+     <Point Pos="71.220947,-261.17371,0"/>
+     <Point Pos="-6.9787598,-265.62625,0"/>
+     <Point Pos="-42.471924,-230.09143,0"/>
+     <Point Pos="-122.81226,-249.07632,0"/>
+     <Point Pos="-190.52271,-176.18939,0"/>
+     <Point Pos="-170.52563,-150.51587,0"/>
+     <Point Pos="-123.43713,-148.28754,0"/>
+     <Point Pos="-124.31824,-97.966858,0"/>
+     <Point Pos="-52.268311,-13.545837,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{C95CC839-903A-4EB2-BCFB-A5E8854EB85B}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="1" Side3="1" Side4="1" Side5="1" Side6="1" Side7="1" Side8="1" Side9="0" Side10="1" Side11="1" Side12="1" Side13="1" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{5BF693EF-F5C0-4271-B29E-A260C27E784C}" Name="ATS_ab4_sce_bird_chirping" Pos="1654.0858,893.72888,58.445915" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="0" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_chirping" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{6077ADE5-58F2-4830-9B42-64AC9A2DF5A1}" Name="ATS_ab1_sfx_bird_crow" Pos="1334.0338,938.09918,52.5616" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_crow" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{683BDFB0-648B-45A1-A8F3-1DF88601BFB2}" Name="ATS_ab1_sfx_wind_gust" Pos="1368.0748,902.89337,42.415417" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_wind_gust" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{6875A3DB-6B3D-48AE-9643-C1C0E9EC1D1F}" Name="AAA_ab1_ambience_open_ground" Pos="1443.287,950.60315,62.185425" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="open_ground" fEnvironmentDistance="25" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab1_open_ground" audioRTPCRtpc="area_fade_distance" fRtpcDistance="25" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{6DF5CC89-1827-4A75-9ACE-87EDBAB8B91A}" Name="ATS_ab1_sfx_metal_creak" Pos="1321.1089,951.35596,53.295792" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_metal_creak" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{7211DB3B-5494-4DD4-8AD0-18383DC67FA6}" Name="ATS_ab2_sce_entering_ravine" Pos="1526.9205,850.67493,44.457664" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="0" eiOcclusionType="1" audioTriggerPlayTriggerName="" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Entity" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{72E5B512-13A5-493C-96F9-C5492089F2EF}" Name="FG_Audio" Pos="1363.6011,790.06299,53.616505" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="FlowgraphEntity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{17E5EBA7-57E4-4662-A1C2-1F41DE946CDA}"/>
+    </Components>
+    <FlowGraph Description="" Group="Audio" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="126" Class="entity:AudioTriggerSpot" pos="-1860,-1470,0" EntityGUID="{E7CE82AA-F40F-4A2B-B27D-1D4710AAF2E0}" EntityGUID_64="E7CE82AAF40F4A2B">
+       <Inputs entityId="0" Disable="0" Enable="0"/>
+      </Node>
+      <Node Id="128" Class="entity:AudioTriggerSpot" pos="-1860,-1360,0" EntityGUID="{5BF693EF-F5C0-4271-B29E-A260C27E784C}" EntityGUID_64="5BF693EFF5C04271">
+       <Inputs entityId="0" Disable="0" Enable="0"/>
+      </Node>
+      <Node Id="130" Class="entity:ProximityTrigger" pos="-2310,-1490,0" EntityGUID="{362B30C4-CAF7-4B4C-AE4C-669675EF577C}" EntityGUID_64="362B30C4CAF74B4C">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="132" Class="Game:Start" pos="-2310,-1320,0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="133" Name="ab4_-_stop_bird_chirping_and_trigger_fly_off_based_on_proximity" Class="_commentbox" pos="-2340,-1721.6517,0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="790" Height="500"/>
+       <NodeSize Width="790" Height="527.91412"/>
+      </Node>
+      <Node Id="135" Class="entity:AudioAreaEntity" pos="-2310,-2530,0" EntityGUID="{D6F74DC2-7451-4734-9D0F-0B9FEA74A963}" EntityGUID_64="D6F74DC274514734">
+       <Inputs entityId="0" Disable="0" Enable="0"/>
+      </Node>
+      <Node Id="142" Class="Audio:Trigger" pos="-1990,-2470,0" EntityGUID="{D6F74DC2-7451-4734-9D0F-0B9FEA74A963}" EntityGUID_64="D6F74DC274514734">
+       <Inputs entityId="0" audioTrigger_PlayTrigger="Play_l_woodland_amb_ab1_cave" audioTrigger_StopTrigger=""/>
+      </Node>
+      <Node Id="144" Class="Audio:Rtpc" pos="-1990,-2550,0" EntityGUID="{D6F74DC2-7451-4734-9D0F-0B9FEA74A963}" EntityGUID_64="D6F74DC274514734">
+       <Inputs entityId="0" audioRTPC_Name="area_fade_distance" value="0"/>
+      </Node>
+      <Node Id="145" Name="ab1_-_set_state_cave" Class="_commentbox" pos="-2340,-2649.5652,0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="870" Height="500"/>
+       <NodeSize Width="870" Height="527.91412"/>
+      </Node>
+      <Node Id="146" Name="trigger_the_cave_ambience_on_the_AAE" Class="_comment" pos="-2310,-2560,0"/>
+      <Node Id="147" Name="muffle_the_weapon_sounds_when_entering_the_small_cave_via_the_l_woodland_cave_state" Class="_comment" pos="-2310,-2590,0"/>
+      <Node Id="149" Class="Time:Delay" pos="-1840,-1620,0">
+       <Inputs delay="20" resetOnInput="0"/>
+      </Node>
+      <Node Id="151" Class="Logic:Once" pos="-2110,-1440,0" InHideMask="127" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="152" Name="enable_chirping_trigger_and_reset_Logic:Once_after_20_seconds" Class="_comment" pos="-1990,-1650,0"/>
+      <Node Id="154" Class="Logic:Any" pos="-2110,-1320,0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="158" Class="Audio:Trigger" pos="-1020,-2560,0" EntityGUID="{7211DB3B-5494-4DD4-8AD0-18383DC67FA6}" EntityGUID_64="7211DB3B54944DD4">
+       <Inputs entityId="0" audioTrigger_PlayTrigger="Play_l_woodland_sce_entering_ravine" audioTrigger_StopTrigger=""/>
+      </Node>
+      <Node Id="160" Name="ab2_-_set_state_ravine" Class="_commentbox" pos="-1430,-2645.6721,0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="864" Height="414"/>
+       <NodeSize Width="864" Height="441.91412"/>
+      </Node>
+      <Node Id="3720" Class="Audio:Switch" pos="-1990,-2350,0">
+       <Inputs entityId="0" audioSwitch_SwitchName="l_woodland_mixing" audioSwitchState_SwitchStateName1="l_woodland_cave" audioSwitchState_SwitchStateName2="l_woodland_riverbed" audioSwitchState_SwitchStateName3="" audioSwitchState_SwitchStateName4=""/>
+      </Node>
+      <Node Id="3721" Class="Audio:Switch" pos="-1020,-2440,0">
+       <Inputs entityId="0" audioSwitch_SwitchName="l_woodland_mixing" audioSwitchState_SwitchStateName1="l_woodland_ravine" audioSwitchState_SwitchStateName2="l_woodland_none" audioSwitchState_SwitchStateName3="" audioSwitchState_SwitchStateName4=""/>
+      </Node>
+      <Node Id="3723" Class="entity:AudioAreaEntity" pos="-1370,-2370,0" EntityGUID="{95C846D2-7629-4B95-89F8-1908C3552B6F}" EntityGUID_64="95C846D276294B95">
+       <Inputs entityId="0" Disable="0" Enable="0"/>
+      </Node>
+      <Node Id="3732" Class="entity:AudioAreaEntity" pos="-2110,-2000,0" EntityGUID="{C36CAAA3-BAA4-4041-B140-F53885FC7C71}" EntityGUID_64="C36CAAA3BAA44041">
+       <Inputs entityId="0" Disable="0" Enable="0"/>
+      </Node>
+      <Node Id="3733" Class="Audio:Switch" pos="-1820,-2000,0">
+       <Inputs entityId="0" audioSwitch_SwitchName="l_woodland_mixing" audioSwitchState_SwitchStateName1="l_woodland_riverbed" audioSwitchState_SwitchStateName2="l_woodland_none" audioSwitchState_SwitchStateName3="" audioSwitchState_SwitchStateName4=""/>
+      </Node>
+      <Node Id="3734" Name="when_entering_the_riverbed_the_state_in_Wwise_will_lower_the_value_of_the_wind_in_the_overall_ambience" Class="_comment" pos="-2330,-2040,0"/>
+      <Node Id="3735" Name="ab2_-_set_state_riverbed" Class="_commentbox" pos="-2340,-2071.6516,0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="864" Height="256"/>
+       <NodeSize Width="864" Height="283.91412"/>
+      </Node>
+      <Node Id="3737" Name="this_setup_will_trigger_a_chirping_bird_to_fly-off_once_the_player_goes_near_to_the_sound_source" Class="_comment" pos="-2330,-1680,0"/>
+      <Node Id="3738" Name="when_entering_the_ravine_the_state_in_Wwise_will_lower_the_value_of_the_overall_ambience" Class="_comment" pos="-1410,-2600,0"/>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="149" nodeOut="126" portIn="in" portOut="Done" enabled="1"/>
+      <Edge nodeIn="151" nodeOut="130" portIn="Input1" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="154" nodeOut="132" portIn="in1" portOut="output" enabled="1"/>
+      <Edge nodeIn="142" nodeOut="135" portIn="Play" portOut="OnFarToNear" enabled="1"/>
+      <Edge nodeIn="142" nodeOut="135" portIn="Stop" portOut="OnNearToFar" enabled="1"/>
+      <Edge nodeIn="144" nodeOut="135" portIn="value" portOut="FadeValue" enabled="1"/>
+      <Edge nodeIn="3720" nodeOut="135" portIn="audioSwitchState_SetState2" portOut="OnInsideToNear" enabled="1"/>
+      <Edge nodeIn="3720" nodeOut="135" portIn="audioSwitchState_SetState1" portOut="OnNearToInside" enabled="1"/>
+      <Edge nodeIn="151" nodeOut="149" portIn="Reset" portOut="out" enabled="1"/>
+      <Edge nodeIn="154" nodeOut="149" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="126" nodeOut="151" portIn="Enable" portOut="Out" enabled="1"/>
+      <Edge nodeIn="128" nodeOut="151" portIn="Disable" portOut="Out" enabled="1"/>
+      <Edge nodeIn="126" nodeOut="154" portIn="Disable" portOut="out" enabled="1"/>
+      <Edge nodeIn="128" nodeOut="154" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="158" nodeOut="3723" portIn="Play" portOut="OnInsideToNear" enabled="1"/>
+      <Edge nodeIn="3721" nodeOut="3723" portIn="audioSwitchState_SetState2" portOut="OnInsideToNear" enabled="1"/>
+      <Edge nodeIn="3721" nodeOut="3723" portIn="audioSwitchState_SetState1" portOut="OnNearToInside" enabled="1"/>
+      <Edge nodeIn="3733" nodeOut="3732" portIn="audioSwitchState_SetState2" portOut="OnInsideToNear" enabled="1"/>
+      <Edge nodeIn="3733" nodeOut="3732" portIn="audioSwitchState_SetState1" portOut="OnNearToInside" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{7D47ABC0-2CBB-4AC2-93A8-747BB86C2907}" Name="AS_big_lake" Pos="1622.436,861.22339,31.729961" FloorNumber="-1" Rotate="0.60181504,0,0,-0.79863548" ColorRGB="16763904" Width="0" Height="15" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="15">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="1"/>
+        <Point Pos="-5.1374512,20.110474,0" ObstructSound="1"/>
+        <Point Pos="2.06604,25.713867,0" ObstructSound="0"/>
+        <Point Pos="11.273804,20.97937,0" ObstructSound="0"/>
+        <Point Pos="25.970825,25.278198,0" ObstructSound="0"/>
+        <Point Pos="40.591675,48.645752,0" ObstructSound="0"/>
+        <Point Pos="87.744507,80.444946,0" ObstructSound="1"/>
+        <Point Pos="103.91614,94.067871,0" ObstructSound="0"/>
+        <Point Pos="147.87964,109.20081,0" ObstructSound="0"/>
+        <Point Pos="174.81494,111.41736,0" ObstructSound="0"/>
+        <Point Pos="209.89404,105.15735,0" ObstructSound="0"/>
+        <Point Pos="211.57935,81.2146,-3.8146973e-06" ObstructSound="0"/>
+        <Point Pos="215.70654,56.555054,-0.23561096" ObstructSound="0"/>
+        <Point Pos="227.71802,44.859619,-0.14043045" ObstructSound="0"/>
+        <Point Pos="242.55322,57.212158,-3.8146973e-06" ObstructSound="0"/>
+        <Point Pos="267.14844,60.727295,-3.8146973e-06" ObstructSound="0"/>
+        <Point Pos="287.06036,53.175659,-7.6293945e-06" ObstructSound="0"/>
+        <Point Pos="302.46484,39.013306,-3.8146973e-06" ObstructSound="0"/>
+        <Point Pos="330.10681,19.325928,-7.6293945e-06" ObstructSound="0"/>
+        <Point Pos="349.5752,-10.764893,-7.6293945e-06" ObstructSound="0"/>
+        <Point Pos="379.98859,-48.163696,0" ObstructSound="1"/>
+        <Point Pos="331.77417,-119.95203,0" ObstructSound="0"/>
+        <Point Pos="311.45935,-109.06445,0" ObstructSound="1"/>
+        <Point Pos="325.92572,-60.217896,0" ObstructSound="1"/>
+        <Point Pos="315.84937,-39.552612,-3.8146973e-06" ObstructSound="0"/>
+        <Point Pos="310.37708,-21.966919,-3.8146973e-06" ObstructSound="0"/>
+        <Point Pos="274.42773,9.9672852,-7.6293945e-06" ObstructSound="0"/>
+        <Point Pos="215.67261,-4.9307861,-3.8146973e-06" ObstructSound="1"/>
+        <Point Pos="184.2478,21.99292,0" ObstructSound="1"/>
+        <Point Pos="181.64673,37.587402,0" ObstructSound="0"/>
+        <Point Pos="157.74023,65.649902,0" ObstructSound="0"/>
+        <Point Pos="142.05017,66.078979,0" ObstructSound="0"/>
+        <Point Pos="123.81323,55.501343,0" ObstructSound="0"/>
+        <Point Pos="96.941895,55.460083,0" ObstructSound="0"/>
+        <Point Pos="73.083008,42.200684,0" ObstructSound="0"/>
+        <Point Pos="69.653931,27.769531,0" ObstructSound="0"/>
+        <Point Pos="45.870117,26.581787,0" ObstructSound="0"/>
+        <Point Pos="39.077759,15.202148,0" ObstructSound="0"/>
+        <Point Pos="14.375,3,0" ObstructSound="0"/>
+       </Points>
+       <Roof ObstructSound="0"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="422"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-5.1374512,20.110474,0"/>
+     <Point Pos="2.06604,25.713867,0"/>
+     <Point Pos="11.273804,20.97937,0"/>
+     <Point Pos="25.970825,25.278198,0"/>
+     <Point Pos="40.591675,48.645752,0"/>
+     <Point Pos="87.744507,80.444946,0"/>
+     <Point Pos="103.91614,94.067871,0"/>
+     <Point Pos="147.87964,109.20081,0"/>
+     <Point Pos="174.81494,111.41736,0"/>
+     <Point Pos="209.89404,105.15735,0"/>
+     <Point Pos="211.57935,81.2146,-3.8146973e-06"/>
+     <Point Pos="215.70654,56.555054,-0.23561096"/>
+     <Point Pos="227.71802,44.859619,-0.14043045"/>
+     <Point Pos="242.55322,57.212158,-3.8146973e-06"/>
+     <Point Pos="267.14844,60.727295,-3.8146973e-06"/>
+     <Point Pos="287.06036,53.175659,-7.6293945e-06"/>
+     <Point Pos="302.46484,39.013306,-3.8146973e-06"/>
+     <Point Pos="330.10681,19.325928,-7.6293945e-06"/>
+     <Point Pos="349.5752,-10.764893,-7.6293945e-06"/>
+     <Point Pos="379.98859,-48.163696,0"/>
+     <Point Pos="331.77417,-119.95203,0"/>
+     <Point Pos="311.45935,-109.06445,0"/>
+     <Point Pos="325.92572,-60.217896,0"/>
+     <Point Pos="315.84937,-39.552612,-3.8146973e-06"/>
+     <Point Pos="310.37708,-21.966919,-3.8146973e-06"/>
+     <Point Pos="274.42773,9.9672852,-7.6293945e-06"/>
+     <Point Pos="215.67261,-4.9307861,-3.8146973e-06"/>
+     <Point Pos="184.2478,21.99292,0"/>
+     <Point Pos="181.64673,37.587402,0"/>
+     <Point Pos="157.74023,65.649902,0"/>
+     <Point Pos="142.05017,66.078979,0"/>
+     <Point Pos="123.81323,55.501343,0"/>
+     <Point Pos="96.941895,55.460083,0"/>
+     <Point Pos="73.083008,42.200684,0"/>
+     <Point Pos="69.653931,27.769531,0"/>
+     <Point Pos="45.870117,26.581787,0"/>
+     <Point Pos="39.077759,15.202148,0"/>
+     <Point Pos="14.375,3,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{4CC61E82-E9C9-448F-8D38-EDA2FF79A3F4}"/>
+    </Entities>
+    <SoundData Side1="1" Side2="1" Side3="0" Side4="0" Side5="0" Side6="0" Side7="1" Side8="0" Side9="0" Side10="0" Side11="0" Side12="0" Side13="0" Side14="0" Side15="0" Side16="0" Side17="0" Side18="0" Side19="0" Side20="0" Side21="1" Side22="0" Side23="1" Side24="1" Side25="0" Side26="0" Side27="0" Side28="1" Side29="1" Side30="0" Side31="0" Side32="0" Side33="0" Side34="0" Side35="0" Side36="0" Side37="0" Side38="0" Side39="0" Roof="0" Floor="1"/>
+   </Object>
+   <Object Type="AreaBox" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{8023CA99-98A9-4470-800C-5FED8CC4726C}" Name="AB_cliff_delays" Pos="1528.3176,849.90112,44.549744" FloorNumber="-1" Rotate="0.9876883,0,0,-0.15643448" ColorRGB="16711680" MatLayersMask="0" InnerFadeDistance="0" AreaId="-1" FadeInZone="0" Width="9" Length="10" Height="15" GroupId="0" Priority="90" DisplayFilled="0" DisplaySoundInfo="0" EntityClass="AreaBox" HasEntity="1" BoxMin="-4.5,-5,0" BoxMax="4.5,5,15">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="-1" Group="0" Proximity="0" Priority="90" InnerFadeDistance="0" BoxMin="-4.5,-5,0" BoxMax="4.5,5,15">
+       <SoundData>
+        <Side1 ObstructSound="0"/>
+        <Side2 ObstructSound="0"/>
+        <Side3 ObstructSound="0"/>
+        <Side4 ObstructSound="0"/>
+        <Side5 ObstructSound="0"/>
+        <Side6 ObstructSound="0"/>
+       </SoundData>
+       <Entities>
+        <Entity Id="250"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Entities>
+     <Entity Id="{95C846D2-7629-4B95-89F8-1908C3552B6F}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0"/>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{83CC6EDF-2377-4F0C-891B-314528201C96}" Name="AAA_ab1_waterfall_small" Pos="1421.8453,849.33063,35.570892" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="" fEnvironmentDistance="5" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab1_waterfall_small" audioRTPCRtpc="area_fade_distance" fRtpcDistance="25" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{846D0235-F3C3-4A39-917B-F12CB8BB4AE6}" Name="AS_small_river" Pos="1415.875,856,29" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="7" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="7">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="0"/>
+        <Point Pos="1.75,9.375,0" ObstructSound="0"/>
+        <Point Pos="14.25,23.75,0" ObstructSound="0"/>
+        <Point Pos="19.375,36.125,0" ObstructSound="0"/>
+        <Point Pos="28.375,45.875,0" ObstructSound="0"/>
+        <Point Pos="40.875,51.5,0" ObstructSound="0"/>
+        <Point Pos="57.75,54.875,0" ObstructSound="0"/>
+        <Point Pos="72.75,54,0" ObstructSound="0"/>
+        <Point Pos="71.625,49.125,0" ObstructSound="0"/>
+        <Point Pos="50.125,48.875,0" ObstructSound="0"/>
+        <Point Pos="30.945557,42.482605,0" ObstructSound="1"/>
+        <Point Pos="20.460327,19.814941,0" ObstructSound="0"/>
+        <Point Pos="17.283325,21.171692,0" ObstructSound="0"/>
+        <Point Pos="13.561523,12.992554,0" ObstructSound="0"/>
+        <Point Pos="14.375,3,0" ObstructSound="0"/>
+        <Point Pos="23.625,-6.75,0" ObstructSound="1"/>
+        <Point Pos="18.75,-13,0" ObstructSound="0"/>
+       </Points>
+       <Roof ObstructSound="0"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="222"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="1.75,9.375,0"/>
+     <Point Pos="14.25,23.75,0"/>
+     <Point Pos="19.375,36.125,0"/>
+     <Point Pos="28.375,45.875,0"/>
+     <Point Pos="40.875,51.5,0"/>
+     <Point Pos="57.75,54.875,0"/>
+     <Point Pos="72.75,54,0"/>
+     <Point Pos="71.625,49.125,0"/>
+     <Point Pos="50.125,48.875,0"/>
+     <Point Pos="30.945557,42.482605,0"/>
+     <Point Pos="20.460327,19.814941,0"/>
+     <Point Pos="17.283325,21.171692,0"/>
+     <Point Pos="13.561523,12.992554,0"/>
+     <Point Pos="14.375,3,0"/>
+     <Point Pos="23.625,-6.75,0"/>
+     <Point Pos="18.75,-13,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{E5C68E43-E28E-48B5-8194-B3D0DCAAE7AB}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Side7="0" Side8="0" Side9="0" Side10="0" Side11="1" Side12="0" Side13="0" Side14="0" Side15="0" Side16="1" Side17="0" Roof="0" Floor="1"/>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{93B76D5C-D12D-4283-B164-3891BED04310}" Name="AS_switch_l_woodland_mixing" Pos="1438.978,886.74548,33" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="4" InnerFadeDistance="0" AreaId="0" GroupId="2" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="2" Proximity="0" Priority="0" InnerFadeDistance="0" Height="4">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="0"/>
+        <Point Pos="-4.1988525,6.9359741,0" ObstructSound="0"/>
+        <Point Pos="4.0579834,15.093201,0" ObstructSound="0"/>
+        <Point Pos="16.188843,20.144836,0" ObstructSound="0"/>
+        <Point Pos="33.677246,24.505615,0" ObstructSound="0"/>
+        <Point Pos="65.239014,30.133301,0" ObstructSound="0"/>
+        <Point Pos="63.281982,17.134888,0" ObstructSound="0"/>
+        <Point Pos="22.93396,16.571167,0" ObstructSound="0"/>
+        <Point Pos="7.8990479,11.742798,0" ObstructSound="0"/>
+        <Point Pos="0.025024414,0.15338135,0" ObstructSound="0"/>
+       </Points>
+       <Roof ObstructSound="0"/>
+       <Floor ObstructSound="0"/>
+       <Entities>
+        <Entity Id="240"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-4.1988525,6.9359741,0"/>
+     <Point Pos="4.0579834,15.093201,0"/>
+     <Point Pos="16.188843,20.144836,0"/>
+     <Point Pos="33.677246,24.505615,0"/>
+     <Point Pos="65.239014,30.133301,0"/>
+     <Point Pos="63.281982,17.134888,0"/>
+     <Point Pos="22.93396,16.571167,0"/>
+     <Point Pos="7.8990479,11.742798,0"/>
+     <Point Pos="0.025024414,0.15338135,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{C36CAAA3-BAA4-4041-B140-F53885FC7C71}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Side7="0" Side8="0" Side9="0" Side10="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{93EC75A8-7609-4583-BC3F-9BECAF08C32F}" Name="AAA_ab5_ambience_lakeside" Pos="1663.7987,851.82318,52.36454" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="open_ground" fEnvironmentDistance="30" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab5_lake" audioRTPCRtpc="area_fade_distance" fRtpcDistance="30" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaEntity" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{95C846D2-7629-4B95-89F8-1908C3552B6F}" Name="AAE_cliff_delays" Pos="1534.4581,847.86877,41.8997" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaEntity" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="" fEnvironmentDistance="5" fFadeDistance="5" eiOcclusionType="1" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{98C71E37-4169-42C5-9A6A-D71565C8B5B4}" Name="AS_ab1_amb_insects_pond" Pos="1419.6146,864.32874,34.288536" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="8" InnerFadeDistance="0" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="0" Proximity="0" Priority="0" InnerFadeDistance="0" Height="8">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="0"/>
+        <Point Pos="-1.1008301,-9.5368042,-0.12680435" ObstructSound="0"/>
+        <Point Pos="4.5596924,-16.123901,1.7738647" ObstructSound="0"/>
+        <Point Pos="11.455566,-4.4744263,2.162796" ObstructSound="0"/>
+        <Point Pos="10.186768,6.9403076,0.087795258" ObstructSound="0"/>
+        <Point Pos="2.8262939,6.0473633,1.2555275" ObstructSound="0"/>
+       </Points>
+       <Roof ObstructSound="0"/>
+       <Floor ObstructSound="0"/>
+       <Entities>
+        <Entity Id="217"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-1.1008301,-9.5368042,-0.12680435"/>
+     <Point Pos="4.5596924,-16.123901,1.7738647"/>
+     <Point Pos="11.455566,-4.4744263,2.162796"/>
+     <Point Pos="10.186768,6.9403076,0.087795258"/>
+     <Point Pos="2.8262939,6.0473633,1.2555275"/>
+    </Points>
+    <Entities>
+     <Entity Id="{BD91D92C-BF8A-485E-8CD2-730C6C0E9FDA}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{A0FF0338-C6D5-4596-BD6F-127F32BEFF1D}" Name="AAA_ab1_ambience_forest" Pos="1325.1262,940.09857,52.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="forest" fEnvironmentDistance="15" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab1_forest" audioRTPCRtpc="area_fade_distance" fRtpcDistance="15" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{A95E10C3-2BB6-456A-A611-6DB4EB6AB9C7}" Name="AAA_ab4_ambience_forest" Pos="1605.6803,902.5946,50.82618" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="open_ground" fEnvironmentDistance="20" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab4_forest" audioRTPCRtpc="area_fade_distance" fRtpcDistance="20" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{AA6F9855-D9E1-4AE2-A7E1-129D5E839E51}" Name="AAA_ab3_ambience_forest" Pos="1541.6235,845.29321,44.375" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="open_ground" fEnvironmentDistance="35" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab3_village" audioRTPCRtpc="area_fade_distance" fRtpcDistance="35" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{AE806607-C23B-4945-B668-B6B44CA03D82}" Name="AS_ab4_ambience_forest" Pos="1686.375,944.5,0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="70" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="70">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="1"/>
+        <Point Pos="4.75,-85.625,0" ObstructSound="1"/>
+        <Point Pos="-27.25,-86.5,0" ObstructSound="0"/>
+        <Point Pos="-31.375,-79.125,0" ObstructSound="1"/>
+        <Point Pos="-71.875,-75.375,0" ObstructSound="1"/>
+        <Point Pos="-80.25,-54.625,0" ObstructSound="0"/>
+        <Point Pos="-84.5,-43.25,0" ObstructSound="1"/>
+        <Point Pos="-94.25,-26.5,0" ObstructSound="1"/>
+       </Points>
+       <Roof ObstructSound="1"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="247"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="4.75,-85.625,0"/>
+     <Point Pos="-27.25,-86.5,0"/>
+     <Point Pos="-31.375,-79.125,0"/>
+     <Point Pos="-71.875,-75.375,0"/>
+     <Point Pos="-80.25,-54.625,0"/>
+     <Point Pos="-84.5,-43.25,0"/>
+     <Point Pos="-94.25,-26.5,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{A95E10C3-2BB6-456A-A611-6DB4EB6AB9C7}"/>
+    </Entities>
+    <SoundData Side1="1" Side2="1" Side3="0" Side4="1" Side5="1" Side6="0" Side7="1" Side8="1" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{AF600212-2798-43A9-A639-B5D9F87F5447}" Name="AAA_ab6_ambience_forest_b" Pos="1676.984,537.49542,80" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="forest" fEnvironmentDistance="35" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab6_forest" audioRTPCRtpc="area_fade_distance" fRtpcDistance="35" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{B12BD7D2-50AD-4E58-82AA-FDCD02186C00}" Name="ATS_ab1_sfx_vegetation_rustle" Pos="1323.5197,936.07184,48.293934" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_vegetation_rustle" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{BD91D92C-BF8A-485E-8CD2-730C6C0E9FDA}" Name="AAA_ab1_amb_insects_pond" Pos="1414.4344,856.88068,35.213642" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="" fEnvironmentDistance="5" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_insects_pond" audioRTPCRtpc="area_fade_distance" fRtpcDistance="15" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{C2282F9F-374C-4E94-9F68-F5C3590950AA}" Name="AAA_ab1_waterfall_big" Pos="1427.1292,846.86774,37.214333" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="" fEnvironmentDistance="5" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab1_waterfall_large" audioRTPCRtpc="area_fade_distance" fRtpcDistance="75" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaEntity" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{C36CAAA3-BAA4-4041-B140-F53885FC7C71}" Name="AAE_switch_l_woodland_mixing" Pos="1456.0778,899.4599,35.04533" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaEntity" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="" fEnvironmentDistance="5" fFadeDistance="5" eiOcclusionType="1" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{C6409602-989D-4805-8FEC-F5EA442EE251}" Name="AS_ab1_amb_crash_site" Pos="1318.2,953.97498,50" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="13" InnerFadeDistance="0" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="0" Proximity="0" Priority="0" InnerFadeDistance="0" Height="13">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="0"/>
+        <Point Pos="-2.6925049,-2.8181763,0" ObstructSound="0"/>
+        <Point Pos="9.1358643,-9.4819946,0" ObstructSound="0"/>
+        <Point Pos="10.463501,-5.0583496,0" ObstructSound="0"/>
+       </Points>
+       <Roof ObstructSound="1"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="230"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-2.6925049,-2.8181763,0"/>
+     <Point Pos="9.1358643,-9.4819946,0"/>
+     <Point Pos="10.463501,-5.0583496,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{D6BFF171-AED4-4402-A45F-7E2478D02AA7}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{C95CC839-903A-4EB2-BCFB-A5E8854EB85B}" Name="AAA_ab6_ambience_lakeside" Pos="1569.6311,731.47223,84.766235" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="open_ground" fEnvironmentDistance="35" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab6_lake" audioRTPCRtpc="area_fade_distance" fRtpcDistance="35" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{CDE775F3-0DC5-453F-8D8C-763F20A33D22}" Name="AS_ab1_waterfall_large" Pos="1439.653,848.79791,35" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="13" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="13">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="0"/>
+        <Point Pos="-1.9433594,1.6411743,0" ObstructSound="0"/>
+        <Point Pos="-4.7506104,-3.2440186,0" ObstructSound="0"/>
+        <Point Pos="-2.6912842,-4.0797729,0" ObstructSound="0"/>
+       </Points>
+       <Roof ObstructSound="1"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="238"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-1.9433594,1.6411743,0"/>
+     <Point Pos="-4.7506104,-3.2440186,0"/>
+     <Point Pos="-2.6912842,-4.0797729,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{C2282F9F-374C-4E94-9F68-F5C3590950AA}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="AreaBox" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{D6041E22-5EA2-4A08-8EF0-898114CAB459}" Name="AB_small_cave" Pos="1489.34,909.22778,32" FloorNumber="-1" Rotate="0.99691731,0,0,0.078459099" ColorRGB="16711680" MatLayersMask="0" InnerFadeDistance="0" AreaId="-1" FadeInZone="0" Width="19" Length="10" Height="6.5" GroupId="1" Priority="30" DisplayFilled="0" DisplaySoundInfo="1" EntityClass="AreaBox" HasEntity="1" BoxMin="-9.5,-5,0" BoxMax="9.5,5,6.5">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="-1" Group="1" Proximity="0" Priority="30" InnerFadeDistance="0" BoxMin="-9.5,-5,0" BoxMax="9.5,5,6.5">
+       <SoundData>
+        <Side1 ObstructSound="1"/>
+        <Side2 ObstructSound="1"/>
+        <Side3 ObstructSound="1"/>
+        <Side4 ObstructSound="0"/>
+        <Side5 ObstructSound="1"/>
+        <Side6 ObstructSound="1"/>
+       </SoundData>
+       <Entities>
+        <Entity Id="246"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Entities>
+     <Entity Id="{D6F74DC2-7451-4734-9D0F-0B9FEA74A963}"/>
+    </Entities>
+    <SoundData Side1="1" Side2="1" Side3="1" Side4="0" Side5="1" Side6="1"/>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{D6BFF171-AED4-4402-A45F-7E2478D02AA7}" Name="AAA_ab1_amb_crash_site" Pos="1321.6377,946.90466,50.681999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="tower" fEnvironmentDistance="2" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab1_crash_site" audioRTPCRtpc="area_fade_distance" fRtpcDistance="5" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{D6C99E80-B15F-471B-A5EB-20C79D303783}" Name="ATS_ab1_sfx_bird_owl" Pos="1489.2004,857.14935,47.643829" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_owl" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaEntity" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{D6F74DC2-7451-4734-9D0F-0B9FEA74A963}" Name="AAE_small_cave" Pos="1479.6704,905.40625,36.441177" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaEntity" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="cave" fEnvironmentDistance="5" fFadeDistance="5" eiOcclusionType="1" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{D799456D-ED15-413C-A6EC-F4DBAE7D5A24}" Name="ATS_ab4_sfx_bird_nighthawk_02" Pos="1638.6823,880.54657,55.318241" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_nighthawk" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{D901D561-6112-4AF5-B2AD-B6A9B374CE82}" Name="ATS_ab3_sfx_bird_crow_02" Pos="1565.7938,861.64551,52.040634" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_bird_crow" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{DC268F0C-C748-4ED3-9AE7-8187F8B0E0BF}" Name="AAA_ab5_waterfall" Pos="1641.5573,849.07385,51.584953" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="" fEnvironmentDistance="5" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab5_waterfall_medium" audioRTPCRtpc="area_fade_distance" fRtpcDistance="35" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{DFD562EB-D6E9-4144-97E4-7F2817D628CD}" Name="AAA_ab2_ambience_forest" Pos="1526.9396,921.19336,55.346489" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="forest" fEnvironmentDistance="35" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_ab2_forest" audioRTPCRtpc="area_fade_distance" fRtpcDistance="35" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="AudioAreaAmbience" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{E5C68E43-E28E-48B5-8194-B3D0DCAAE7AB}" Name="AAA_small_river" Pos="1414.5282,862.27332,34.785591" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioAreaAmbience" HasEntity="1">
+    <Properties bEnabled="1" audioEnvironmentEnvironment="" fEnvironmentDistance="5" audioRTPCGlobalRtpc="" eiOcclusionType="1" audioTriggerPlayTrigger="Play_l_woodland_amb_river_calm" audioRTPCRtpc="area_fade_distance" fRtpcDistance="15" audioTriggerStopTrigger="" bTriggerAreasOnMove="0"/>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{E6072496-39C3-487F-8B73-191216D4A84A}" Name="AS_ab6_ambience_forest_b" Pos="1736.174,677.78888,0" FloorNumber="-1" Rotate="0.052335974,0,0,0.99862951" ColorRGB="16763904" Width="0" Height="70" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="70">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="1"/>
+        <Point Pos="-22.024292,64.694031,0" ObstructSound="1"/>
+        <Point Pos="-20.045776,132.24591,0" ObstructSound="1"/>
+        <Point Pos="45.812012,190.97363,0" ObstructSound="1"/>
+        <Point Pos="98.334595,206.51685,0" ObstructSound="1"/>
+        <Point Pos="135.14355,190.6488,0" ObstructSound="1"/>
+        <Point Pos="118.50659,172.92212,0" ObstructSound="0"/>
+        <Point Pos="107.07373,161.18848,0" ObstructSound="1"/>
+        <Point Pos="68.022827,132.75818,0" ObstructSound="1"/>
+        <Point Pos="46.463379,123.74658,0" ObstructSound="1"/>
+        <Point Pos="29.908813,92.653687,0" ObstructSound="1"/>
+        <Point Pos="35.698608,79.172119,0" ObstructSound="1"/>
+        <Point Pos="60.594238,62.764526,0" ObstructSound="0"/>
+        <Point Pos="38.485229,-13.858215,0" ObstructSound="1"/>
+       </Points>
+       <Roof ObstructSound="1"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="213"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-22.024292,64.694031,0"/>
+     <Point Pos="-20.045776,132.24591,0"/>
+     <Point Pos="45.812012,190.97363,0"/>
+     <Point Pos="98.334595,206.51685,0"/>
+     <Point Pos="135.14355,190.6488,0"/>
+     <Point Pos="118.50659,172.92212,0"/>
+     <Point Pos="107.07373,161.18848,0"/>
+     <Point Pos="68.022827,132.75818,0"/>
+     <Point Pos="46.463379,123.74658,0"/>
+     <Point Pos="29.908813,92.653687,0"/>
+     <Point Pos="35.698608,79.172119,0"/>
+     <Point Pos="60.594238,62.764526,0"/>
+     <Point Pos="38.485229,-13.858215,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{AF600212-2798-43A9-A639-B5D9F87F5447}"/>
+    </Entities>
+    <SoundData Side1="1" Side2="1" Side3="1" Side4="1" Side5="1" Side6="1" Side7="0" Side8="1" Side9="1" Side10="1" Side11="1" Side12="1" Side13="0" Side14="1" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{E6B79B22-A018-4F22-9390-2C667D1812D0}" Name="AS_ab3_ambience_forest" Pos="1526.87,843.31348,0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="70" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="70">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="1"/>
+        <Point Pos="-0.20251465,-0.55737305,0" ObstructSound="1"/>
+        <Point Pos="-0.52783203,-38.247986,0" ObstructSound="1"/>
+        <Point Pos="1.0766602,-54.31427,0" ObstructSound="1"/>
+        <Point Pos="37.172485,-39.307373,0" ObstructSound="1"/>
+        <Point Pos="58.422485,5.567627,0" ObstructSound="1"/>
+        <Point Pos="86.887573,25.060303,0" ObstructSound="1"/>
+        <Point Pos="78.429199,46.019226,0" ObstructSound="0"/>
+        <Point Pos="74.28894,57.596313,0" ObstructSound="1"/>
+        <Point Pos="64.565918,74.140869,0" ObstructSound="1"/>
+        <Point Pos="14.912231,53.260925,0" ObstructSound="1"/>
+        <Point Pos="-0.515625,11.761597,0" ObstructSound="0"/>
+       </Points>
+       <Roof ObstructSound="1"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="224"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-0.20251465,-0.55737305,0"/>
+     <Point Pos="-0.52783203,-38.247986,0"/>
+     <Point Pos="1.0766602,-54.31427,0"/>
+     <Point Pos="37.172485,-39.307373,0"/>
+     <Point Pos="58.422485,5.567627,0"/>
+     <Point Pos="86.887573,25.060303,0"/>
+     <Point Pos="78.429199,46.019226,0"/>
+     <Point Pos="74.28894,57.596313,0"/>
+     <Point Pos="64.565918,74.140869,0"/>
+     <Point Pos="14.912231,53.260925,0"/>
+     <Point Pos="-0.515625,11.761597,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{AA6F9855-D9E1-4AE2-A7E1-129D5E839E51}"/>
+    </Entities>
+    <SoundData Side1="1" Side2="1" Side3="1" Side4="1" Side5="1" Side6="1" Side7="1" Side8="0" Side9="1" Side10="1" Side11="1" Side12="0" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{E7CE82AA-F40F-4A2B-B27D-1D4710AAF2E0}" Name="ATS_ab4_sce_bird_fly_off" Pos="1657.5326,893.55664,59.194229" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="0" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sce_bird_fly_off" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{EE3EF64B-C0AB-41BF-9AAF-5A0163A1EEAB}" Name="AS_ab1_ambience_forest" Pos="1395.871,931.24841,0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="70" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="70">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="1"/>
+        <Point Pos="18.02832,-47.606323,0" ObstructSound="0"/>
+        <Point Pos="-8.9696045,-72.253479,0" ObstructSound="0"/>
+        <Point Pos="32.999634,-108.56708,0" ObstructSound="1"/>
+        <Point Pos="38.395508,-145.48608,0" ObstructSound="1"/>
+        <Point Pos="-151.99634,-39.498352,0" ObstructSound="1"/>
+        <Point Pos="-82.621338,78.376648,0" ObstructSound="1"/>
+        <Point Pos="0.57519531,22.370667,0" ObstructSound="1"/>
+       </Points>
+       <Roof ObstructSound="1"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="219"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="18.02832,-47.606323,0"/>
+     <Point Pos="-8.9696045,-72.253479,0"/>
+     <Point Pos="32.999634,-108.56708,0"/>
+     <Point Pos="38.395508,-145.48608,0"/>
+     <Point Pos="-151.99634,-39.498352,0"/>
+     <Point Pos="-82.621338,78.376648,0"/>
+     <Point Pos="0.57519531,22.370667,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{A0FF0338-C6D5-4596-BD6F-127F32BEFF1D}"/>
+    </Entities>
+    <SoundData Side1="1" Side2="0" Side3="0" Side4="1" Side5="1" Side6="1" Side7="1" Side8="1" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{F22C1A39-9231-497A-9107-F9A4573B37AF}" Name="AS_ab2_ambience_forest" Pos="1526.375,810.25,-7.3660507" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="70" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="70">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="1"/>
+        <Point Pos="2.125,-20.5,0" ObstructSound="1"/>
+        <Point Pos="-91.723022,-23.402161,0" ObstructSound="1"/>
+        <Point Pos="-87.448853,19.579041,0" ObstructSound="1"/>
+        <Point Pos="-68.75,42.625,0" ObstructSound="1"/>
+        <Point Pos="-74.5,64.25,0" ObstructSound="1"/>
+        <Point Pos="-52.875,60.5,0" ObstructSound="0"/>
+        <Point Pos="-37.625,69.125,0" ObstructSound="1"/>
+        <Point Pos="-35.471191,88.161133,0" ObstructSound="1"/>
+        <Point Pos="-3.3240967,88.861267,0" ObstructSound="1"/>
+        <Point Pos="8.0523682,66.500977,0" ObstructSound="1"/>
+        <Point Pos="0.44213867,45.272644,0" ObstructSound="0"/>
+        <Point Pos="0.25,35.875,0" ObstructSound="1"/>
+       </Points>
+       <Roof ObstructSound="1"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="259"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="2.125,-20.5,0"/>
+     <Point Pos="-91.723022,-23.402161,0"/>
+     <Point Pos="-87.448853,19.579041,0"/>
+     <Point Pos="-68.75,42.625,0"/>
+     <Point Pos="-74.5,64.25,0"/>
+     <Point Pos="-52.875,60.5,0"/>
+     <Point Pos="-37.625,69.125,0"/>
+     <Point Pos="-35.471191,88.161133,0"/>
+     <Point Pos="-3.3240967,88.861267,0"/>
+     <Point Pos="8.0523682,66.500977,0"/>
+     <Point Pos="0.44213867,45.272644,0"/>
+     <Point Pos="0.25,35.875,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{DFD562EB-D6E9-4144-97E4-7F2817D628CD}"/>
+    </Entities>
+    <SoundData Side1="1" Side2="1" Side3="1" Side4="1" Side5="1" Side6="1" Side7="0" Side8="1" Side9="1" Side10="1" Side11="1" Side12="0" Side13="1" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="AudioTriggerSpot" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{F365646A-A489-4534-B010-91F891C7649D}" Name="ATS_ab1_sfx_frog" Pos="1424.3334,858.56219,33.735405" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="AudioTriggerSpot" HasEntity="1">
+    <Properties bEnabled="1" eiOcclusionType="1" audioTriggerPlayTriggerName="Play_l_woodland_sfx_frog" bSerializePlayState="1" audioTriggerStopTriggerName="" bTriggerAreasOnMove="0">
+     <Debug eiDrawActivityRadius="0" bDrawRandomizationArea="0"/>
+     <PlayMode eiBehaviour="0" fMaxDelay="2" fMinDelay="1" vectorRandomizationArea="0,0,0"/>
+    </Properties>
+    <Components>
+     <Component typeId="{9824845C-FE37-7889-B172-4A63F331D8A2}"/>
+     <Component typeId="{BD6403CF-3B49-F39E-9540-3FD1C6D4F755}"/>
+    </Components>
+   </Object>
+   <Object Type="Shape" Layer="Audio" LayerGUID="{908E2DAB-36F0-4E96-AC5A-4A0AA735DD6A}" Id="{FCBDA469-E862-469B-B415-06FE23D9E9CA}" Name="AS_ab1_waterfall_small" Pos="1433.875,855.75,32.875" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="5" InnerFadeDistance="0" AreaId="0" GroupId="1" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="1" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component typeId="{98EDA61F-DE8B-E2B1-A1CA-2A88E4EEDE66}">
+      <Area Id="0" Group="1" Proximity="0" Priority="20" InnerFadeDistance="0" Height="5">
+       <Points>
+        <Point Pos="0,0,0" ObstructSound="0"/>
+        <Point Pos="-2.875,3.75,0" ObstructSound="0"/>
+        <Point Pos="-11.25,-4,0" ObstructSound="0"/>
+        <Point Pos="-8.875,-7.375,0" ObstructSound="0"/>
+       </Points>
+       <Roof ObstructSound="0"/>
+       <Floor ObstructSound="1"/>
+       <Entities>
+        <Entity Id="255"/>
+       </Entities>
+      </Area>
+     </Component>
+    </Components>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-2.875,3.75,0"/>
+     <Point Pos="-11.25,-4,0"/>
+     <Point Pos="-8.875,-7.375,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{83CC6EDF-2377-4F0C-891B-314528201C96}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="1"/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

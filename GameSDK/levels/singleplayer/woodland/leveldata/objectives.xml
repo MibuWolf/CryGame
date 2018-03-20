@@ -1,0 +1,11 @@
+<Root>
+  <woodland>
+    <woodland_05_parent  Name="Find the artefacts" Description="Investigate the 6 marked locations for the 3 artefacts." />
+    <woodland_05a  Name="Check possible location 1" Description="Search this area." Secondary="true" />
+    <woodland_05b  Name="Check possible location 2" Description="Search this area." Secondary="true" />
+    <woodland_05c  Name="Check possible location 3" Description="Search this area." Secondary="true" />
+    <woodland_05d  Name="Check possible location 4" Description="Search this area." Secondary="true" />
+    <woodland_05e  Name="Check possible location 5" Description="Search this area." Secondary="true" />
+    <woodland_05f  Name="Check possible location 6" Description="Search this area." Secondary="true" />
+  </woodland>
+</Root>

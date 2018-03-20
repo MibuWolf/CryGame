@@ -1,0 +1,16 @@
+<ObjectLayer>
+ <Layer Name="Lighting_Global" GUID="{B2DCF30E-A97C-4478-A2B8-CE7435A57442}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="{28949EA0-3B46-49FE-A546-F4FD45336737}">
+  <LayerObjects>
+   <Object Type="TagPoint" Layer="Lighting_Global" LayerGUID="{B2DCF30E-A97C-4478-A2B8-CE7435A57442}" Id="{50B53A39-393C-406B-820B-FAB1BD0D40A4}" Name="l_staticshadowmap_min" Pos="900,300,-50" FloorNumber="-1" Rotate="0.50753838,0,0,0.86162919" ColorRGB="16711680" EntityClass="TagPoint" HasEntity="1"/>
+   <Object Type="TagPoint" Layer="Lighting_Global" LayerGUID="{B2DCF30E-A97C-4478-A2B8-CE7435A57442}" Id="{C7DEEE76-07F4-46B0-B1C0-E3C76E3A9CDC}" Name="l_staticshadowmap_max" Pos="2000,1300,500" FloorNumber="-1" Rotate="0.50753838,0,0,0.86162919" ColorRGB="16711680" EntityClass="TagPoint" HasEntity="1"/>
+   <Object Type="EnvironmentProbe" Layer="Lighting_Global" LayerGUID="{B2DCF30E-A97C-4478-A2B8-CE7435A57442}" Id="{81CC44CB-77CC-4DAE-9F19-DCE32CD6424B}" Name="l_probe_global" Pos="1382.1097,915.48669,86.058167" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="5000" BoxSizeY="5000" BoxSizeZ="5000" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="1" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_global_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

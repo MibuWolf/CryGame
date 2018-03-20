@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="061610aa-6d93-607b-e525-d0ea7ed18803" source="Woodland.tif">
+ <Files>
+  <File path="Woodland.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">1</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,22 @@
+<ObjectLayer>
+ <Layer Name="AB02_Lighting" GUID="{05ADE498-2A17-46EE-B182-5CCBDDEDBC91}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="{28949EA0-3B46-49FE-A546-F4FD45336737}">
+  <LayerObjects>
+   <Object Type="EnvironmentProbe" Layer="AB02_Lighting" LayerGUID="{05ADE498-2A17-46EE-B182-5CCBDDEDBC91}" Id="{B6F85D1F-EC35-4DBF-8EF7-929501E9AB7E}" Name="l_probe_AB2_forest_a_root" Pos="1493.4259,877.9483,42.14291" FloorNumber="-1" Rotate="0.97437006,0,0,0.22495122" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="0" BoxSizeX="1" BoxSizeY="1" BoxSizeZ="1" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.2" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="10" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab2_forest_a_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="AB02_Lighting" LayerGUID="{05ADE498-2A17-46EE-B182-5CCBDDEDBC91}" Id="{81E5192C-AD44-421B-B1A9-61E7126FD640}" Name="l_probe_AB2_forest_a_child" Pos="1495.7791,852.11292,42.14291" FloorNumber="-1" Rotate="0.97437006,0,0,0.22495122" ColorRGB="65535" cubemap_resolution="0" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="EnvironmentLight" HasEntity="1">
+    <Properties bActive="1" BoxSizeX="70" BoxSizeY="70" BoxSizeZ="80" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1.5" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.1" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="10" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/woodland/l_probe_ab2_forest_a_root_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

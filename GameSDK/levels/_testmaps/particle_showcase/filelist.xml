@@ -1,0 +1,6 @@
+<download name="particle_showcase" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="81219" md5="b83fccf3d634c75e102fa5087337e76e"/>
+ </files>
+</download>
