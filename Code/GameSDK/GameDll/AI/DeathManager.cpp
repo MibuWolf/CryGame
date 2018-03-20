@@ -33,7 +33,7 @@ namespace GameAI
 		assert(gEnv->pAISystem);
 		gEnv->pAISystem->RegisterSystemComponent(this);
 
-		gEnv->pAISystem->Callbacks().AgentDied().Add(functor(*this, &DeathManager::OnAgentDeath));
+		//gEnv->pAISystem->Callbacks().AgentDied().Add(functor(*this, &DeathManager::OnAgentDeath));
 	}
 
 	DeathManager::~DeathManager()
